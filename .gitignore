@@ -1,0 +1,10 @@
+node_modules/
+coverage/
+*.tsbuildinfo
+
+.env
+.env.local
+.DS_Store
+
+# Build plan, kept locally and owned by the facilitator folder
+beefcake-product-plan.md
