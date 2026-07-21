@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run validate)",
+      "Bash(npm run validate -- *)",
+      "Bash(npm run typecheck)",
+      "Bash(npx tsx scripts/*)",
+      "Bash(rg *)",
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git show *)"
+    ]
+  }
+}
