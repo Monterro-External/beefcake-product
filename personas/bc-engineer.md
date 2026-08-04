@@ -15,7 +15,7 @@ payment run has not finished.
 
 ## Goals
 
-- **Understand the problem, not just the request.** The ticket that says what a
+- **Understand the problem behind the request.** The ticket that says what a
   customer experiences leaves room to solve it properly. The ticket that
   specifies a solution usually specifies the second-best one.
 - **Not be surprised at the end.** Localisation, permissions, what happens to

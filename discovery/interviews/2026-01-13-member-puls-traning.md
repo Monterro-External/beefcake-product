@@ -71,7 +71,8 @@ On the waitlist:
   we treat them as notifications.
 - She never considered looking in the app for payment information, which means
   the member surface is not where this problem gets solved for her.
-- The thing she feared most was social embarrassment at the door, not the money.
+- The thing she feared most was social embarrassment at the door. The money came
+  second.
 - She uses the waitlist position as certainty, and her trust in it is high.
 
 ## Implications

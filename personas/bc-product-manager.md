@@ -19,7 +19,7 @@ decision from being reopened.
 
 - **Find the pattern before the tenth report.** Most of the 34-day median in
   KR3.1 is time spent before anyone connected several reports to each other.
-- **Hand over tickets that come back as questions, not as rework.**
+- **Hand over tickets that come back as questions rather than as rework.**
 - **Say no with a reason that survives being repeated by somebody else.** Sales
   and CS repeat the reason more often than they repeat the decision.
 

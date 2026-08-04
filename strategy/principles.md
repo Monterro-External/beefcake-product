@@ -1,6 +1,6 @@
 # Product principles
 
-Owner: Malin Ohlsson (CPO). Agreed 2026-02-11 after two workshops with the PMs,
+Owner: Malin Ohlsson (CPO). Agreed 2026-02-11 after two sessions with the PMs,
 design, engineering leadership and the CSM lead. Revisited when strategy changes.
 
 A principle is a standing decision rule. It takes a side on a trade-off where
@@ -25,7 +25,7 @@ receipt bugs have shipped since. Under this principle it would have been a
 tenant setting with a default, or it would have been declined.
 
 Corollary: a setting needs a default we are willing to defend, and the default
-is a product decision, not a leftover.
+is a product decision and never a leftover.
 
 ### 2. The member's money is sacred
 
@@ -59,7 +59,7 @@ better default rather than a second setting.
 
 Consequence we take seriously: most tenants never override anything, so a wrong
 default is a fleet-wide incident rather than a preference. Changing one is an
-initiative, not a config change.
+initiative rather than a config change.
 
 ### 4. The front desk is the real user
 

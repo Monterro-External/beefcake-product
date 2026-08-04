@@ -70,7 +70,7 @@ On the class schedule and the door, asked directly:
 - Her support tickets are the highest quality we receive and she believes they
   are ignored. Checking the queue: several are closed with a generic reply.
 - She notices things and does not report them when no member has complained.
-  The threshold for reporting is member pain, not observation.
+  The threshold for reporting is member pain rather than observation.
 
 ## Implications
 

@@ -13,7 +13,7 @@ nobody demos.
 
 ## Goals
 
-- **Design for the worst moment, not the happy path.** The failed payment, the
+- **Design for the worst moment before the happy path.** The failed payment, the
   card that does not open the door, the class that says full.
 - **Get in front of the front desk regularly.** Two site visits a month, and the
   research the personas are built from.

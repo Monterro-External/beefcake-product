@@ -36,5 +36,5 @@ without an interview reference behind it is a defect in the persona.
   ticket that proposes speaking to a member directly about anything other than
   their booking, their payment or their access is proposing a change of
   business model, and that goes to the CPO.
-- Personas are refreshed when a research round contradicts one, not on a
+- Personas are refreshed when a research round contradicts one. Never on a
   calendar. Each file records when it last changed and why.

@@ -53,7 +53,7 @@ in the ticket.
 | Step | Skill |
 |---|---|
 | Strategy context | `/product-vision`, `/product-strategy`, `/plan-okrs`, `/draft-product-principles` |
-| Signal intake | `/monterro:signal-triage`, and for batches `/synthesize-support-tickets`, `/synthesize-sales-calls`, `/synthesize-feedback`, `/synthesize-research` |
+| Signal intake | `signal-triage`, and for batches `/synthesize-support-tickets`, `/synthesize-sales-calls`, `/synthesize-feedback`, `/synthesize-research` |
 | A PM's own idea | `/idea-to-ticket` |
 | Discovery | `/define-icp`, `/create-personas`, `/opportunity-solution-tree`, `/analyze-usage-cohorts`, `/market-scan`, `/competitor-benchmark` |
 | Ideation and validation | `/brainstorm-ideas`, `/solution-tournament`, `/prototype-and-design`, `/validate-value`, `/quick-validate` |

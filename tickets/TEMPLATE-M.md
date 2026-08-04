@@ -46,7 +46,7 @@ Evidence:
 
 ## Outcome and success criteria
 
-Product outcome: what customers do differently, not what we ship.
+Product outcome: what customers do differently. Never what we ship.
 Business outcome: what that ladders to, named against an OKR where one applies.
 
 - **SC-1**: measurable, technology-agnostic, user-observable.

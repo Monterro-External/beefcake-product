@@ -44,7 +44,7 @@ means moving 22,000 recurring mandates.
 - Member-originated complaints that reach the operator about *our* behaviour
   trend to zero. Today they arrive through the front desk and we count them
   through support.
-- The reason a prospect gives for choosing us is reliability, not price.
+- The reason a prospect gives for choosing us is reliability rather than price.
 
 ## How we would know it has stopped being true
 

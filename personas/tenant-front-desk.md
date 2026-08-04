@@ -60,8 +60,8 @@ him do, and what to tell members instead.
 
 - Error and refusal states are the primary surface for this persona. What the
   system says when it declines is the product.
-- Speed matters in a specific way: the number of decisions he must make, not the
-  page load.
+- Speed matters in a specific way: the number of decisions he must make, rather
+  than the page load.
 - The paper note by the till is a bug list we do not receive. Support tickets
   from this role are the small fraction of problems that survived long enough to
   be worth reporting.

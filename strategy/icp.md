@@ -31,7 +31,7 @@ Fit by segment, as it actually is rather than as we would like it:
 |---|---|---|
 | Mid, 2 to 5 sites | **Best** | All four qualifying facts, ~35% of ARR, best gross margin, lowest support cost per krona |
 | Key accounts, 6 to 15 sites | **Strategic** | Excellent revenue, real capability gaps, highest cost to serve, and the segment we lose |
-| Long tail, single site | **Adequate** | Pays, complains, rarely leaves. Profitable in aggregate, not a growth engine |
+| Long tail, single site | **Adequate** | Pays, complains, rarely leaves. Profitable in aggregate and no kind of growth engine |
 
 ## Who is deliberately not ICP
 

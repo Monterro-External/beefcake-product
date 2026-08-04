@@ -26,8 +26,8 @@ migrations) or a change spanning several capabilities. Everything in the M
 template applies, plus the four additions at the bottom.
 
 An L-tier ticket without a named decision owner is a discussion. The pre-mortem
-and the red-team run before the gate, not after, and their outputs are linked
-rather than summarised.
+and the red-team run before the gate rather than after it, and their outputs
+are linked rather than summarised.
 -->
 
 ## Intent

@@ -82,7 +82,7 @@ Named rules, cited by name in decisions. Full set with costs and precedents in
 3. **Opinionated defaults over another toggle.** A wrong default is a fleet-wide
    incident, so we choose the default and defend it.
 4. **The front desk is the real user.** Optimise for the person with a queue
-   behind them, not the owner reading a report.
+   behind them before the owner reading a report.
 5. **One product across four markets.** Locale and currency are data, never a
    branch of the product.
 6. **Signals decide, individual voices do not.** Two independent sources or it
@@ -164,6 +164,6 @@ exist: a membership belongs to exactly one member and is paid by that member.
 
 ## Where this file is silent
 
-Silence is a gap in this document, not permission. If a ticket asserts something
+Silence is a gap in this document. It is never permission. If a ticket asserts something
 CONTEXT.md does not cover, the grill flags it here and the flag comes to the CPO
 as a documentation item.

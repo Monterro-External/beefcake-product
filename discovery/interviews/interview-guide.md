@@ -1,6 +1,6 @@
 # Interview guides
 
-The guide is a reminder of what we are trying to learn, not a script. The rule
+The guide is a reminder of what we are trying to learn. It is never a script. The rule
 we hold to: ask about the last time it happened, never about what they would
 want. A participant asked what they want will design a product; a participant
 asked what they did last Tuesday will describe the problem.
