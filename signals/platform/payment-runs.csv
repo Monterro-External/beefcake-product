@@ -1,0 +1,157 @@
+tenant_id,tenant_name,segment,period,status,charges_attempted,charges_failed,failure_rate,total_minor,currency,failed_insufficient_funds,failed_mandate_cancelled,failed_account_closed,failed_technical,failed_rejected_by_bank
+ten_0000008,Aktiv Hälsa,mid,2025-08,completed,767,29,0.0378,36254946,SEK,15,16,1,3,0
+ten_0000008,Aktiv Hälsa,mid,2025-09,completed,813,42,0.0517,37725636,SEK,28,18,2,9,3
+ten_0000008,Aktiv Hälsa,mid,2025-10,completed,837,31,0.0370,39410714,SEK,17,16,2,5,1
+ten_0000008,Aktiv Hälsa,mid,2025-11,completed,857,39,0.0455,40339925,SEK,26,18,1,4,1
+ten_0000008,Aktiv Hälsa,mid,2025-12,completed,869,42,0.0483,41116637,SEK,22,18,7,3,2
+ten_0000008,Aktiv Hälsa,mid,2026-01,completed,922,45,0.0488,42649133,SEK,29,18,5,9,1
+ten_0000008,Aktiv Hälsa,mid,2026-02,completed,966,48,0.0497,45010385,SEK,32,21,1,11,1
+ten_0000008,Aktiv Hälsa,mid,2026-03,completed,992,51,0.0514,46564283,SEK,24,27,3,6,4
+ten_0000008,Aktiv Hälsa,mid,2026-04,completed,1025,55,0.0537,48335782,SEK,24,25,8,3,2
+ten_0000008,Aktiv Hälsa,mid,2026-05,completed,1066,55,0.0516,49963197,SEK,32,26,4,4,2
+ten_0000008,Aktiv Hälsa,mid,2026-06,completed,1106,64,0.0579,51791787,SEK,31,27,8,5,1
+ten_0000008,Aktiv Hälsa,mid,2026-07,completed,1115,60,0.0538,52410405,SEK,36,25,1,10,4
+ten_0000008,Aktiv Hälsa,mid,2026-08,completed,1175,56,0.0477,54539944,SEK,17,26,6,5,2
+ten_0000003,Bodyfokus Umeå,long_tail,2025-08,completed,330,11,0.0333,11265530,SEK,7,5,0,6,0
+ten_0000003,Bodyfokus Umeå,long_tail,2025-09,completed,350,17,0.0486,11845582,SEK,10,6,4,0,1
+ten_0000003,Bodyfokus Umeå,long_tail,2025-10,completed,348,19,0.0546,11942399,SEK,13,5,2,1,3
+ten_0000003,Bodyfokus Umeå,long_tail,2025-11,completed,353,21,0.0595,12110896,SEK,20,7,1,5,0
+ten_0000003,Bodyfokus Umeå,long_tail,2025-12,completed,354,28,0.0791,12254629,SEK,25,6,9,1,0
+ten_0000003,Bodyfokus Umeå,long_tail,2026-01,completed,374,15,0.0401,12574243,SEK,9,9,1,1,0
+ten_0000003,Bodyfokus Umeå,long_tail,2026-02,completed,384,13,0.0339,13179010,SEK,9,5,4,2,0
+ten_0000003,Bodyfokus Umeå,long_tail,2026-03,completed,387,22,0.0568,13282345,SEK,17,11,3,4,0
+ten_0000003,Bodyfokus Umeå,long_tail,2026-04,completed,392,15,0.0383,13469290,SEK,7,7,0,4,0
+ten_0000003,Bodyfokus Umeå,long_tail,2026-05,completed,400,20,0.0500,13739327,SEK,14,5,1,4,3
+ten_0000003,Bodyfokus Umeå,long_tail,2026-06,completed,415,15,0.0361,14109066,SEK,4,10,1,1,0
+ten_0000003,Bodyfokus Umeå,long_tail,2026-07,completed,423,26,0.0615,14488925,SEK,16,10,1,8,0
+ten_0000003,Bodyfokus Umeå,long_tail,2026-08,completed,450,27,0.0600,15081541,SEK,12,10,3,7,1
+ten_0000006,Fitness Nørrebro,long_tail,2025-08,completed,378,14,0.0370,9790213,DKK,17,1,0,4,1
+ten_0000006,Fitness Nørrebro,long_tail,2025-09,completed,395,12,0.0304,10092334,DKK,13,2,2,0,0
+ten_0000006,Fitness Nørrebro,long_tail,2025-10,completed,404,17,0.0421,10478364,DKK,14,3,2,3,1
+ten_0000006,Fitness Nørrebro,long_tail,2025-11,completed,413,15,0.0363,10647721,DKK,12,5,0,3,1
+ten_0000006,Fitness Nørrebro,long_tail,2025-12,completed,415,15,0.0361,10817891,DKK,9,1,2,4,0
+ten_0000006,Fitness Nørrebro,long_tail,2026-01,completed,434,16,0.0369,11071021,DKK,12,2,0,7,1
+ten_0000006,Fitness Nørrebro,long_tail,2026-02,completed,446,20,0.0448,11501967,DKK,18,1,2,4,2
+ten_0000006,Fitness Nørrebro,long_tail,2026-03,completed,450,16,0.0356,11645632,DKK,19,5,0,2,2
+ten_0000006,Fitness Nørrebro,long_tail,2026-04,completed,461,15,0.0325,11904093,DKK,15,1,2,4,1
+ten_0000006,Fitness Nørrebro,long_tail,2026-05,completed,474,20,0.0422,12254424,DKK,16,3,1,7,2
+ten_0000006,Fitness Nørrebro,long_tail,2026-06,completed,478,17,0.0356,12341793,DKK,11,6,3,1,0
+ten_0000006,Fitness Nørrebro,long_tail,2026-07,completed,491,26,0.0530,12633664,DKK,24,3,2,3,6
+ten_0000006,Fitness Nørrebro,long_tail,2026-08,completed,521,13,0.0250,13033017,DKK,13,2,3,1,2
+ten_0000001,Gymmet Vasastan,long_tail,2025-08,completed,389,15,0.0386,13874483,SEK,9,8,0,2,0
+ten_0000001,Gymmet Vasastan,long_tail,2025-09,completed,399,21,0.0526,14271241,SEK,9,9,0,5,1
+ten_0000001,Gymmet Vasastan,long_tail,2025-10,completed,408,21,0.0515,14598716,SEK,19,11,1,3,3
+ten_0000001,Gymmet Vasastan,long_tail,2025-11,completed,415,23,0.0554,14914452,SEK,18,10,1,7,2
+ten_0000001,Gymmet Vasastan,long_tail,2025-12,completed,420,25,0.0595,15106565,SEK,18,11,0,3,2
+ten_0000001,Gymmet Vasastan,long_tail,2026-01,completed,444,21,0.0473,15727322,SEK,16,10,1,1,0
+ten_0000001,Gymmet Vasastan,long_tail,2026-02,completed,463,30,0.0648,16590897,SEK,16,15,1,5,0
+ten_0000001,Gymmet Vasastan,long_tail,2026-03,completed,468,35,0.0748,16765684,SEK,25,12,2,5,3
+ten_0000001,Gymmet Vasastan,long_tail,2026-04,completed,469,26,0.0554,16992513,SEK,14,10,4,0,1
+ten_0000001,Gymmet Vasastan,long_tail,2026-05,completed,472,34,0.0720,16800362,SEK,19,13,1,6,2
+ten_0000001,Gymmet Vasastan,long_tail,2026-06,completed,490,31,0.0633,17326291,SEK,13,16,0,5,1
+ten_0000001,Gymmet Vasastan,long_tail,2026-07,completed,501,34,0.0679,17741425,SEK,19,15,6,3,0
+ten_0000001,Gymmet Vasastan,long_tail,2026-08,completed,527,34,0.0645,18484207,SEK,21,14,2,4,1
+ten_000000c,Kraft Trening,key_account,2025-08,completed,3970,259,0.0652,204711212,NOK,196,92,19,40,9
+ten_000000c,Kraft Trening,key_account,2025-09,completed,4462,316,0.0708,226133605,NOK,233,114,20,40,16
+ten_000000c,Kraft Trening,key_account,2025-10,completed,4802,336,0.0700,247876670,NOK,239,121,35,48,17
+ten_000000c,Kraft Trening,key_account,2025-11,completed,5104,380,0.0745,263362824,NOK,249,135,40,60,15
+ten_000000c,Kraft Trening,key_account,2025-12,completed,5302,348,0.0656,275949194,NOK,239,126,33,57,21
+ten_000000c,Kraft Trening,key_account,2026-01,completed,6196,426,0.0688,309080688,NOK,310,134,43,63,26
+ten_000000c,Kraft Trening,key_account,2026-02,completed,6806,434,0.0638,348428899,NOK,290,157,35,65,26
+ten_000000c,Kraft Trening,key_account,2026-03,completed,7117,479,0.0673,369439937,NOK,332,172,40,55,28
+ten_000000c,Kraft Trening,key_account,2026-04,completed,7472,485,0.0649,388852697,NOK,303,193,39,78,22
+ten_000000c,Kraft Trening,key_account,2026-05,completed,7841,558,0.0712,408358370,NOK,402,197,59,67,21
+ten_000000c,Kraft Trening,key_account,2026-06,completed,8264,544,0.0658,429056449,NOK,389,193,52,83,29
+ten_000000c,Kraft Trening,key_account,2026-07,completed,8516,577,0.0678,444882067,NOK,387,214,40,95,28
+ten_000000c,Kraft Trening,key_account,2026-08,completed,9394,598,0.0637,473583940,NOK,390,213,37,71,33
+ten_0000005,Kuntoklubi Kallio,long_tail,2025-08,completed,581,28,0.0482,2356684,EUR,23,6,4,2,1
+ten_0000005,Kuntoklubi Kallio,long_tail,2025-09,completed,608,34,0.0559,2445079,EUR,31,6,6,2,3
+ten_0000005,Kuntoklubi Kallio,long_tail,2025-10,completed,626,28,0.0447,2506602,EUR,25,5,1,7,0
+ten_0000005,Kuntoklubi Kallio,long_tail,2025-11,completed,632,43,0.0680,2569943,EUR,39,7,6,7,2
+ten_0000005,Kuntoklubi Kallio,long_tail,2025-12,completed,641,29,0.0452,2597712,EUR,25,4,0,9,4
+ten_0000005,Kuntoklubi Kallio,long_tail,2026-01,completed,665,28,0.0421,2645210,EUR,31,7,2,5,1
+ten_0000005,Kuntoklubi Kallio,long_tail,2026-02,completed,678,29,0.0428,2707642,EUR,23,5,2,10,3
+ten_0000005,Kuntoklubi Kallio,long_tail,2026-03,completed,685,24,0.0350,2767855,EUR,28,5,2,5,1
+ten_0000005,Kuntoklubi Kallio,long_tail,2026-04,completed,697,31,0.0445,2819715,EUR,24,9,1,4,5
+ten_0000005,Kuntoklubi Kallio,long_tail,2026-05,completed,713,33,0.0463,2870531,EUR,33,6,2,7,4
+ten_0000005,Kuntoklubi Kallio,long_tail,2026-06,completed,725,34,0.0469,2932034,EUR,39,11,2,4,4
+ten_0000005,Kuntoklubi Kallio,long_tail,2026-07,completed,742,35,0.0472,2986681,EUR,37,5,2,7,2
+ten_0000005,Kuntoklubi Kallio,long_tail,2026-08,completed,780,44,0.0564,3109113,EUR,42,5,1,9,2
+ten_000000b,Nordic Fitness Group,key_account,2025-08,completed,10358,826,0.0797,574568615,SEK,568,245,67,151,53
+ten_000000b,Nordic Fitness Group,key_account,2025-09,completed,11610,932,0.0803,631942317,SEK,737,286,74,149,56
+ten_000000b,Nordic Fitness Group,key_account,2025-10,completed,12431,933,0.0751,692080080,SEK,678,285,83,155,62
+ten_000000b,Nordic Fitness Group,key_account,2025-11,completed,13108,1055,0.0805,733907500,SEK,777,336,100,140,58
+ten_000000b,Nordic Fitness Group,key_account,2025-12,completed,13554,1043,0.0770,764774941,SEK,756,336,91,185,55
+ten_000000b,Nordic Fitness Group,key_account,2026-01,completed,15730,1177,0.0748,847909238,SEK,825,393,109,178,75
+ten_000000b,Nordic Fitness Group,key_account,2026-02,completed,17159,1409,0.0821,951307612,SEK,1016,479,126,234,90
+ten_000000b,Nordic Fitness Group,key_account,2026-03,completed,17960,1458,0.0812,1007151783,SEK,1054,470,123,219,106
+ten_000000b,Nordic Fitness Group,key_account,2026-04,completed,18724,1558,0.0832,1052193336,SEK,1160,514,130,269,88
+ten_000000b,Nordic Fitness Group,key_account,2026-05,completed,19563,1569,0.0802,1099862600,SEK,1094,571,134,246,97
+ten_000000b,Nordic Fitness Group,key_account,2026-06,completed,20480,1701,0.0831,1144463088,SEK,1241,563,140,299,99
+ten_000000b,Nordic Fitness Group,key_account,2026-07,completed,20975,1713,0.0817,1186293641,SEK,1206,602,126,246,105
+ten_000000b,Nordic Fitness Group,key_account,2026-08,completed,22846,1822,0.0798,1245880594,SEK,1199,585,130,271,93
+ten_0000007,Puls Träning,mid,2025-08,completed,1319,75,0.0569,58556099,SEK,38,36,3,9,2
+ten_0000007,Puls Träning,mid,2025-09,completed,1430,89,0.0622,62094945,SEK,60,37,2,14,4
+ten_0000007,Puls Träning,mid,2025-10,completed,1492,88,0.0590,66550899,SEK,51,40,6,9,5
+ten_0000007,Puls Träning,mid,2025-11,completed,1554,102,0.0656,68584742,SEK,73,38,4,14,7
+ten_0000007,Puls Träning,mid,2025-12,completed,1600,102,0.0638,71230524,SEK,67,43,9,21,6
+ten_0000007,Puls Träning,mid,2026-01,completed,1761,120,0.0681,76408184,SEK,81,49,12,15,8
+ten_0000007,Puls Träning,mid,2026-02,completed,1906,123,0.0645,83909439,SEK,69,55,10,21,5
+ten_0000007,Puls Träning,mid,2026-03,completed,1975,111,0.0562,88243505,SEK,80,49,6,16,9
+ten_0000007,Puls Träning,mid,2026-04,completed,2055,136,0.0662,91293448,SEK,80,59,7,32,13
+ten_0000007,Puls Träning,mid,2026-05,completed,2139,125,0.0584,94996554,SEK,66,54,12,24,11
+ten_0000007,Puls Träning,mid,2026-06,completed,2205,126,0.0571,98018085,SEK,66,60,9,18,4
+ten_0000007,Puls Träning,mid,2026-07,completed,2245,133,0.0592,100486622,SEK,86,62,8,14,6
+ten_0000007,Puls Träning,mid,2026-08,completed,2458,141,0.0574,106001651,SEK,86,57,7,18,5
+ten_0000004,Trening Grünerløkka,long_tail,2025-08,completed,446,33,0.0740,18177043,NOK,18,13,6,4,2
+ten_0000004,Trening Grünerløkka,long_tail,2025-09,completed,462,34,0.0736,18617400,NOK,27,10,5,3,3
+ten_0000004,Trening Grünerløkka,long_tail,2025-10,completed,470,29,0.0617,19105126,NOK,21,11,0,6,1
+ten_0000004,Trening Grünerløkka,long_tail,2025-11,completed,471,36,0.0764,19308694,NOK,23,12,4,2,2
+ten_0000004,Trening Grünerløkka,long_tail,2025-12,completed,471,22,0.0467,19246444,NOK,11,9,4,3,0
+ten_0000004,Trening Grünerløkka,long_tail,2026-01,completed,490,32,0.0653,19631088,NOK,19,14,1,6,0
+ten_0000004,Trening Grünerløkka,long_tail,2026-02,completed,508,28,0.0551,20603428,NOK,16,11,5,1,0
+ten_0000004,Trening Grünerløkka,long_tail,2026-03,completed,526,36,0.0684,21355940,NOK,25,13,4,3,1
+ten_0000004,Trening Grünerløkka,long_tail,2026-04,completed,533,26,0.0488,21752700,NOK,17,12,1,2,2
+ten_0000004,Trening Grünerløkka,long_tail,2026-05,completed,546,32,0.0586,22073815,NOK,13,16,2,5,1
+ten_0000004,Trening Grünerløkka,long_tail,2026-06,completed,568,35,0.0616,22819041,NOK,17,19,2,4,2
+ten_0000004,Trening Grünerløkka,long_tail,2026-07,completed,573,39,0.0681,23511706,NOK,33,16,1,0,1
+ten_0000004,Trening Grünerløkka,long_tail,2026-08,completed,601,34,0.0566,24099410,NOK,18,12,3,6,2
+ten_0000002,Träningsverket Lund,long_tail,2025-08,completed,483,30,0.0621,15362129,SEK,21,10,0,3,2
+ten_0000002,Träningsverket Lund,long_tail,2025-09,completed,506,38,0.0751,15946286,SEK,34,12,4,9,0
+ten_0000002,Träningsverket Lund,long_tail,2025-10,completed,510,33,0.0647,16152240,SEK,26,11,2,4,0
+ten_0000002,Träningsverket Lund,long_tail,2025-11,completed,517,32,0.0619,16540573,SEK,21,12,5,8,2
+ten_0000002,Träningsverket Lund,long_tail,2025-12,completed,521,40,0.0768,16788237,SEK,22,11,5,12,0
+ten_0000002,Träningsverket Lund,long_tail,2026-01,completed,544,34,0.0625,17071357,SEK,24,12,0,1,0
+ten_0000002,Träningsverket Lund,long_tail,2026-02,completed,559,34,0.0608,17760493,SEK,27,11,4,5,1
+ten_0000002,Träningsverket Lund,long_tail,2026-03,completed,575,36,0.0626,18390818,SEK,22,11,2,7,1
+ten_0000002,Träningsverket Lund,long_tail,2026-04,completed,599,32,0.0534,19049766,SEK,24,11,3,7,2
+ten_0000002,Träningsverket Lund,long_tail,2026-05,completed,605,42,0.0694,19365463,SEK,25,16,5,9,2
+ten_0000002,Träningsverket Lund,long_tail,2026-06,completed,615,40,0.0650,19598020,SEK,23,13,6,5,5
+ten_0000002,Träningsverket Lund,long_tail,2026-07,completed,621,35,0.0564,19944071,SEK,25,16,0,5,3
+ten_0000002,Träningsverket Lund,long_tail,2026-08,completed,679,34,0.0501,20939976,SEK,17,11,7,5,3
+ten_0000009,Vestkyst Trening,mid,2025-08,completed,770,48,0.0623,43231002,NOK,35,18,5,8,3
+ten_0000009,Vestkyst Trening,mid,2025-09,completed,798,49,0.0614,44368943,NOK,29,20,3,14,3
+ten_0000009,Vestkyst Trening,mid,2025-10,completed,812,49,0.0603,45633887,NOK,29,18,3,13,0
+ten_0000009,Vestkyst Trening,mid,2025-11,completed,826,47,0.0569,46287675,NOK,37,17,3,14,0
+ten_0000009,Vestkyst Trening,mid,2025-12,completed,836,63,0.0754,47203097,NOK,38,19,4,12,4
+ten_0000009,Vestkyst Trening,mid,2026-01,completed,895,63,0.0704,49121326,NOK,51,19,5,10,4
+ten_0000009,Vestkyst Trening,mid,2026-02,completed,932,62,0.0665,52138532,NOK,50,22,6,4,5
+ten_0000009,Vestkyst Trening,mid,2026-03,completed,953,66,0.0693,53299804,NOK,55,24,5,7,7
+ten_0000009,Vestkyst Trening,mid,2026-04,completed,968,57,0.0589,54536920,NOK,37,24,3,8,1
+ten_0000009,Vestkyst Trening,mid,2026-05,completed,1140,64,0.0561,60341136,NOK,44,22,6,11,2
+ten_0000009,Vestkyst Trening,mid,2026-06,completed,1339,82,0.0612,71979467,NOK,60,35,4,10,3
+ten_0000009,Vestkyst Trening,mid,2026-07,completed,1487,98,0.0659,81255838,NOK,74,34,7,15,3
+ten_0000009,Vestkyst Trening,mid,2026-08,completed,1793,115,0.0641,94244460,NOK,87,38,4,13,5
+ten_000000a,Voima Kuntosalit,mid,2025-08,completed,1710,61,0.0357,7943672,EUR,48,14,3,8,6
+ten_000000a,Voima Kuntosalit,mid,2025-09,completed,1793,73,0.0407,8299112,EUR,58,17,11,11,4
+ten_000000a,Voima Kuntosalit,mid,2025-10,completed,1840,60,0.0326,8572617,EUR,56,11,5,12,2
+ten_000000a,Voima Kuntosalit,mid,2025-11,completed,1907,77,0.0404,8884381,EUR,68,15,11,8,5
+ten_000000a,Voima Kuntosalit,mid,2025-12,completed,1956,74,0.0378,9141516,EUR,60,14,10,14,7
+ten_000000a,Voima Kuntosalit,mid,2026-01,completed,2242,117,0.0522,10031100,EUR,99,20,12,23,9
+ten_000000a,Voima Kuntosalit,mid,2026-02,completed,2452,109,0.0445,11207525,EUR,92,19,11,26,7
+ten_000000a,Voima Kuntosalit,mid,2026-03,completed,2544,100,0.0393,11893022,EUR,85,19,13,27,6
+ten_000000a,Voima Kuntosalit,mid,2026-04,completed,2644,92,0.0348,12403442,EUR,90,19,9,15,7
+ten_000000a,Voima Kuntosalit,mid,2026-05,completed,2749,121,0.0440,12881561,EUR,115,20,11,20,8
+ten_000000a,Voima Kuntosalit,mid,2026-06,completed,2900,117,0.0403,13421685,EUR,99,15,13,23,10
+ten_000000a,Voima Kuntosalit,mid,2026-07,completed,2957,125,0.0423,13849863,EUR,100,28,7,32,8
+ten_000000a,Voima Kuntosalit,mid,2026-08,completed,3175,124,0.0391,14415624,EUR,96,22,10,20,7

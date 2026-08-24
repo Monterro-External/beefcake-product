@@ -6,5 +6,5 @@ coverage/
 .env.local
 .DS_Store
 
-# Build plan, kept locally and owned by the facilitator folder
-beefcake-product-plan.md
+# Platform event export: regenerated from beefcake-platform, too large to track
+signals/platform/events.jsonl
