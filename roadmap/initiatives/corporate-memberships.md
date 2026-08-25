@@ -5,8 +5,8 @@ owner: Malin Ohlsson
 decision_owner: Malin Ohlsson
 door: one-way
 appetite: one quarter of one team to a first shippable slice, decision before 2026-12-15
-status: in discovery
-gate_decision: null
+status: first slice funded, wider initiative in discovery
+gate_decision: 2026-08-25
 outcome_metric: Share of key accounts and mid operators invoicing an employer through Beefcake rather than outside it
 pre_mortem: ../pre-mortems/2026-08-11-corporate-memberships-pre-mortem.md
 red_team: ../pre-mortems/2026-08-18-corporate-memberships-red-team.md
@@ -79,5 +79,11 @@ it.
 
 ## Decision date
 
-**2026-12-15**, committed to Nordic Fitness Group on the renewal call. A no is
-delivered in writing before that date, not by silence.
+**2026-12-15** for the initiative as a whole, committed to Nordic Fitness Group
+on the renewal call. A no is delivered in writing before that date rather than by
+silence.
+
+**A first slice passed the gate on 2026-08-25** and is BC-0026: an employer as a
+payer, an employee list, one invoice, Finnish shape first. It is deliberately
+small enough to be reversed while adoption is small, and its own kill criterion
+is that an operator must be able to set up an employer without us.

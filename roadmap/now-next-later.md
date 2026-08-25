@@ -1,5 +1,5 @@
 ---
-updated: 2026-08-18
+updated: 2026-08-25
 owner: Malin Ohlsson
 reviewed: monthly, and at every gate
 ---
@@ -18,7 +18,7 @@ time somebody looked at it.
 |---|---|---|---|
 | [Payments reliability programme](initiatives/payments-reliability-programme.md) | Johan Wirén | Pillar 1, two key results, and the largest source of churn we cause | Standing, held to KR1.1 and KR1.2 |
 | Front desk: freeze and notice confirmation | Rebecka Nyström, one team | Validated with seven front-desk staff in July, small, and it stops staff telling members things that are not true | Shipped, target end of Q3 |
-| [Corporate memberships discovery](initiatives/corporate-memberships.md) | Malin Ohlsson | One-way door, renewal-critical, and not yet understood well enough to scope | Decision on 2026-12-15 |
+| [Corporate memberships, first slice](initiatives/corporate-memberships.md) | Malin Ohlsson | One-way door, renewal-critical. The first slice passed the gate on 2026-08-25, Finnish shape first | Handed to engineering as BC-0026. Wider decision on 2026-12-15 |
 
 ## Next
 
@@ -34,7 +34,7 @@ time somebody looked at it.
 |---|---|
 | [Denmark, MobilePay and market entry](initiatives/denmark-readiness.md) | Sequenced behind Norway deliberately. Same area of work, and Norway already has the revenue |
 | Returning-from-freeze list | On the tree as S5.1. Real, small, and waiting for the freeze work to land so it is designed once |
-| Family and household memberships | High volume, long tail, low ARR. The classic trap, and the answer stays no until the evidence changes. See the decision log |
+| Family and household memberships | Answered with a no in May and reopened on 2026-08-25, because the decision that closed it said it would be if corporate memberships was built. Narrow brief, two questions |
 | Member self-service during dunning | Blocked on a CPO decision about the member surface, not on capacity |
 
 ## Not doing
