@@ -28,10 +28,16 @@ draft → in-discovery → grilling → (needs-more-info ⇄ grilling) → ready
         → [handover-triage] → ready-for-grilling | ready-for-wayfinder | back-to-discovery
 ```
 
-`needs-more-info` always carries the specific failing checks from the grill, not
-a bare status change. `back-to-discovery` always carries a reason code:
-`insufficient-evidence`, `solution-space-too-open`, `fails-context-consistency`
-or `too-big-slice-it`.
+`needs-more-info` always carries the specific failing checks from the grill in a
+`## Grill findings` section, never a bare status change. `back-to-discovery`
+always carries a `reason_code`: `insufficient-evidence`,
+`solution-space-too-open`, `fails-context-consistency` or `too-big-slice-it`,
+and the triage note that produced it.
+
+Completeness is enforced at grilling, not at intake. A ticket at `draft` or
+`in-discovery` carries its fields, an intent, the preserved signal and the next
+steps, and that is correct. The validator knows this and only demands the full
+set of sections from `grilling` onwards.
 
 ## Checking a ticket
 
@@ -45,3 +51,8 @@ The validator checks the frontmatter against the standard, the required sections
 for the tier, the S-tier regression clause, the three-open-question limit,
 unresolved placeholders, and the vague adjectives the readiness gate rejects. It
 does not judge whether the content is any good. That is what grilling is for.
+
+Two warnings on BC-0023 are left in deliberately. That ticket was bounced by the
+grill for, among other things, the words *robust* and *fast*, and the validator
+flags the same two words in the same lines. Fixing them without fixing the
+ticket would hide the example.

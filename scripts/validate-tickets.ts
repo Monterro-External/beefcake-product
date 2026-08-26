@@ -82,6 +82,7 @@ const REQUIRED_FIELDS = [
   'signal_refs',
 ] as const;
 
+const SECTIONS_EMBRYO = ['Intent', 'Problem and evidence'];
 const SECTIONS_S = ['Intent', 'Problem and evidence'];
 const SUBSECTIONS_S = ['Reproduction', 'Current behaviour', 'Expected behaviour', 'Regression clause'];
 const SECTIONS_M = [
@@ -108,8 +109,9 @@ const IMPLEMENTATION_WORDS = [
   'database schema',
   'db table',
   'foreign key',
-  'cron',
-  'queue',
+  'cron job',
+  'message queue',
+  'job queue',
   'webhook',
   'cache',
   'microservice',
@@ -182,6 +184,24 @@ function sectionBody(body: string, wanted: string, level: 2 | 3 = 2): string | n
   const rest = lines.slice(start + 1);
   const end = rest.findIndex((line) => /^#{1,3} /.test(line));
   return (end === -1 ? rest : rest.slice(0, end)).join('\n');
+}
+
+
+/** Bullets in a section, each joined with the lines that wrap under it. */
+function bulletsIn(section: string): string[] {
+  const bullets: string[] = [];
+  for (const line of section.split('\n')) {
+    if (/^\s*[-*]\s+\S/.test(line)) {
+      bullets.push(line.trim());
+    } else if (bullets.length > 0 && line.trim() !== '') {
+      bullets[bullets.length - 1] += ` ${line.trim()}`;
+    } else if (line.trim() === '') {
+      // A blank line ends a bullet, so a paragraph after the list is not
+      // swallowed into the last question.
+      if (bullets.length > 0) bullets.push('');
+    }
+  }
+  return bullets.filter((bullet) => bullet !== '');
 }
 
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
@@ -316,9 +336,14 @@ function checkTicket(file: string, source: string, seenIds: Map<string, string>)
   }
 
   // Sections ----------------------------------------------------------------
+  // Completeness is enforced at grilling, not at intake. An embryo carries
+  // fields, an intent and the preserved signal, and that is correct: a triage
+  // skill that demands a full artifact from a support engineer filing a signal
+  // will simply stop receiving signals.
   const h2 = headings(body, 2);
   const h3 = headings(body, 3);
-  const required = tier === 'S' ? SECTIONS_S : tier === 'L' ? SECTIONS_L : SECTIONS_M;
+  const embryo = status === 'draft' || status === 'in-discovery';
+  const required = embryo ? SECTIONS_EMBRYO : tier === 'S' ? SECTIONS_S : tier === 'L' ? SECTIONS_L : SECTIONS_M;
 
   for (const section of required) {
     if (!hasHeading(h2, section)) {
@@ -326,7 +351,9 @@ function checkTicket(file: string, source: string, seenIds: Map<string, string>)
     }
   }
 
-  if (tier === 'S') {
+  if (embryo) {
+    // Nothing further. The gate and the grill are where the rest is demanded.
+  } else if (tier === 'S') {
     for (const section of SUBSECTIONS_S) {
       if (!hasHeading(h3, section)) {
         checker.error('sections', `missing S-tier subsection: ### ${section}`);
@@ -357,7 +384,7 @@ function checkTicket(file: string, source: string, seenIds: Map<string, string>)
     }
 
     const questions = sectionBody(body, 'Open questions') ?? '';
-    const bullets = questions.split('\n').filter((line) => /^\s*[-*]\s+\S/.test(line));
+    const bullets = bulletsIn(questions);
     if (bullets.length > 3) {
       checker.error('open-questions', `${bullets.length} open questions, the standard allows three`);
     }
