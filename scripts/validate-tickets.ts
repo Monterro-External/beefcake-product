@@ -37,6 +37,7 @@ const PRODUCT_AREAS = [
   'settings-admin',
   'member-app',
   'platform-foundations',
+  'internal-admin',
 ] as const;
 
 const STATUSES = [
@@ -271,15 +272,12 @@ function checkTicket(file: string, source: string, seenIds: Map<string, string>)
     }
   }
 
-  // Tier and type agree -----------------------------------------------------
+  // Tier and type ------------------------------------------------------------
+  // Type says what it is, tier says how much ceremony it earns, and the two are
+  // independent: a small feature is an S, a large defect can be an M. The one
+  // rule that holds is that an initiative is by definition the full treatment.
   if (type === 'initiative' && tier !== 'L') {
     checker.error('tier', 'type initiative must be tier L');
-  }
-  if (type === 'bug' && tier !== 'S') {
-    checker.warn('tier', `type bug at tier ${tier}: bugs are normally S, confirm this is not ceremony creep`);
-  }
-  if (tier === 'L' && type !== 'initiative') {
-    checker.warn('tier', 'tier L is normally type initiative');
   }
 
   // Status implications -----------------------------------------------------

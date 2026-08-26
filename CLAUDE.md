@@ -101,7 +101,7 @@ discovery/    interviews, synthesis, usage-cohorts, market, validation, and the 
 roadmap/      now-next-later, initiatives, decisions, pre-mortems
 tickets/      Product Tickets, one file each, plus the three templates
 releases/     Release notes for what has shipped
-scripts/      Corpus generation and ticket validation
+scripts/      Ticket validation against the standard
 ```
 
 ## Ticket conventions
