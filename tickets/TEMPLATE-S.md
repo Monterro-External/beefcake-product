@@ -68,3 +68,11 @@ Mandatory, and the whole point of the tier. One line, in the form:
 Name the behaviour you would be most upset to see broken by this fix. Not "do
 not break anything": the specific thing next to the defect that still has to
 work.
+
+### Reference
+
+Optional. When the PM has explored alternatives and one design won: a link or
+the attached screenshots, and the precedence, `binding` or `illustrative`.
+Delete this section if there is none. If the exploration surfaced a decision
+anyone would argue about, this is an M, and the decision belongs in Product
+decisions with the rejected variant as the alternative.
