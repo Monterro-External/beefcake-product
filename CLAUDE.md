@@ -48,13 +48,39 @@ purpose. Where it is silent about something a ticket asserts, that silence is a
 gap in CONTEXT.md and gets flagged to the CPO. It is not automatically a defect
 in the ticket.
 
+### Grilling reads the engineering glossary
+
+Product and engineering must use the same words, and the long glossary is
+engineering's: `docs/domain-glossary.md` in `beefcake-platform`. Grilling runs
+with that repo in the session:
+
+```bash
+claude --add-dir ../beefcake-platform     # or /add-dir in an open session
+```
+
+Rules:
+
+- The grill reads `docs/domain-glossary.md` and nothing else over there. The
+  ticket is not allowed to know how the system is built, and neither is the
+  skill checking it.
+- If the platform repo is not in the session, the vocabulary check reports
+  itself as **skipped and failing**. A green grill without the glossary is not a
+  green grill.
+- A term the ticket needs and the glossary lacks is a glossary gap, flagged to
+  engineering the same way CONTEXT.md silence is flagged to the CPO.
+- Read access to `beefcake-platform` is therefore part of the product role.
+  Nobody needs to run the code.
+
+`/idea-to-ticket` does the same check softly at intake when the platform repo
+happens to be in the session, and stays silent about vocabulary when it is not.
+
 ## Skills, by step
 
 | Step | Skill |
 |---|---|
 | Strategy context | `/product-vision`, `/product-strategy`, `/plan-okrs`, `/draft-product-principles` |
 | Signal intake | `signal-triage`, and for batches `/synthesize-support-tickets`, `/synthesize-sales-calls`, `/synthesize-feedback`, `/synthesize-research` |
-| A PM's own idea | `/idea-to-ticket` |
+| A PM's own idea, any type, any tier | `/idea-to-ticket` |
 | Discovery | `/define-icp`, `/create-personas`, `/opportunity-solution-tree`, `/analyze-usage-cohorts`, `/market-scan`, `/competitor-benchmark` |
 | Ideation and validation | `/brainstorm-ideas`, `/solution-tournament`, `/prototype-and-design`, `/validate-value`, `/quick-validate` |
 | Priority | `/prioritization-gate`, `/pre-mortem`, `/red-team` |
@@ -86,9 +112,10 @@ scripts/      Corpus generation and ticket validation
   `product_area`, `door`, `gate_decision`, `outcome_metric`,
   `experience_precedence`, `status`, `signal_refs`, `owner`. When we move to
   Linear these become tracker fields and the file becomes the export.
-- **Tier before writing.** S is a change note and carries Intent plus Problem
-  and evidence, with the mandatory regression clause and nothing else. M is the
-  standard ticket. L is a one-way door or a change across several capabilities,
+- **Tier before writing, and tier is independent of type.** S is a change note
+  and carries Intent plus Problem and evidence, with the mandatory regression
+  clause and nothing else; a bug is usually S, and so is a small feature nobody
+  would argue about. M is the standard ticket. L is a one-way door or a change across several capabilities,
   and needs a linked pre-mortem, a linked red-team and a named decision owner.
 - **One `product_area` per ticket**, from the taxonomy in CONTEXT.md.
 - **Evidence is linked, never pasted**, with one exception: the original signal
@@ -117,8 +144,9 @@ npm run validate -- --strict     # warnings fail too
   carries the meaning. Translating a signal into agreement is how evidence gets
   laundered.
 - **Use the platform's vocabulary** for anything the product does: freeze,
-  notice period, dunning, abandoned, waitlist, grace hours. The glossary is in
-  CONTEXT.md, and the long version is in the platform repo.
+  notice period, dunning, abandoned, waitlist, grace hours. The short list is in
+  CONTEXT.md; the long version is `docs/domain-glossary.md` in the platform
+  repo, it wins on any detail, and grilling checks against it.
 - **Currency and country matter.** SEK, NOK, DKK, EUR. Never write "kr" in a
   ticket, because three of our four markets use it and they are not the same
   amount.

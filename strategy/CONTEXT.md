@@ -128,6 +128,7 @@ Every ticket carries exactly one. If a ticket needs two, it is two tickets.
 | `settings-admin` | Sites, staff and roles, tenant settings, feature flags |
 | `member-app` | The member-facing surface |
 | `platform-foundations` | Multi-tenancy, localisation, currency, notifications, anything fleet-wide |
+| `internal-admin` | The Beefcake-side admin surface our own staff use: tenant list, health, errors, impersonation, feature-flag console |
 
 ## Vocabulary
 
