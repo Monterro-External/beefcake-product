@@ -1,8 +1,36 @@
 {
-  "ticket_home": "files",
-  "tracker": null,
+  "ticket_home": "linear",
+  "tracker": {
+    "kind": "linear",
+    "workspace": "Monterro Demo",
+    "team": "Beefcake",
+    "team_key": "BC",
+    "team_id": "2bbac6b3-8328-4054-8342-a9dac07e9dab",
+    "type_labels": {
+      "bug": "Bug",
+      "feature": "Feature",
+      "initiative": "Initiative"
+    },
+    "tier_field": "estimate",
+    "tier_values": {
+      "S": "S",
+      "M": "M",
+      "L": "L"
+    },
+    "area_label_group": "area",
+    "states": {
+      "draft": "Draft",
+      "in-discovery": "In discovery",
+      "grilling": "Grilling",
+      "needs-more-info": "Needs more info",
+      "ready-for-handover": "Ready for handover",
+      "ready-for-grilling": "Ready for grilling",
+      "ready-for-wayfinder": "Ready for wayfinder",
+      "back-to-discovery": "Back to discovery"
+    },
+    "states_note": "Create these in Linear team settings; until then the skill uses the closest existing state and says so"
+  },
   "tickets_dir": "tickets",
-  "id_prefix": "BC",
   "context_file": "strategy/CONTEXT.md",
   "templates": {
     "S": "tickets/TEMPLATE-S.md",
