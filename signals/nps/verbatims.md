@@ -20,21 +20,21 @@ language they were written in.
 ### Detractors (0 to 6)
 
 - **2** · Träningsverket Lund (long_tail) · Anna Forsberg, owner
-  > Reports at our size either take minutes or fail. We are the biggest customer you have.
+  > Freezes do not end when we tell members they will. I have stopped promising dates.
 - **4** · Trening Grünerløkka (long_tail) · Solveig Andersen, site manager
-  > Tuki lupaa välittää asian eteenpäin eikä mitään tapahdu. Olen lopettanut pienten asioiden ilmoittamisen.
+  > I found people getting through the door after their membership had ended. That is not a small thing for us.
 - **1** · Trening Grünerløkka (long_tail) · Solveig Johansen, owner
   > Anything to do with money is a coin toss. I have had two members charged wrongly this year and I found out from them, not from you.
 - **5** · Kuntoklubi Kallio (long_tail) · Riikka Salo, owner
-  > We cannot invoice a company for its employees, so we turn that business away. Your competitor can.
+  > Support passes things on and nothing comes back. I have stopped reporting the small things.
 - **1** · Fitness Nørrebro (long_tail) · Jesper Thomsen, owner
-  > The waitlist cannot be trusted. My managers count people by hand before the busy classes.
+  > Ingen MobilePay. Alle herhjemme betaler med MobilePay.
 - **6** · Puls Träning (mid) · Magnus Björk, site manager
-  > Ingen MobilePay. Alle herhjemme betaler med MobilePay.
+  > The waitlist cannot be trusted. My managers count people by hand before the busy classes.
 - **2** · Puls Träning (mid) · Maria Henriksson, site manager
-  > Ingen MobilePay. Alle herhjemme betaler med MobilePay.
+  > The waitlist cannot be trusted. My managers count people by hand before the busy classes.
 - **4** · Vestkyst Trening (mid) · Ole Rimestad, site manager
-  > Ingen MobilePay. Alle herhjemme betaler med MobilePay.
+  > The waitlist cannot be trusted. My managers count people by hand before the busy classes.
 - **5** · Vestkyst Trening (mid) · Solveig Johannessen, site manager
   > I found people getting through the door after their membership had ended. That is not a small thing for us.
 - **4** · Vestkyst Trening (mid) · Trygve Halvorsen, site manager
@@ -42,9 +42,9 @@ language they were written in.
 - **6** · Vestkyst Trening (mid) · Maren Johansen, site manager
   > Ingen Vipps. Medlemmene spør hver uke og jeg må forklare hvorfor.
 - **5** · Voima Kuntosalit (mid) · Lauri Mäkelä, site manager
-  > Ingen Vipps. Medlemmene spør hver uke og jeg må forklare hvorfor.
+  > Tuki lupaa välittää asian eteenpäin eikä mitään tapahdu. Olen lopettanut pienten asioiden ilmoittamisen.
 - **6** · Kraft Trening (key_account) · Hanne Grimstad, finance
-  > Ingen Vipps. Medlemmene spør hver uke og jeg må forklare hvorfor.
+  > Tuki lupaa välittää asian eteenpäin eikä mitään tapahdu. Olen lopettanut pienten asioiden ilmoittamisen.
 - **3** · Kraft Trening (key_account) · Line Sørensen, site manager
   > Uppehåll slutar inte när vi säger till medlemmarna att de gör det. Jag lovar inte datum längre.
 - **4** · Kraft Trening (key_account) · Jonas Jørgensen, site manager
@@ -101,23 +101,23 @@ language they were written in.
 ### Detractors (0 to 6)
 
 - **1** · Gymmet Vasastan (long_tail) · Anders Lindqvist, site manager
-  > Tuki lupaa välittää asian eteenpäin eikä mitään tapahdu. Olen lopettanut pienten asioiden ilmoittamisen.
-- **4** · Träningsverket Lund (long_tail) · Magnus Svensson, site manager
-  > Ingen MobilePay. Alle herhjemme betaler med MobilePay.
-- **4** · Bodyfokus Umeå (long_tail) · Adam Bergström, site manager
-  > Tuki lupaa välittää asian eteenpäin eikä mitään tapahdu. Olen lopettanut pienten asioiden ilmoittamisen.
-- **4** · Kuntoklubi Kallio (long_tail) · Timo Lehtonen, site manager
-  > Uppehåll slutar inte när vi säger till medlemmarna att de gör det. Jag lovar inte datum längre.
-- **6** · Fitness Nørrebro (long_tail) · Simon Christensen, site manager
   > I found people getting through the door after their membership had ended. That is not a small thing for us.
-- **0** · Fitness Nørrebro (long_tail) · Freja Larsen, owner
+- **4** · Träningsverket Lund (long_tail) · Magnus Svensson, site manager
+  > Every change we ask for is a no. At some point that becomes a reason to look elsewhere.
+- **4** · Bodyfokus Umeå (long_tail) · Adam Bergström, site manager
+  > I found people getting through the door after their membership had ended. That is not a small thing for us.
+- **4** · Kuntoklubi Kallio (long_tail) · Timo Lehtonen, site manager
+  > Medlemmar får betalningspåminnelser om och om igen. Det får oss att se ut som ett inkassobolag.
+- **6** · Fitness Nørrebro (long_tail) · Simon Christensen, site manager
   > Uppehåll slutar inte när vi säger till medlemmarna att de gör det. Jag lovar inte datum längre.
+- **0** · Fitness Nørrebro (long_tail) · Freja Larsen, owner
+  > Freezes do not end when we tell members they will. I have stopped promising dates.
 - **3** · Puls Träning (mid) · Julia Engström, site manager
   > I found people getting through the door after their membership had ended. That is not a small thing for us.
 - **4** · Aktiv Hälsa (mid) · Erik Palmgren, site manager
-  > Uppehåll slutar inte när vi säger till medlemmarna att de gör det. Jag lovar inte datum längre.
+  > Freezes do not end when we tell members they will. I have stopped promising dates.
 - **1** · Aktiv Hälsa (mid) · Hanna Lindgren, site manager
-  > Ingen MobilePay. Alle herhjemme betaler med MobilePay.
+  > The waitlist cannot be trusted. My managers count people by hand before the busy classes.
 - **4** · Vestkyst Trening (mid) · Ola Solberg, owner
   > Every change we ask for is a no. At some point that becomes a reason to look elsewhere.
 - **5** · Vestkyst Trening (mid) · Sindre Berg, site manager
@@ -127,13 +127,13 @@ language they were written in.
 - **0** · Nordic Fitness Group (key_account) · Ann-Sofie Ek, finance
   > Uppehåll slutar inte när vi säger till medlemmarna att de gör det. Jag lovar inte datum längre.
 - **0** · Nordic Fitness Group (key_account) · Mikael Rahm, finance controller
-  > I found people getting through the door after their membership had ended. That is not a small thing for us.
+  > Reports at our size either take minutes or fail. We are the biggest customer you have.
 - **1** · Nordic Fitness Group (key_account) · Kalle Ström, site manager
-  > Support passes things on and nothing comes back. I have stopped reporting the small things.
+  > I found people getting through the door after their membership had ended. That is not a small thing for us.
 - **6** · Nordic Fitness Group (key_account) · Hedvig Åberg, site manager
   > Anything to do with money is a coin toss. I have had two members charged wrongly this year and I found out from them, not from you.
 - **1** · Nordic Fitness Group (key_account) · Malin Forsberg, site manager
-  > Medlemmar får betalningspåminnelser om och om igen. Det får oss att se ut som ett inkassobolag.
+  > Members get chased for payments over and over. It makes us look like a debt collector and it is not our doing.
 - **2** · Kraft Trening (key_account) · Hanne Grimstad, finance
   > Freezes do not end when we tell members they will. I have stopped promising dates.
 - **0** · Kraft Trening (key_account) · Nina Haugen, owner
