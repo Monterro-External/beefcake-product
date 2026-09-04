@@ -8,7 +8,7 @@ door: null
 gate_decision: null
 outcome_metric: null
 experience_precedence: none
-status: draft
+status: backlog
 owner: null
 created: 2026-03-13
 updated: 2026-03-13

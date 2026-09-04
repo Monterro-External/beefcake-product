@@ -3,7 +3,7 @@
   "tracker": {
     "kind": "linear",
     "workspace": "Monterro Demo",
-    "team": "Beefcake",
+    "team": "beefcake-product",
     "team_key": "BC",
     "team_id": "2bbac6b3-8328-4054-8342-a9dac07e9dab",
     "type_labels": {
@@ -19,16 +19,27 @@
     },
     "area_label_group": "area",
     "states": {
-      "draft": "Draft",
-      "in-discovery": "In discovery",
-      "grilling": "Grilling",
-      "needs-more-info": "Needs more info",
+      "triage": "Triage",
+      "backlog": "Backlog",
+      "todo": "Todo",
+      "discovery": "Discovery",
       "ready-for-handover": "Ready for handover",
-      "ready-for-grilling": "Ready for grilling",
-      "ready-for-wayfinder": "Ready for wayfinder",
-      "back-to-discovery": "Back to discovery"
+      "in-development": "In development",
+      "done": "Done",
+      "canceled": "Canceled"
     },
-    "states_note": "Create these in Linear team settings; until then the skill uses the closest existing state and says so"
+    "states_note": "Create these in Linear team settings; until then the skill uses the closest existing state and says so",
+    "labels": {
+      "needs-more-info": "needs-more-info",
+      "back-to-discovery": "back-to-discovery"
+    },
+    "transitions_note": "Only product-grill-with-docs moves discovery to ready-for-handover. Only handover-triage moves ready-for-handover to in-development or back to discovery with the label and a reason code.",
+    "engineering_team": {
+      "team": "beefcake-engineering",
+      "team_key": null,
+      "team_id": null,
+      "note": "Where handover-triage creates the engineering ticket. States mirror the mattpocock triage state machine. Fill in once the team exists in Linear."
+    }
   },
   "tickets_dir": "tickets",
   "context_file": "strategy/CONTEXT.md",

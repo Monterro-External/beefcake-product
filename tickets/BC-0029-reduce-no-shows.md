@@ -8,7 +8,9 @@ door: two-way
 gate_decision: 2026-07-14
 outcome_metric: No-show rate on classes at 90% capacity or above
 experience_precedence: none
-status: back-to-discovery
+status: discovery
+labels:
+  - back-to-discovery
 reason_code: solution-space-too-open
 owner: Aino Lehtinen
 created: 2026-06-30

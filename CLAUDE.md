@@ -36,12 +36,12 @@ Signals → signal-triage → Discovery → Prioritisation gate → Product Tick
 | Step | What happens | Where it lands |
 |---|---|---|
 | Signals | Support, NPS, CSM notes, sales calls, lost deals, escalations, app reviews, member feedback, the Slack request channel, and the platform exports | `signals/` |
-| Triage | Each signal becomes a typed, tiered, deduplicated ticket embryo, or is closed | `tickets/` at `draft` |
+| Triage | Each signal becomes a typed, tiered, deduplicated ticket embryo, or is closed | `triage` to `backlog` or `todo` |
 | Discovery | Interviews, synthesis, cohorts, market work, prototypes and validation | `discovery/` |
 | Gate | Door, appetite and kill criteria decided. Sets `door` and `gate_decision` | `roadmap/`, ticket fields |
-| Authoring | The ticket is completed to the standard | `tickets/` at `grilling` |
-| Grilling | The readiness gate is enforced against `strategy/CONTEXT.md`. A bounce carries the failing checks | `needs-more-info` and back |
-| Handover | Engineering routes by the ticket's shape | `ready-for-grilling`, `ready-for-wayfinder`, or back with a reason code |
+| Authoring | The ticket is completed to the standard | `discovery` |
+| Grilling | The readiness gate is enforced against `strategy/CONTEXT.md`. A pass moves the ticket to `ready-for-handover`; a bounce stays in `discovery` with the `needs-more-info` label and the failing checks | `discovery` to `ready-for-handover` |
+| Handover | Engineering routes by the ticket's shape into the `beefcake-engineering` team | `in-development`, or back to `discovery` with the `back-to-discovery` label and a reason code |
 
 `strategy/CONTEXT.md` is the reference the grill checks against. It is short on
 purpose. Where it is silent about something a ticket asserts, that silence is a

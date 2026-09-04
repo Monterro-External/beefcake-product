@@ -8,7 +8,8 @@ door: two-way
 gate_decision: 2026-08-04
 outcome_metric: Share of members who cancel within 21 days of a dunning sequence being abandoned
 experience_precedence: none
-status: ready-for-wayfinder
+status: in-development
+handover_route: wayfinder
 owner: Johan Wirén
 created: 2026-07-28
 updated: 2026-08-24

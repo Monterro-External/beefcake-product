@@ -23,21 +23,30 @@ ticket and its frontmatter mirrors the tracker fields exactly.
 
 ## Statuses
 
+States of the `beefcake-product` Linear team, standard v1.3 section 5:
+
 ```
-draft → in-discovery → grilling → (needs-more-info ⇄ grilling) → ready-for-handover
-        → [handover-triage] → ready-for-grilling | ready-for-wayfinder | back-to-discovery
+triage → backlog → todo → discovery → ready-for-handover → in-development → done
+canceled: parked
 ```
 
-`needs-more-info` always carries the specific failing checks from the grill in a
-`## Grill findings` section, never a bare status change. `back-to-discovery`
+Bounces are labels on a `discovery` ticket. `needs-more-info` is the grill's
+bounce and always carries the specific failing checks in a `## Grill findings`
+section, never a bare label. `back-to-discovery` is handover-triage's bounce and
 always carries a `reason_code`: `insufficient-evidence`,
 `solution-space-too-open`, `fails-context-consistency` or `too-big-slice-it`,
-and the triage note that produced it.
+and the triage note that produced it. A ticket at `in-development` carries
+`handover_route: grilling` or `wayfinder`, the route triage chose, and a link to
+the engineering ticket.
 
-Completeness is enforced at grilling, not at intake. A ticket at `draft` or
-`in-discovery` carries its fields, an intent, the preserved signal and the next
-steps, and that is correct. The validator knows this and only demands the full
-set of sections from `grilling` onwards.
+Only `/product-grill-with-docs` moves a ticket from `discovery` to
+`ready-for-handover`. Only handover-triage moves it on from there.
+
+Completeness is enforced at grilling, not at intake. A ticket at `triage`,
+`backlog`, `todo` or early `discovery` carries its fields, an intent, the
+preserved signal and the next steps, and that is correct. The validator knows
+this and only demands the full set of sections once a ticket has been grilled
+(a bounce label) or has passed the gate.
 
 ## Checking a ticket
 

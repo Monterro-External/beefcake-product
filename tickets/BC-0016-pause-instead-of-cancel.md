@@ -8,7 +8,7 @@ door: null
 gate_decision: null
 outcome_metric: Share of members who cancel within 21 days of a dunning sequence being abandoned
 experience_precedence: none
-status: in-discovery
+status: discovery
 owner: Johan Wirén
 created: 2026-08-06
 updated: 2026-08-20
@@ -67,4 +67,4 @@ Both are members, and neither contacted us. Members never do.
 3. Rerun the cohort once Nordic Fitness Group appears in the churn export.
 
 Not ready for the gate. The problem is validated and the solution space is wide
-open, which is exactly what in-discovery is for.
+open, which is exactly what discovery is for.

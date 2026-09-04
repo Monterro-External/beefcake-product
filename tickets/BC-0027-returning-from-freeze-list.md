@@ -8,7 +8,8 @@ door: two-way
 gate_decision: 2026-07-21
 outcome_metric: Share of members who train again within 14 days of a freeze ending
 experience_precedence: illustrative
-status: ready-for-grilling
+status: in-development
+handover_route: grilling
 owner: Aino Lehtinen
 created: 2026-06-09
 updated: 2026-08-12

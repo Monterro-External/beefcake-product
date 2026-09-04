@@ -8,7 +8,7 @@ door: null
 gate_decision: null
 outcome_metric: Danish pipeline conversion, and whether our Danish customer stops rebuilding their receipts by hand
 experience_precedence: none
-status: in-discovery
+status: discovery
 owner: Ingrid Halvorsen
 created: 2026-04-08
 updated: 2026-08-12

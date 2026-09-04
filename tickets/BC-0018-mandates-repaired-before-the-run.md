@@ -8,7 +8,7 @@ door: null
 gate_decision: null
 outcome_metric: Failed-charge rate attributable to a missing or cancelled mandate
 experience_precedence: none
-status: in-discovery
+status: discovery
 owner: Johan Wirén
 created: 2026-07-14
 updated: 2026-08-18

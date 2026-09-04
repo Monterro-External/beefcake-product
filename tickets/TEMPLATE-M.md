@@ -8,7 +8,7 @@ door: two-way
 gate_decision: null
 outcome_metric: The product outcome this targets, measurable
 experience_precedence: none
-status: draft
+status: backlog
 owner: null
 created: YYYY-MM-DD
 updated: YYYY-MM-DD

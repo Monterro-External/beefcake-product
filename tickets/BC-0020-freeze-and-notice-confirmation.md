@@ -8,7 +8,7 @@ door: two-way
 gate_decision: 2026-08-04
 outcome_metric: Share of front-desk staff who state the return date and the binding consequence correctly, unprompted
 experience_precedence: binding
-status: grilling
+status: discovery
 owner: Ingrid Halvorsen
 created: 2026-07-31
 updated: 2026-08-21

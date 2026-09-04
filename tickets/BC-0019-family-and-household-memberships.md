@@ -8,7 +8,7 @@ door: null
 gate_decision: null
 outcome_metric: Long-tail retention and sign-up rate at operators offering a household price
 experience_precedence: none
-status: in-discovery
+status: discovery
 owner: Aino Lehtinen
 created: 2026-08-25
 updated: 2026-08-25

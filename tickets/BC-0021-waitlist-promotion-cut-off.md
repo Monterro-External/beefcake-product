@@ -8,7 +8,7 @@ door: two-way
 gate_decision: 2026-08-18
 outcome_metric: No-show rate among members promoted from a waitlist
 experience_precedence: none
-status: grilling
+status: discovery
 owner: Aino Lehtinen
 created: 2026-08-12
 updated: 2026-08-24

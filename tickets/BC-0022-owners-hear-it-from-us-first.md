@@ -8,7 +8,9 @@ door: null
 gate_decision: null
 outcome_metric: null
 experience_precedence: none
-status: needs-more-info
+status: discovery
+labels:
+  - needs-more-info
 owner: Ingrid Halvorsen
 created: 2026-07-02
 updated: 2026-08-13

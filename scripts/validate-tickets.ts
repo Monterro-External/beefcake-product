@@ -40,16 +40,22 @@ const PRODUCT_AREAS = [
   'internal-admin',
 ] as const;
 
+/** States of the `beefcake-product` Linear team, standard section 5. */
 const STATUSES = [
-  'draft',
-  'in-discovery',
-  'grilling',
-  'needs-more-info',
+  'triage',
+  'backlog',
+  'todo',
+  'discovery',
   'ready-for-handover',
-  'ready-for-grilling',
-  'ready-for-wayfinder',
-  'back-to-discovery',
+  'in-development',
+  'done',
+  'canceled',
 ] as const;
+
+/** Bounces are labels on a `discovery` ticket, never states. */
+const LABELS = ['needs-more-info', 'back-to-discovery'] as const;
+
+const HANDOVER_ROUTES = ['grilling', 'wayfinder'] as const;
 
 const REASON_CODES = [
   'insufficient-evidence',
@@ -59,11 +65,7 @@ const REASON_CODES = [
 ] as const;
 
 /** Statuses that mean the prioritisation gate has already passed. */
-const POST_GATE_STATUSES = new Set([
-  'ready-for-handover',
-  'ready-for-grilling',
-  'ready-for-wayfinder',
-]);
+const POST_GATE_STATUSES = new Set(['ready-for-handover', 'in-development', 'done']);
 
 const REQUIRED_FIELDS = [
   'id',
@@ -319,17 +321,36 @@ function checkTicket(file: string, source: string, seenIds: Map<string, string>)
     }
   }
 
-  if (status === 'needs-more-info' && sectionBody(body, 'Grill findings') === null) {
+  const rawLabels = frontmatter.labels;
+  const labels = Array.isArray(rawLabels) ? rawLabels.filter((l): l is string => typeof l === 'string') : [];
+  for (const label of labels) {
+    if (!LABELS.includes(label as (typeof LABELS)[number])) {
+      checker.error('fields', `label "${label}" is not one of: ${LABELS.join(', ')}`);
+    }
+    if (status !== 'discovery') {
+      checker.error('fields', `label ${label} on a ${status} ticket: bounces live on discovery tickets`);
+    }
+  }
+
+  if (labels.includes('needs-more-info') && sectionBody(body, 'Grill findings') === null) {
     checker.error(
       'grill',
-      'status needs-more-info without a "## Grill findings" section: a bounce carries the failing checks',
+      'label needs-more-info without a "## Grill findings" section: a bounce carries the failing checks',
     );
   }
 
-  if (status === 'back-to-discovery') {
+  const route = asString(frontmatter.handover_route);
+  if (route !== null && !HANDOVER_ROUTES.includes(route as (typeof HANDOVER_ROUTES)[number])) {
+    checker.error('handover', `handover_route is "${route}", expected one of: ${HANDOVER_ROUTES.join(', ')}`);
+  }
+  if (status === 'in-development' && route === null) {
+    checker.error('handover', 'status in-development without handover_route: triage decided grilling or wayfinder');
+  }
+
+  if (labels.includes('back-to-discovery')) {
     const reason = asString(frontmatter.reason_code);
     if (reason === null) {
-      checker.error('handover', 'status back-to-discovery without a reason_code');
+      checker.error('handover', 'label back-to-discovery without a reason_code');
     } else if (!REASON_CODES.includes(reason as (typeof REASON_CODES)[number])) {
       checker.error('handover', `reason_code is "${reason}", expected one of: ${REASON_CODES.join(', ')}`);
     }
@@ -339,10 +360,13 @@ function checkTicket(file: string, source: string, seenIds: Map<string, string>)
   // Completeness is enforced at grilling, not at intake. An embryo carries
   // fields, an intent and the preserved signal, and that is correct: a triage
   // skill that demands a full artifact from a support engineer filing a signal
-  // will simply stop receiving signals.
+  // will simply stop receiving signals. Discovery covers both early work and
+  // authoring, so the full section set is demanded there only once the ticket
+  // has been grilled (a bounce label) or has passed the gate.
   const h2 = headings(body, 2);
   const h3 = headings(body, 3);
-  const embryo = status === 'draft' || status === 'in-discovery';
+  const embryo =
+    status === 'triage' || status === 'backlog' || status === 'todo' || (status === 'discovery' && labels.length === 0);
   const required = embryo ? SECTIONS_EMBRYO : tier === 'S' ? SECTIONS_S : tier === 'L' ? SECTIONS_L : SECTIONS_M;
 
   for (const section of required) {
