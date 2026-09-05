@@ -41,7 +41,7 @@ Signals → signal-triage → Discovery → Prioritisation gate → Product Tick
 | Gate | Door, appetite and kill criteria decided. Sets `door` and `gate_decision` | `roadmap/`, ticket fields |
 | Authoring | The ticket is completed to the standard | `discovery` |
 | Grilling | The readiness gate is enforced against `strategy/CONTEXT.md`. A pass moves the ticket to `ready-for-handover`; a bounce stays in `discovery` with the `needs-more-info` label and the failing checks | `discovery` to `ready-for-handover` |
-| Handover | Engineering routes by the ticket's shape into the `beefcake-engineering` team | `in-development`, or back to `discovery` with the `back-to-discovery` label and a reason code |
+| Handover | Engineering routes by the ticket's shape into the `beefcake-platform` team | `in-development`, or back to `discovery` with the `back-to-discovery` label and a reason code |
 
 `strategy/CONTEXT.md` is the reference the grill checks against. It is short on
 purpose. Where it is silent about something a ticket asserts, that silence is a

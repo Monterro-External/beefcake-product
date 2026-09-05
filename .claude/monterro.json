@@ -3,8 +3,8 @@
   "tracker": {
     "kind": "linear",
     "workspace": "Monterro Demo",
-    "team": "beefcake-product",
-    "team_key": "BC",
+    "team": "Beefcake-product",
+    "team_key": "BCPRO",
     "team_id": "2bbac6b3-8328-4054-8342-a9dac07e9dab",
     "type_labels": {
       "bug": "Bug",
@@ -28,17 +28,21 @@
       "done": "Done",
       "canceled": "Canceled"
     },
-    "states_note": "Create these in Linear team settings; until then the skill uses the closest existing state and says so",
+    "states_note": "Linear states as of 2026-09-05: Triage, Backlog, Todo, In Progress, Done, Duplicate, Canceled. Still to do in team settings: rename In Progress to Discovery, add Ready for handover and In development (both started). Until then the skill uses the closest existing state and says so",
     "labels": {
       "needs-more-info": "needs-more-info",
       "back-to-discovery": "back-to-discovery"
     },
     "transitions_note": "Only product-grill-with-docs moves discovery to ready-for-handover. Only handover-triage moves ready-for-handover to in-development or back to discovery with the label and a reason code.",
     "engineering_team": {
-      "team": "beefcake-engineering",
+      "team": "Beefcake-platform",
       "team_key": null,
-      "team_id": null,
-      "note": "Where handover-triage creates the engineering ticket. States mirror the mattpocock triage state machine. Fill in once the team exists in Linear."
+      "team_id": "fc9ba842-25f8-45a1-9750-0acce3b06c8c",
+      "note": "Where handover-triage creates the engineering ticket. States are Linear defaults today; should mirror the mattpocock triage state machine. team_key unknown until the first issue exists."
+    },
+    "label_ids": {
+      "needs-more-info": "dddcf6f3-ad4a-47e7-b339-4b529942c0d6",
+      "back-to-discovery": "9bbfbf19-847f-4f39-a9ec-7d9752ebeb55"
     }
   },
   "tickets_dir": "tickets",
