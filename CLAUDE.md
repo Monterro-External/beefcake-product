@@ -99,7 +99,7 @@ personas/     Ten personas. Customer-side ones cite the interviews behind them
 signals/      The raw material, by source. See signals/README.md for the sources
 discovery/    interviews, synthesis, usage-cohorts, market, validation, and the OST
 roadmap/      now-next-later, initiatives, decisions, pre-mortems
-tickets/      Product Tickets, one file each, plus the three templates
+tickets/      The three Product Ticket templates. Tickets themselves live in Linear
 releases/     Release notes for what has shipped
 scripts/      Ticket validation against the standard
 ```

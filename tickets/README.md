@@ -1,8 +1,9 @@
 # Tickets
 
-Product Tickets, one file each, following `product-ticket-standard.md`. The
-tracker is the artifact in principle. Until we sync to Linear, the file is the
-ticket and its frontmatter mirrors the tracker fields exactly.
+Product Tickets follow `product-ticket-standard.md` and live in Linear, team
+`Beefcake-product`. This folder holds the three tier templates the skills copy
+from. When a repo runs with a file ticket home instead, the tickets sit here as
+markdown with frontmatter mirroring the tracker fields exactly.
 
 ## Conventions
 
