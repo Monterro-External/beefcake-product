@@ -106,8 +106,8 @@ scripts/      Ticket validation against the standard
 
 ## Ticket conventions
 
-- **Ids** are `BC-nnnn`, allocated in sequence, never reused. Filename is
-  `BC-nnnn-short-slug.md` and the id in the frontmatter must match it.
+- **Ids** are `BCPRO-nnnn`, allocated in sequence, never reused. Filename is
+  `BCPRO-nnnn-short-slug.md` and the id in the frontmatter must match it.
 - **Frontmatter mirrors the tracker fields exactly**: `id`, `type`, `tier`,
   `product_area`, `door`, `gate_decision`, `outcome_metric`,
   `experience_precedence`, `status`, `signal_refs`, `owner`. When we move to
@@ -130,7 +130,7 @@ Check a ticket before you hand it over:
 
 ```bash
 npm run validate                 # every ticket
-npm run validate -- BC-0007      # one
+npm run validate -- BCPRO-0007   # one
 npm run validate -- --strict     # warnings fail too
 ```
 

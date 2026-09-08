@@ -1,5 +1,5 @@
 ---
-id: BC-XXXX
+id: BCPRO-XXXX
 title: One line, what is wrong or missing, in the user's terms
 type: bug            # bug or feature. Type says what it is, tier says how much ceremony
 tier: S
