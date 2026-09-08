@@ -2,8 +2,8 @@
 thread: Nordic Fitness Group, membership billing
 tenant: Nordic Fitness Group
 segment: key_account
-opened: 2026-07-19
-last_message: 2026-08-17
+opened: 2026-08-01
+last_message: 2026-08-30
 status: open
 owner: Marte Bakken
 raised_to: Malin Ohlsson
@@ -12,13 +12,13 @@ raised_to: Malin Ohlsson
 # Escalation: Nordic Fitness Group, membership billing
 
 Email thread, forwarded into the escalation folder by Marte Bakken on
-2026-07-26. Six messages. Nothing has been edited except the signatures.
+2026-08-08. Six messages. Nothing has been edited except the signatures.
 
 ---
 
 **From:** Mikael Rahm, finance controller, Nordic Fitness Group
 **To:** Marte Bakken
-**Date:** 2026-07-19 08:41
+**Date:** 2026-08-01 08:41
 **Subject:** Membership charges above plan price
 
 Marte,
@@ -52,7 +52,7 @@ Mikael
 **From:** Marte Bakken
 **To:** Mikael Rahm
 **Cc:** Petra Lindgren
-**Date:** 2026-07-19 11:20
+**Date:** 2026-08-01 11:20
 **Subject:** Re: Membership charges above plan price
 
 Mikael,
@@ -71,7 +71,7 @@ Marte
 
 **From:** Marte Bakken
 **To:** Johan Wirén
-**Date:** 2026-07-19 11:34
+**Date:** 2026-08-01 11:34
 **Subject:** FW: Membership charges above plan price
 
 Johan,
@@ -96,7 +96,7 @@ Marte
 
 **From:** Johan Wirén
 **To:** Marte Bakken
-**Date:** 2026-07-21 16:02
+**Date:** 2026-08-03 16:02
 **Subject:** Re: FW: Membership charges above plan price
 
 Marte,
@@ -125,7 +125,7 @@ Johan
 
 **From:** Malin Ohlsson
 **To:** Marte Bakken, Johan Wirén
-**Date:** 2026-07-22 09:15
+**Date:** 2026-08-04 09:15
 **Subject:** Re: FW: Membership charges above plan price
 
 I own this.
@@ -148,7 +148,7 @@ Malin
 **From:** Mikael Rahm
 **To:** Marte Bakken
 **Cc:** Petra Lindgren
-**Date:** 2026-08-17 07:52
+**Date:** 2026-08-30 07:52
 **Subject:** Re: Membership charges above plan price
 
 Marte,
@@ -159,6 +159,6 @@ number.
 To be clear about where this now sits: I have written it into the renewal
 comparison as an open item under supplier risk. That is not a threat, it is
 housekeeping. But it means that when Petra reviews that sheet in
-November, this will still be on it unless something changes.
+December, this will still be on it unless something changes.
 
 Mikael

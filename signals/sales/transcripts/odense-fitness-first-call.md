@@ -5,14 +5,14 @@ prospect: Odense Fitness
 country: DK
 sites: 1
 members: 900
-date: 2026-08-10
+date: 2026-08-23
 duration_min: 18
 beefcake: Maria Ekholm (AE Sweden and Denmark)
 prospect_attendees: Katrine Bruun (owner)
 outcome: open, low expectation
 ---
 
-# First call, Odense Fitness, 2026-08-10
+# First call, Odense Fitness, 2026-08-23
 
 Auto-transcribed and lightly cleaned. Short discovery call, inbound lead.
 

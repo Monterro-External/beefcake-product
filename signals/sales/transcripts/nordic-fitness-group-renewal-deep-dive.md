@@ -3,14 +3,14 @@ call: Renewal deep dive, Nordic Fitness Group
 type: renewal
 tenant: Nordic Fitness Group
 country: SE
-date: 2026-08-02
+date: 2026-08-15
 duration_min: 52
 beefcake: Camilla Roos (head of sales), Marte Bakken (CSM), Malin Ohlsson (CPO, from 20 min)
 customer_attendees: Petra Lindgren (head of operations), Mikael Rahm (finance controller)
 outcome: open items agreed, no commitments given
 ---
 
-# Renewal deep dive, Nordic Fitness Group, 2026-08-02
+# Renewal deep dive, Nordic Fitness Group, 2026-08-15
 
 Auto-transcribed and lightly cleaned. Malin joined at twenty minutes for the
 billing item. The recording was shared with Petra afterwards at her request.
@@ -28,7 +28,7 @@ which is part of what I want to talk about.
 mean?
 
 **[01:00] Petra:** I mean that I could have printed the notes from our meeting in
-February and used them today. The three things have not moved. I am not
+March and used them today. The three things have not moved. I am not
 angry, I am telling you what it looks like from here.
 
 **[01:22] Marte:** That is fair and it is accurate.
@@ -98,7 +98,7 @@ screen the employer can log into. The last one I do not need.
 
 **[05:52] Petra:** The company pays, the employee is a member, and the membership
 does something sensible when the employee comes off the list. I said this to you
-in May as well.
+in June as well.
 
 **[06:10] Camilla:** You did, and it is written down. Malin is about to tell you
 what we are doing about it, and I would rather she did than me.

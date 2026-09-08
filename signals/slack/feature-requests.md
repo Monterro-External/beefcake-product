@@ -5,13 +5,25 @@ what customers ask for. Newest at the bottom. Threads are indented.
 
 ---
 
-## 2026-03-03
+## 2026-03-13
 
 **Erik Lundgren** · 08:01
 
 Customer would like the member search to work on phone numbers.
 
 _reactions: :+1:_
+
+**Maria Ekholm** · 10:19
+
+Ask for a waiting list for personal training slots, not just classes.
+
+## 2026-03-14
+
+**Oskar Lindell** · 12:08
+
+Someone asked whether reports can be emailed on a schedule.
+
+## 2026-03-16
 
 **Jonas Solberg** · 09:00
 
@@ -23,17 +35,7 @@ _reactions: :heavy_plus_sign: :thinking_face:_
 >
 > Nothing new I can promise. It is in the payments pillar but not scheduled.
 
-**Maria Ekholm** · 10:19
-
-Ask for a waiting list for personal training slots, not just classes.
-
-## 2026-03-04
-
-**Oskar Lindell** · 12:08
-
-Someone asked whether reports can be emailed on a schedule.
-
-## 2026-03-07
+## 2026-03-20
 
 **Erik Lundgren** · 15:57
 
@@ -41,7 +43,7 @@ Puls Träning want a family price. Mother plus two teenagers, one payment. They 
 
 _reactions: :thinking_face:_
 
-## 2026-03-11
+## 2026-03-24
 
 **Marte Bakken** · 10:29
 
@@ -55,13 +57,13 @@ NFG raised corporate memberships again on the call. Petra was clear that it goes
 >
 > For the record we have lost two deals on it this year that I know of.
 
-## 2026-03-14
+## 2026-03-27
 
 **Tove Ahlin** · 13:21
 
 Getting a lot of "family membership" tickets from the long tail. Not urgent individually, but it is the most common feature question I answer.
 
-## 2026-03-19
+## 2026-04-01
 
 **Maria Ekholm** · 13:21
 
@@ -69,7 +71,7 @@ Danish prospect asked about MobilePay in the first five minutes and stopped list
 
 _reactions: :thinking_face: :heavy_plus_sign:_
 
-## 2026-03-23
+## 2026-04-05
 
 **Jonas Solberg** · 09:45
 
@@ -79,13 +81,13 @@ Lost Bergen Styrke. They said Vipps, but honestly I think we were also slower on
 >
 > Write the debrief while it is fresh please.
 
-## 2026-03-29
+## 2026-04-11
 
 **Henrik Dahl** · 10:29
 
 Two mid-market owners this week asked for a per-site revenue view. Both export to Excel and build it themselves.
 
-## 2026-04-02
+## 2026-04-15
 
 **Erik Lundgren** · 09:21
 
@@ -99,25 +101,23 @@ Prospect in Uppsala asked whether we can run on their own servers. Told them no.
 >
 > Understood, just logging it.
 
-## 2026-04-06
+## 2026-04-17
 
 **Tove Ahlin** · 16:43
 
 Request: booking window setting per class rather than per site.
 
-## 2026-04-07
-
-**Marte Bakken** · 11:46
-
-Vestkyst mentioned Vipps unprompted in a call about freezes. Not a demand, more that it makes us look old.
-
-## 2026-04-10
+## 2026-04-20
 
 **Henrik Dahl** · 11:13
 
 Owner wants to see which staff member sold which membership. Commission thing.
 
-## 2026-04-11
+**Marte Bakken** · 11:46
+
+Vestkyst mentioned Vipps unprompted in a call about freezes. Not a demand, more that it makes us look old.
+
+## 2026-04-24
 
 **Oskar Lindell** · 15:26
 
@@ -133,7 +133,7 @@ _reactions: :thinking_face:_
 >
 > That is the problem. Half are tagged billing.
 
-## 2026-04-14
+## 2026-04-25
 
 **Tove Ahlin** · 11:33
 
@@ -141,7 +141,7 @@ Request for a dark mode on the desk screen. Second one.
 
 _reactions: :+1:_
 
-## 2026-04-16
+## 2026-04-29
 
 **Jonas Solberg** · 13:28
 
@@ -153,7 +153,7 @@ _reactions: :+1:_
 >
 > Kraft talk to other operators. Assume everything travels.
 
-## 2026-04-20
+## 2026-05-03
 
 **Camilla Roos** · 14:33
 
@@ -161,7 +161,7 @@ Reminder for everyone: put the lost-deal debrief in the folder, not in this chan
 
 _reactions: :thinking_face:_
 
-## 2026-04-24
+## 2026-05-07
 
 **Aino Lehtinen** · 10:28
 
@@ -169,25 +169,31 @@ Members are asking to see what they pay and when in the app. Coming from three t
 
 _reactions: :+1:_
 
-## 2026-04-29
+## 2026-05-12
 
 **Erik Lundgren** · 16:14
 
 Employer-paid memberships came up in a Finnish deal. Company pays part, member pays the rest, one membership.
 
-## 2026-05-02
+## 2026-05-13
 
 **Oskar Lindell** · 08:34
 
 Two operators asked for a printable membership card with their logo.
 
-## 2026-05-03
+## 2026-05-16
 
 **Tove Ahlin** · 15:43
 
 Another family membership week. Six tickets.
 
-## 2026-05-08
+## 2026-05-21
+
+**Marte Bakken** · 10:27
+
+Request for a bulk email to members from inside the product. We have said no to this before.
+
+_reactions: :+1:_
 
 **Henrik Dahl** · 12:03
 
@@ -201,43 +207,43 @@ Kallio (small FI account) files the most precise bug reports we get and thinks w
 >
 > That is a process problem and it is costing us our best input. Let us fix the routing.
 
-## 2026-05-09
-
-**Marte Bakken** · 10:27
-
-Request for a bulk email to members from inside the product. We have said no to this before.
-
-_reactions: :+1:_
-
-## 2026-05-14
+## 2026-05-25
 
 **Erik Lundgren** · 16:03
 
 Prospect asked for a Swedish BankID login for members. Logged.
 
+## 2026-05-27
+
 **Marte Bakken** · 16:30
 
 NFG report speed came up again. Petra runs the churn report in the evening because it does not finish during the day.
 
-## 2026-05-18
+## 2026-05-29
 
 **Henrik Dahl** · 12:40
 
 Owner asked for a "who changed this" log on memberships.
 
-## 2026-05-19
+## 2026-06-01
 
 **Jonas Solberg** · 15:27
 
 Vipps. Kraft. Again. I am going to start numbering these.
 
-## 2026-05-23
+## 2026-06-05
 
 **Maria Ekholm** · 16:49
 
 CopenFit-style prospect in Aarhus asked about MobilePay and Danish VAT on receipts. Same two questions every Danish conversation.
 
-## 2026-05-28
+## 2026-06-10
+
+**Maria Ekholm** · 09:41
+
+Prospect asked whether we integrate with their accounting system. Told them CSV.
+
+_reactions: :+1:_
 
 **Erik Lundgren** · 13:06
 
@@ -251,15 +257,7 @@ Owner in Lund wants workout tracking in the member app. He has asked support thr
 >
 > Told him that. He is not happy but he is not leaving over it.
 
-## 2026-05-30
-
-**Maria Ekholm** · 09:41
-
-Prospect asked whether we integrate with their accounting system. Told them CSV.
-
-_reactions: :+1:_
-
-## 2026-06-01
+## 2026-06-14
 
 **Henrik Dahl** · 12:34
 
@@ -267,7 +265,11 @@ Site managers keep asking for per-site views of reports that only aggregate. Voi
 
 _reactions: :thinking_face:_
 
-## 2026-06-06
+## 2026-06-19
+
+**Jonas Solberg** · 09:09
+
+Request for an SMS reminder before a class. Their old system had it.
 
 **Marte Bakken** · 11:43
 
@@ -277,13 +279,7 @@ Kraft receipts are showing SEK for Norwegian members. Finance escalated. Ticket 
 >
 > Seen it. It is with the payments team.
 
-## 2026-06-07
-
-**Jonas Solberg** · 09:09
-
-Request for an SMS reminder before a class. Their old system had it.
-
-## 2026-06-10
+## 2026-06-23
 
 **Oskar Lindell** · 14:28
 
@@ -299,19 +295,13 @@ _reactions: :eyes:_
 >
 > Enough that I have a stock reply for it.
 
-## 2026-06-15
+## 2026-06-28
 
 **Camilla Roos** · 15:15
 
 Renewal calendar reminder: NFG is five months out. Anything anyone hears from that account, put it here or tell Marte.
 
-## 2026-06-19
-
-**Erik Lundgren** · 15:11
-
-Family membership, two more this week. Both single site.
-
-## 2026-06-20
+## 2026-07-02
 
 **Jonas Solberg** · 11:37
 
@@ -319,25 +309,29 @@ Operator wants to charge a joining fee separately from the first month.
 
 _reactions: :+1:_
 
-## 2026-06-24
+**Erik Lundgren** · 15:11
+
+Family membership, two more this week. Both single site.
+
+## 2026-07-07
 
 **Jonas Solberg** · 15:13
 
 Vipps request number four this quarter, this time from Grünerløkka. Small account, same ask.
 
-## 2026-06-29
+## 2026-07-12
 
 **Aino Lehtinen** · 14:24
 
 App reviews are worth reading. Two-star reviews name the gym and describe our payment messages. Members think the gym is doing it.
 
-## 2026-07-03
+## 2026-07-16
 
 **Henrik Dahl** · 11:56
 
 Aktiv Hälsa is quiet, green, no tickets. Worth remembering what a happy account looks like.
 
-## 2026-07-08
+## 2026-07-21
 
 **Marte Bakken** · 10:37
 
@@ -345,13 +339,13 @@ Kraft asked for a date on the receipt currency thing. I did not have one to give
 
 _reactions: :heavy_plus_sign: :thinking_face:_
 
-## 2026-07-12
+## 2026-07-25
 
 **Maria Ekholm** · 16:42
 
 Danish prospect went with a local system. Debrief in the folder. Short version: MobilePay and a Danish invoice layout.
 
-## 2026-07-17
+## 2026-07-30
 
 **Tove Ahlin** · 10:01
 
@@ -361,7 +355,7 @@ The wrong week number in the schedule is back in the queue. I thought that was f
 >
 > It was. These are people repeating a workaround from their own handbook.
 
-## 2026-07-21
+## 2026-08-03
 
 **Erik Lundgren** · 13:09
 
@@ -369,13 +363,13 @@ Corporate memberships came up in a Swedish deal with 6 sites. They pay for staff
 
 _reactions: :heavy_plus_sign:_
 
-## 2026-07-24
+## 2026-08-05
 
 **Aino Lehtinen** · 12:17
 
 Member asked to be able to cancel in the app. Passed to the desk instead, as designed.
 
-## 2026-07-26
+## 2026-08-08
 
 **Henrik Dahl** · 09:01
 
@@ -383,7 +377,7 @@ A couple of owners have said versions of "I found out from a member, not from yo
 
 _reactions: :heavy_plus_sign: :eyes:_
 
-## 2026-07-30
+## 2026-08-12
 
 **Jonas Solberg** · 13:09
 
@@ -393,13 +387,13 @@ Vipps.
 >
 > Number five.
 
-## 2026-08-03
+## 2026-08-16
 
 **Oskar Lindell** · 08:10
 
 Norwegian tickets about the receipt currency are still coming. Kraft, Vestkyst and Grünerløkka.
 
-## 2026-08-08
+## 2026-08-21
 
 **Aino Lehtinen** · 10:51
 
@@ -413,19 +407,19 @@ From the member feedback the desks forward: several members say they did not lea
 >
 > This is the interesting one. Nobody asked for a feature and there is clearly something here.
 
-## 2026-08-12
+## 2026-08-25
 
 **Camilla Roos** · 10:10
 
 Two prospects this week asked what happens to their existing mandates if they move to us. It is the question that decides the deal and our answer is a paragraph of prose.
 
-## 2026-08-17
+## 2026-08-30
 
 **Marte Bakken** · 14:30
 
 NFG: Petra says "we are staying" and the Boxmaster evaluation is still running. Both are true and I would not read the first one as safe.
 
-## 2026-08-21
+## 2026-09-03
 
 **Erik Lundgren** · 14:21
 
@@ -433,7 +427,7 @@ Family membership again. That is nine this quarter from my accounts alone.
 
 _reactions: :thinking_face: :+1:_
 
-## 2026-08-24
+## 2026-09-06
 
 **Tove Ahlin** · 11:55
 

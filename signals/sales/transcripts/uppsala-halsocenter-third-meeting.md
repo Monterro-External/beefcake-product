@@ -5,14 +5,14 @@ prospect: Uppsala Hälsocenter
 country: SE
 sites: 3
 members: 2600
-date: 2026-04-12
+date: 2026-04-25
 duration_min: 22
 beefcake: Erik Lundgren (AE Sweden)
 prospect_attendees: Görel Wennberg (CEO), Tomas Riis (IT manager)
 outcome: disqualified
 ---
 
-# Third meeting, Uppsala Hälsocenter, 2026-04-12
+# Third meeting, Uppsala Hälsocenter, 2026-04-25
 
 Auto-transcribed and lightly cleaned. Short call: the constraint that ends it
 appears at four minutes.

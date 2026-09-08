@@ -5,14 +5,14 @@ prospect: Aarhus Træningscenter
 country: DK
 sites: 2
 members: 1400
-date: 2026-07-05
+date: 2026-07-18
 duration_min: 26
 beefcake: Maria Ekholm (AE Sweden and Denmark)
 prospect_attendees: Søren Bak (owner), Line Thomsen (bookkeeper)
 outcome: lost at second demo
 ---
 
-# First demo, Aarhus Træningscenter, 2026-07-05
+# First demo, Aarhus Træningscenter, 2026-07-18
 
 Auto-transcribed and lightly cleaned. Danish and English mixed; Søren switched to
 English when the bookkeeper left the call.

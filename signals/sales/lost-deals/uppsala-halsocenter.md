@@ -6,9 +6,9 @@ members: 2600
 arr_estimate_sek: 390000
 stage_lost: qualification
 lost_to: no decision
-decided: 2026-04-15
+decided: 2026-04-28
 debrief_by: Erik Lundgren
-debrief_date: 2026-04-17
+debrief_date: 2026-04-30
 ---
 
 # Lost deal: Uppsala Hälsocenter

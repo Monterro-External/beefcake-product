@@ -6,15 +6,16 @@ tenant_key: vestkyst-trening
 segment: mid
 country: NO
 csm: Marte Bakken
-type: check-in
+type: escalation call
 attendee: Kristin Aasen
 ---
 
-# Vestkyst Trening, check-in, 2026-07-10
+# Vestkyst Trening, escalation call, 2026-07-10
 
-Marte Bakken · with Kristin Aasen · hs green, steady
+Marte Bakken · with Kristin Aasen · hs green
 
-- Vipps mentioned unprompted again. Background irritation, not a demand.
-- Asked for a reference call with another operator our size. Arranged.
+- Staff turnover at two sites, asked for another training session. Sent the deck.
+- KA asked for a "what changed this week" view. Not a feature req, a wish.
+- Wants the CSV export to open in Excel without the import wizard. Logged.
 
-AP: f/u next call.
+AP: send numbers by Fri.
