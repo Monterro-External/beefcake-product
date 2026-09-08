@@ -22,13 +22,13 @@
       "triage": "Triage",
       "backlog": "Backlog",
       "todo": "Todo",
-      "discovery": "Discovery",
-      "ready-for-handover": "Ready for handover",
-      "in-development": "In development",
+      "discovery": "In Discovery",
+      "ready-for-handover": "In Handover",
+      "in-development": "In Development",
       "done": "Done",
       "canceled": "Canceled"
     },
-    "states_note": "Linear states as of 2026-09-05: Triage, Backlog, Todo, In Progress, Done, Duplicate, Canceled. Still to do in team settings: rename In Progress to Discovery, add Ready for handover and In development (both started). Until then the skill uses the closest existing state and says so",
+    "states_note": "Linear states as of 2026-09-08, verified via list_issue_statuses: Triage, Backlog, Todo, In Discovery, In Handover, In Development (all three started), Done, Duplicate, Canceled. The canonical keys on the left are what skills and standards use; the values are the exact Linear names.",
     "labels": {
       "needs-more-info": "needs-more-info",
       "back-to-discovery": "back-to-discovery"
@@ -36,9 +36,9 @@
     "transitions_note": "Only product-grill-with-docs moves discovery to ready-for-handover. Only handover-triage moves ready-for-handover to in-development or back to discovery with the label and a reason code.",
     "engineering_team": {
       "team": "Beefcake-platform",
-      "team_key": null,
+      "team_key": "BCPLA",
       "team_id": "fc9ba842-25f8-45a1-9750-0acce3b06c8c",
-      "note": "Where handover-triage creates the engineering ticket. States are Linear defaults today; should mirror the mattpocock triage state machine. team_key unknown until the first issue exists."
+      "note": "Where handover-triage creates the engineering ticket. Conventions in ../beefcake-platform/docs/agents/issue-tracker.md. States are Linear defaults today; should mirror the mattpocock triage state machine."
     },
     "label_ids": {
       "needs-more-info": "dddcf6f3-ad4a-47e7-b339-4b529942c0d6",

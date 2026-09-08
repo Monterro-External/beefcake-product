@@ -1,5 +1,6 @@
 ---
 name: product-grill-with-docs
+disable-model-invocation: true
 description: Run the readiness gate on a Product Ticket before it crosses to engineering. Checks the ticket against section 7 of the product-ticket-standard, CONTEXT.md, the product decision records and engineering's domain glossary, then either moves it from discovery to ready-for-handover or leaves it in discovery with the needs-more-info label and the failing checks named. Use whenever a PM asks to grill a ticket, check if a ticket is ready for handover, run the readiness gate, or move a ticket to ready-for-handover. Not for diagnosing where a ticket stands in discovery (that is advance-ticket) and not for engineering's grill-with-docs, which runs after handover.
 ---
 
