@@ -2,7 +2,7 @@
  * Checks every ticket in tickets/ against the product ticket standard.
  *
  *   npm run validate                  every ticket
- *   npm run validate -- BC-0007       one ticket, by id or by filename
+ *   npm run validate -- BCPRO-0007    one ticket, by id or by filename
  *   npm run validate -- --strict      warnings fail the run too
  *
  * What it checks is mechanical: fields, tier-appropriate sections, the S-tier
@@ -123,7 +123,7 @@ const IMPLEMENTATION_WORDS = [
   'refactor',
 ];
 
-const PLACEHOLDERS = ['BC-XXXX', 'YYYY-MM-DD', 'TODO', 'TBD', 'FIXME', 'XXX'];
+const PLACEHOLDERS = ['BCPRO-XXXX', 'YYYY-MM-DD', 'TODO', 'TBD', 'FIXME', 'XXX'];
 
 // ------------------------------------------------------------------ machinery
 
@@ -261,8 +261,8 @@ function checkTicket(file: string, source: string, seenIds: Map<string, string>)
   }
 
   if (id !== null) {
-    if (!/^BC-\d{4}$/.test(id)) {
-      checker.error('fields', `id is "${id}", expected BC-nnnn`);
+    if (!/^BCPRO-\d{4}$/.test(id)) {
+      checker.error('fields', `id is "${id}", expected BCPRO-nnnn`);
     }
     if (!basename(file).startsWith(`${id}-`)) {
       checker.error('fields', `filename does not start with the id ${id}`);

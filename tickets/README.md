@@ -7,8 +7,8 @@ markdown with frontmatter mirroring the tracker fields exactly.
 
 ## Conventions
 
-- **Id**: `BC-0001`, allocated in sequence, never reused. The filename is
-  `BC-0001-short-slug.md`.
+- **Id**: `BCPRO-0001`, allocated in sequence, never reused. The filename is
+  `BCPRO-0001-short-slug.md`.
 - **One product area per ticket.** Two areas means two tickets.
 - **Templates**: `TEMPLATE-S.md`, `TEMPLATE-M.md`, `TEMPLATE-L.md`. Copy the one
   that matches the tier and delete the guidance comment.
@@ -53,7 +53,7 @@ this and only demands the full set of sections once a ticket has been grilled
 
 ```bash
 npm run validate                 # every ticket
-npm run validate -- BC-0007      # one ticket
+npm run validate -- BCPRO-0007   # one ticket
 npm run validate -- --strict     # warnings count as failures
 ```
 
@@ -62,7 +62,7 @@ for the tier, the S-tier regression clause, the three-open-question limit,
 unresolved placeholders, and the vague adjectives the readiness gate rejects. It
 does not judge whether the content is any good. That is what grilling is for.
 
-Two warnings on BC-0023 are left in deliberately. That ticket was bounced by the
+Two warnings on BCPRO-0023 are left in deliberately. That ticket was bounced by the
 grill for, among other things, the words *robust* and *fast*, and the validator
 flags the same two words in the same lines. Fixing them without fixing the
 ticket would hide the example.
