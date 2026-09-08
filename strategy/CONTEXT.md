@@ -26,7 +26,7 @@ The member feels the defect, the front desk absorbs the anger, the owner calls
 us, and the tenant churns. Payment volume is a revenue line for us, so a payment
 that fails is our problem twice over.
 
-| Segment | Operators | Shape | Share of ARR |
+| Segment | Tenants | Shape | Share of ARR |
 |---|---|---|---|
 | Long tail | ~250 | Single site, a few hundred members | ~30% |
 | Mid | ~80 | 2 to 5 sites, 1,000 to 3,500 members | ~35% |
@@ -48,7 +48,7 @@ Every Nordic gym runs on Beefcake, and members never think about the software.
    take rate for us, and the leading cause of a member cancelling.
 2. **Win chains without becoming a custom shop.** Key accounts are 35% of ARR
    and the only segment where we lose to Boxmaster on capability. A chain's need
-   becomes a tenant setting that any operator can use, or it does not ship.
+   becomes a tenant setting every tenant can use, or it does not ship.
 3. **Norway and Denmark depth before wider expansion.** Norway is a real market
    with a missing payment method. Denmark is one customer and a hypothesis. Both
    are finished before anyone says the word Germany.
@@ -106,7 +106,7 @@ rather than membership operations. Full version: `icp.md`.
 - **No consumer fitness features.** No workout tracking, no nutrition, no
   training programmes, no wearables. We sell to operators. This is asked for
   roughly monthly and the answer does not change.
-- **No on-premise or single-tenant deployment.** One platform, 340 operators.
+- **No on-premise or single-tenant deployment.** One platform, 340 tenants.
 - **No custom development for a single account**, including a key account. The
   need becomes a setting or it is declined in writing.
 - **No native member app beyond the current scope.** The member surface stays
@@ -136,8 +136,17 @@ We use the platform's words, because support, engineering and the customer all
 use them. The list below is the short version; engineering keeps the long one in
 `docs/domain-glossary.md` in the platform repo, and it wins on any detail.
 
-**tenant** (an operator, our customer) · **site** (one physical gym) ·
-**member** (the operator's customer) · **plan** · **subscription** ·
+**Operator or tenant.** They are the same party and the word depends on where
+you are writing. *Operator* is commercial register: who we sell to, what the
+market looks like, what a customer is worth. *Tenant* is the product's word, and
+anything a ticket, a spec or the code says about the party uses it. The glossary
+is unambiguous: in code and in tickets they are the tenant. This file uses
+*operator* when it talks about the business and *tenant* when it talks about the
+product, and a ticket that copies the commercial register will fail the
+vocabulary check.
+
+**tenant** (a gym operator, our customer) · **site** (one physical gym) ·
+**member** (the tenant's customer) · **plan** · **subscription** ·
 **binding period** · **notice period** · **freeze** (Swedish *uppehåll*,
 Norwegian *frys*) · **payment run** (monthly, goes out on the 25th, bills the
 calendar month in arrears) · **charge** · **dunning** (3 attempts, 3 days apart
