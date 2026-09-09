@@ -7,10 +7,10 @@ month by Autogiro. Has our app on her phone and uses it to book classes.
 Not our customer. The operator's customer, and the person who feels every defect
 first.
 
-Last updated 2026-02-18. Evidence:
-[interview 2026-01-13](../discovery/interviews/2026-01-13-member-puls-traning.md),
-[interview 2026-01-15](../discovery/interviews/2026-01-15-member-kraft-trening.md),
-[interview 2026-01-27](../discovery/interviews/2026-01-27-former-member-fitness-norrebro.md).
+Last updated 2026-02-18. Evidence: three round B member conversations
+(2026-01-13, 2026-01-15, 2026-01-27), recorded and transcribed in
+`../discovery/interviews/transcripts/` and not yet written up. By the rule in
+`README.md` every claim below is provisional until they are.
 
 ## What she wants from the software
 

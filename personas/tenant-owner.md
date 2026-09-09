@@ -7,9 +7,10 @@
 Segment: mid. ICP fit: best. Representative of about 80 operators.
 
 Last updated 2026-02-18 after the payment-experience round. Evidence:
-[interview 2025-11-13](../discovery/interviews/2025-11-13-owner-vestkyst-trening.md),
-[interview 2026-01-20](../discovery/interviews/2026-01-20-owner-kuntoklubi-kallio.md),
-[interview 2026-02-03](../discovery/interviews/2026-02-03-head-of-operations-nordic-fitness-group.md).
+[interview 2025-11-13](../discovery/interviews/2025-11-13-owner-vestkyst-trening.md).
+Two round B conversations (2026-01-20, 2026-02-03) are transcribed in
+`../discovery/interviews/transcripts/` and not written up; what they add is
+provisional until they are.
 
 ## What she is actually responsible for
 

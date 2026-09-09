@@ -53,5 +53,7 @@
     "L": "tickets/TEMPLATE-L.md"
   },
   "glossary": "../beefcake-platform/docs/domain-glossary.md",
-  "validator": "npm run validate -- {id} --strict"
+  "validator": "npm run validate -- {id} --strict",
+  "interviews": "discovery/interviews",
+  "synthesis": "discovery/synthesis"
 }

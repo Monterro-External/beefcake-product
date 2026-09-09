@@ -10,8 +10,9 @@ because they are the least likely to be in the room.
 
 Last updated 2026-02-18. Evidence:
 [interview 2025-11-11](../discovery/interviews/2025-11-11-front-desk-gymmet-vasastan.md),
-[interview 2026-01-22](../discovery/interviews/2026-01-22-front-desk-kraft-trening.md),
 [interview 2025-11-20](../discovery/interviews/2025-11-20-front-desk-nordic-fitness-group.md).
+One round B conversation (2026-01-22) is transcribed in
+`../discovery/interviews/transcripts/` and not written up.
 
 ## What he is actually responsible for
 

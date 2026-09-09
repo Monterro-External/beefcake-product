@@ -25,14 +25,14 @@ measurable, it is ours, and the member did not decide to leave.
 ## Opportunities
 
 ### O1. The member cannot tell what is happening or what to do
-*Evidence: [member interview](interviews/2026-01-13-member-puls-traning.md),
-[member interview](interviews/2026-01-27-former-member-fitness-norrebro.md),
-[app reviews](../signals/reviews/app-store-reviews.csv) (7 reviews mentioning
-payment messages), [support theme 2](synthesis/2026-02-06-support-tickets-q4-2025.md).*
+*Evidence: [app reviews](../signals/reviews/app-store-reviews.csv) (7 reviews mentioning
+payment messages), [support theme 2](synthesis/2026-02-06-support-tickets-q4-2025.md).
+Two round B member conversations say the same and are not written up
+(`interviews/transcripts/`), so they do not count yet.*
 
 The dunning messages say a payment failed. They do not say what happens next,
 whether the member must act, or what happens if they do nothing. Members read the
-sequence as escalating severity and some read it as a decision already made.
+sequence as escalating severity.
 
 - **S1.1** Say what happens next and when, in every message. Cheap, testable.
 - **S1.2** One message that updates, rather than a sequence that accumulates.
@@ -41,22 +41,19 @@ sequence as escalating severity and some read it as a decision already made.
   call before it is explored further.)*
 
 ### O2. The front desk cannot explain a failed payment
-*Evidence: [front desk interview](interviews/2026-01-22-front-desk-kraft-trening.md),
-[front desk interview](interviews/2025-11-11-front-desk-gymmet-vasastan.md),
+*Evidence: [front desk interview](interviews/2025-11-11-front-desk-gymmet-vasastan.md),
 [support theme 2](synthesis/2026-02-06-support-tickets-q4-2025.md) (74 tickets).*
 
 The desk sees that a charge failed and not why or when it will retry, so staff
 invent an explanation. The invented explanation becomes what the member believes.
 
-- **S2.1** Show the next retry date where the desk already looks. *"Just give me
-  the date" is the most concrete request in the whole research round.*
+- **S2.1** Show the next retry date where the desk already looks.
 - **S2.2** Translate failure codes into what the operator can do about them.
 - **S2.3** Flag members whose mandate is missing or expired before the run, not
   after it.
 
 ### O3. There is no offer between "your payment failed" and "your membership ended"
 *Evidence: [cohort analysis](usage-cohorts/2026-08-14-failed-payment-churn-cohort.md),
-[former member interview](interviews/2026-01-27-former-member-fitness-norrebro.md),
 [member feedback](../signals/member-feedback/) (several entries across the period).*
 
 Members in temporary difficulty have two options: pay or stop. Freezing exists
@@ -73,9 +70,8 @@ together.
   goes to the gate as an L.)*
 
 ### O4. Some failures are ours, not the member's
-*Evidence: [platform errors export](../signals/platform/errors.jsonl),
-[owner interview](interviews/2026-01-20-owner-kuntoklubi-kallio.md) (30 unexplained
-technical failures a year at one small tenant).*
+*Evidence: [platform errors export](../signals/platform/errors.jsonl). One source,
+so by the rule above this is a guess until a second appears.*
 
 A share of failed charges are technical rather than a bank decline. The operator
 sees the same thing either way and so does the member.

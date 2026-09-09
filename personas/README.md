@@ -10,7 +10,9 @@ claim evidence for them beyond how the company actually runs.
 **Customer-side personas** (`tenant-*`, `member-*`) describe the people who use
 the product. Each one is built from the interviews in
 `../discovery/interviews/` and cites them. A claim in a customer-side persona
-without an interview reference behind it is a defect in the persona.
+without an interview reference behind it is a defect in the persona. Round B has
+not been written up, so the claims that rest on it are marked provisional in each
+file until the notes exist.
 
 | File | Who | Layer |
 |---|---|---|
