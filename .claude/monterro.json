@@ -55,5 +55,7 @@
   "glossary": "../beefcake-platform/docs/domain-glossary.md",
   "validator": "npm run validate -- {id} --strict",
   "interviews": "discovery/interviews",
-  "synthesis": "discovery/synthesis"
+  "synthesis": "discovery/synthesis",
+  "support": "signals/support",
+  "releases": "releases/release-notes"
 }
