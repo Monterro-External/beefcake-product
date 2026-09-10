@@ -11,7 +11,7 @@ status: findings agreed, one gap outstanding
 
 # Members who cancel after a failed payment
 
-Run after the January member interviews, and after Henrik and Nadia at Puls
+Run after the round B member interviews, and after Henrik and Nadia at Puls
 Träning independently described the same population from the desk: members who
 do not decide to leave, they stop paying.
 

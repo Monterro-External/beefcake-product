@@ -82,26 +82,26 @@ tänker aldrig på det egentligen. Det bara försvinner från kontot den där da
 inte in på passen.
 
 **[03:14] David:** Vi ska prata om appen sen. Först vill jag bara höra hur det är
-på gymmet så här i januari.
+på gymmet just nu.
 
 **[03:22] Hanna:** Åh, det är kaos. Jag vet inte om ni ser det i era siffror men
-det är dubbelt så mycket folk. Alla har lovat sig själva någonting på nyår. Man
+det är dubbelt så mycket folk. De kör någon kampanj med gratis första månad. Man
 får stå och vänta på en skivstång. Sexpassen är fulla på en minut när bokningen
 öppnar.
 
 **[03:41] David:** Blir det bättre?
 
-**[03:44] Hanna:** Ja, februari. Runt sportlovet är det tillbaka till det
-vanliga. Det är lite elakt att säga men vi som går året runt räknar ner.
+**[03:44] Hanna:** Ja, om en månad ungefär. När kampanjen är slut är det tillbaka
+till det vanliga. Det är lite elakt att säga men vi som går året runt räknar ner.
 
 **[03:58] David:** Jag lovar att inte skriva det i rapporten.
 
 **[04:01] Hanna:** Skriv det, det är sant.
 
-*(some more about the January crowd and the parking outside the gym, 2 minutes)*
+*(some more about the crowd and the parking outside the gym, 2 minutes)*
 
 **[06:10] David:** Okej. Anledningen till att jag ville prata med just dig är
-att Nadia sa att du haft något strul med betalningen i höstas. Kan du berätta om
+att Nadia sa att du haft något strul med betalningen i oktober. Kan du berätta om
 det, från början?
 
 **[06:22] Hanna:** Ja. Det var i oktober. Jag bytte bank. Jag tänkte inte på
@@ -319,7 +319,7 @@ and a class she used to go to that was removed, 2 minutes)*
 någon av dem om sånt här, betalningar och strul?
 
 **[24:58] Hanna:** Inte direkt. Alltså, jo, en. En kompis som gick samma pass,
-hon fick också såna där meddelanden i höstas, samma typ. Vi pratade om det för
+hon fick också såna där meddelanden i oktober, samma typ. Vi pratade om det för
 att jag frågade om hon också fått dem. Och hon bara slutade komma, hon sa att
 det inte var värt krånglet.
 
@@ -341,7 +341,7 @@ tänka på det. Vi har inte pratat så mycket sen.
 det var det hon sa.
 
 *(short exchange about who leads the 18:00 strength class and that the
-instructor changed in the autumn, 1 minute)*
+instructor changed in October, 1 minute)*
 
 **[27:10] David:** Har du haft något annat strul med betalningen, före eller
 efter oktober?
@@ -395,5 +395,5 @@ att ni ville höra hur det var för oss. Så jag antar att det inte bara var jag
 *(wrap-up: David explains how the notes are used, that she is identified by
 first name only, and that the operator sees nothing; she asks whether the app
 will change, he says he cannot promise anything; small talk about whether the
-January crowd will have thinned by the time anything ships, until the recording
+crowd will have thinned by the time anything ships, until the recording
 ends at 35:04)*

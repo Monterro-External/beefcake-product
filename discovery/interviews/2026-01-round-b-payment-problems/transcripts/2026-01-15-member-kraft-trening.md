@@ -192,7 +192,7 @@ det samme. Det er det poenget er, at det er det samme.
 
 **[09:01] Johan:** Men du tenkte deg om.
 
-**[09:05] Ola:** Det var en måned i fjor vår. Da var det nesten det dobbelte.
+**[09:05] Ola:** Det var en måned i april. Da var det nesten det dobbelte.
 
 **[09:11] Johan:** Nesten det dobbelte.
 
@@ -240,7 +240,7 @@ password, uses BankID, 3 minutes; he holds the phone up to the camera briefly)*
 betaling. Kanskje under der. *(taps)* Ja, "betalinger". Fem hundre og førtini,
 fem hundre og førtini, fem hundre og førtini.
 
-**[13:50] Johan:** Kan du bla bakover til i fjor vår?
+**[13:50] Johan:** Kan du bla bakover til april?
 
 **[13:54] Ola:** *(scrolls)* Det stopper. Det viser noen måneder. Jeg vet ikke
 hvordan man kommer lenger bak.

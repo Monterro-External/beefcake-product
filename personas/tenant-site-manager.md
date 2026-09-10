@@ -8,8 +8,8 @@ Segment: mid and key account. ICP fit: best. Representative of roughly 400 peopl
 across our book.
 
 Last updated 2026-02-18. Evidence:
-[interview 2025-11-18](../discovery/interviews/2025-11-18-site-manager-voima-kuntosalit.md),
-[interview 2025-11-06](../discovery/interviews/2025-11-06-site-manager-puls-traning.md).
+[interview 2025-11-18](../discovery/interviews/2025-11-round-a-freezes-and-cancellations/notes/2025-11-18-site-manager-voima-kuntosalit.md),
+[interview 2025-11-06](../discovery/interviews/2025-11-round-a-freezes-and-cancellations/notes/2025-11-06-site-manager-puls-traning.md).
 
 ## What he is actually responsible for
 

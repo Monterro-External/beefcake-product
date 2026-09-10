@@ -293,7 +293,7 @@ flasker.
 **[27:31] Johan:** La oss ta uka etter den tjuefemte. Beskriv den for meg.
 
 **[27:36] Mathias:** Trekket går den tjuefemte. Hvis den tjuefemte er en
-fredag, som nå i januar, så begynner meldingene å gå ut fredag til dem det
+fredag, så begynner meldingene å gå ut fredag til dem det
 feilet for. Så har de helga. Og så kommer mandagen.
 
 **[27:54] Johan:** Og mandagen?

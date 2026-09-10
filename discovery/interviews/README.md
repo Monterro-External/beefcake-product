@@ -1,36 +1,29 @@
 # Interviews
 
-Two research rounds, twelve conversations, and the guides used for each. Notes
-are written up within a day of the conversation and are not edited afterwards
-except to correct a factual error, which is marked inline.
+One folder per research round, named by the month the round started, its letter
+and its question. Each round's `README.md` holds the question, the guide, who
+ran it and who was heard. The recordings sit untouched in `transcripts/`, the
+written-up notes in `notes/`. A recording that has not been written up yet
+carries `written_up: no` in its frontmatter until its note exists in `notes/`.
 
-Round A is written up. Round B was recorded and auto-transcribed and the write-up
-never happened: the six transcripts are in `transcripts/`, one per conversation,
-each with `written_up: no` in its frontmatter until a note exists next to the
-round A ones. A transcript is a recording, not research. Nothing in it counts as
-evidence until it has been written up under the rules below.
+Notes are written up within a day of the conversation and are not edited
+afterwards except to correct a factual error, which is marked inline. A
+transcript is a recording, not research. Nothing in it counts as evidence until
+it has been written up under the rules below.
 
-| Round | Period | Question | Ran by |
-|---|---|---|---|
-| A | November 2025 | How do operators and their staff actually handle freezes, cancellations and the members who ask for them? | Rebecka Nyström, Ingrid Halvorsen |
-| B | January and February 2026 | What does a payment problem look like from the member's side, the desk's side and the owner's side? | Johan Wirén, David Krag |
-
-| Date | Who | Role | Tenant | Round |
+| Round | Period | Question | Ran by | State |
 |---|---|---|---|---|
-| 2025-11-04 | Marcus Sandell | Owner | Puls Träning (SE, mid) | A |
-| 2025-11-06 | Nadia Ohlin | Site manager | Puls Träning Kista | A |
-| 2025-11-11 | Elias Berg | Front desk | Gymmet Vasastan (SE, long tail) | A |
-| 2025-11-13 | Kristin Aasen | Owner | Vestkyst Trening (NO, mid) | A |
-| 2025-11-18 | Jarno Mäkelä | Site manager | Voima Kuntosalit Tampere Keskusta (FI, mid) | A |
-| 2025-11-20 | Sofia Palm | Front desk | Nordic Fitness Group Göteborg Nordstan (key account) | A |
-| 2026-01-13 | Hanna | Member | Puls Träning Kista | B |
-| 2026-01-15 | Ola | Member | Kraft Trening Oslo Storo | B |
-| 2026-01-20 | Riikka Salo | Owner | Kuntoklubi Kallio (FI, long tail) | B |
-| 2026-01-22 | Mathias Rud | Front desk | Kraft Trening Oslo Storo | B |
-| 2026-01-27 | Camilla | Former member | Fitness Nørrebro (DK, long tail) | B |
-| 2026-02-03 | Petra Lindgren | Head of operations | Nordic Fitness Group (key account) | B |
+| [A](<2025-11-round-a-freezes-and-cancellations/README.md>) | November 2025 | How do operators and their staff actually handle freezes, cancellations and the members who ask for them? | Rebecka Nyström, Ingrid Halvorsen | Six notes |
+| [B](<2026-01-round-b-payment-problems/README.md>) | January and February 2026 | What does a payment problem look like from the member's side, the desk's side and the owner's side? | Johan Wirén, David Krag | Six transcripts, none written up |
 
-## How to read these
+## How a guide is used
+
+The guide is a reminder of what we are trying to learn. It is never a script.
+The rule we hold to: ask about the last time it happened, never about what they
+would want. A participant asked what they want will design a product; a
+participant asked what they did last Tuesday will describe the problem.
+
+## How to read the notes
 
 - **Quotes are verbatim**, translated where the conversation was not in English,
   with the original in brackets where the wording matters.

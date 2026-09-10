@@ -121,8 +121,8 @@ forty failures. The rest the retry catches.
 **[07:50] Johan:** Show me the failed list. Last month, if you can.
 
 **[07:54] Riikka:** Joo. Payments, then this filter. December. *(she scrolls)*
-Forty-three. Normal for December, people spend on Christmas and the 25th is
-Christmas day, so.
+Forty-three. Normal for December, it was a heavy month for a lot of
+people, so.
 
 *(she walks through the December list line by line, reading names and amounts,
 4 minutes)*
@@ -291,7 +291,7 @@ thing.
 laita ne varastoon, mä kuittaan sen myöhemmin. *(back)* Kaisa. A delivery. Paper
 towels, very important.
 
-*(small talk about the delivery and the January rush, 3 minutes)*
+*(small talk about the delivery and how busy the floor has been, 3 minutes)*
 
 **[40:02] Johan:** I want to ask about two things that are not payments, briefly,
 because we hear about them elsewhere. The class schedule, and the door.
@@ -313,7 +313,7 @@ noticed because Wednesday's first check-in was before we opened.
 **[41:05] Riikka:** Real members, regulars who were in that evening. I asked one
 of them once and he said he left at nine thirty like always. So he did not check
 in at 23:00. Something did. It has only been since we changed the door reader,
-last spring. Before that the log was clean. Mutta kun kukaan ei oo valittanut ja
+in April. Before that the log was clean. Mutta kun kukaan ei oo valittanut ja
 ovi toimii, niin. It is item nine on my list, as a curiosity.
 
 **[41:34] Johan:** Would you send those to us when you see them? Even without a
@@ -325,7 +325,7 @@ not think anyone wanted things that do not hurt anyone.
 **[41:52] Johan:** We do. Now, the list. Let us hear it.
 
 **[41:58] Riikka:** Item one, small. The font in the member list is one size
-smaller than everywhere else, since the autumn update. It is nothing, but I
+smaller than everywhere else, since the October update. It is nothing, but I
 notice it every day.
 
 **[42:15] Johan:** Noted.
@@ -341,11 +341,10 @@ month I move one column in Excel. I know how that sounds.
 *(items four to seven, mostly about where information sits on which screen,
 4 minutes)*
 
-**[47:10] Riikka:** Eight is not really an item. The printed schedule for the
-first week of January had the wrong week number on it, it said fifty-three, and
-I reprinted it by hand with a pen. The New Year thing, it happens with
-calendars. Not worth a ticket. I just wrote it down because I write everything
-down.
+**[47:10] Riikka:** Eight is not really an item. The printed schedule for one
+week in January had the wrong week number on it, one behind, and I
+reprinted it by hand with a pen. It happens with calendars. Not worth a ticket.
+I just wrote it down because I write everything down.
 
 **[47:32] Johan:** Fair enough.
 

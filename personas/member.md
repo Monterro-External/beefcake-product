@@ -9,7 +9,7 @@ first.
 
 Last updated 2026-02-18. Evidence: three round B member conversations
 (2026-01-13, 2026-01-15, 2026-01-27), recorded and transcribed in
-`../discovery/interviews/transcripts/` and not yet written up. By the rule in
+`../discovery/interviews/2026-01-round-b-payment-problems/transcripts/` and not yet written up. By the rule in
 `README.md` every claim below is provisional until they are.
 
 ## What she wants from the software

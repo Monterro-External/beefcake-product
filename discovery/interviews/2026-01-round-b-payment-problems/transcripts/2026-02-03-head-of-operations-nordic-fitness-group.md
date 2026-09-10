@@ -251,7 +251,7 @@ alone.
 
 **[47:10] Johan:** Kan vi gå tillbaka till din lista? Läs några rader.
 
-*(Petra scrolls through her list and reads out rows from the autumn, none of which she can say the outcome of, 4 minutes)*
+*(Petra scrolls through her list and reads out rows from the last few months, none of which she can say the outcome of, 4 minutes)*
 
 **[51:40] Johan:** Vad händer med det som inte kommer tillbaka?
 

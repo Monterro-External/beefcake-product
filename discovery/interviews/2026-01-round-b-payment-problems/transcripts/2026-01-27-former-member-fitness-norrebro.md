@@ -53,9 +53,9 @@ jeg tygger måske lidt.
 **[01:21] David:** Det er bare i orden. Hvordan er det derude, er det stadig så
 gråt?
 
-**[01:26] Camilla:** Det er Nørrebro i januar. Det regner sidelæns og cykelstien
+**[01:26] Camilla:** Det er Nørrebro. Det regner sidelæns og cykelstien
 på Nørrebro gade er én stor vandpyt. Jeg cyklede herind i morges og blev våd til
-knæene. Det er den tid på året hvor alle siger de skal begynde at træne, og så
+knæene. Det er sådan et vejr hvor alle siger de skal begynde at træne, og så
 bliver de siddende.
 
 **[01:44] David:** Det er lidt ironisk, med tanke på hvad vi skal snakke om.
@@ -71,7 +71,7 @@ og så sletter vi det.
 sådan bare hvordan det var? Hvornår startede du, hvad brugte du det til?
 
 **[02:14] Camilla:** Jeg startede i december, altså december 2024, lige efter
-jul. Klassisk. Så det blev sådan cirka elleve måneder, til november. Jeg kom to
+en flytning. Så det blev sådan cirka elleve måneder, til november. Jeg kom to
 gange om ugen, nogenlunde. Tirsdag og enten torsdag eller søndag. Mest for mig
 selv, altså styrke og lidt løbebånd. Nogle gange en time, der var en spinning
 om søndagen jeg tog med til når jeg kunne komme op.
@@ -284,8 +284,8 @@ ikke kom noget træk den første november. Så tænkte jeg, okay, det var det.
 **[19:08] David:** Og du tænkte ikke på at gå ned og starte igen?
 
 **[19:12] Camilla:** Nej. Nu var det jo stoppet. Så skulle jeg melde mig ind igen
-og der er indmeldelsesgebyr og alt det, og så var vi i november og så er det jo
-snart jul, og så ved man godt hvordan det går. Så nej.
+og der er indmeldelsesgebyr og alt det, og så var vi i november og jeg havde
+egentlig ikke savnet det, og så ved man godt hvordan det går. Så nej.
 
 *(she checks the clock on the wall and says she has until half past, about half
 a minute)*
