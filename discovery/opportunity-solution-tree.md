@@ -2,8 +2,8 @@
 type: opportunity solution tree
 outcome: Reduce involuntary churn caused by payment failures
 owner: Johan Wirén
-started: 2026-07-06
-updated: 2026-08-20
+started: 2026-07-27
+updated: 2026-09-09
 status: live, partially filled
 ---
 
@@ -28,7 +28,7 @@ measurable, it is ours, and the member did not decide to leave.
 *Evidence: [app reviews](../signals/reviews/app-store-reviews.csv) (7 reviews mentioning
 payment messages), [support theme 2](synthesis/2026-02-06-support-tickets-q4-2025.md).
 Two round B member conversations say the same and are not written up
-(`interviews/2026-01-round-b-payment-problems/transcripts/`), so they do not count yet.*
+(`interviews/2026-02-round-b-payment-problems/transcripts/`), so they do not count yet.*
 
 The dunning messages say a payment failed. They do not say what happens next,
 whether the member must act, or what happens if they do nothing. Members read the
@@ -41,7 +41,7 @@ sequence as escalating severity.
   call before it is explored further.)*
 
 ### O2. The front desk cannot explain a failed payment
-*Evidence: [front desk interview](interviews/2025-11-round-a-freezes-and-cancellations/notes/2025-11-11-front-desk-gymmet-vasastan.md),
+*Evidence: [front desk interview](interviews/2025-12-round-a-freezes-and-cancellations/notes/2025-12-11-front-desk-gymmet-vasastan.md),
 [support theme 2](synthesis/2026-02-06-support-tickets-q4-2025.md) (74 tickets).*
 
 The desk sees that a charge failed and not why or when it will retry, so staff
@@ -53,7 +53,7 @@ invent an explanation. The invented explanation becomes what the member believes
   after it.
 
 ### O3. There is no offer between "your payment failed" and "your membership ended"
-*Evidence: [cohort analysis](usage-cohorts/2026-08-14-failed-payment-churn-cohort.md),
+*Evidence: [cohort analysis](usage-cohorts/2026-09-03-failed-payment-churn-cohort.md),
 [member feedback](../signals/member-feedback/) (several entries across the period).*
 
 Members in temporary difficulty have two options: pay or stop. Freezing exists
@@ -82,7 +82,7 @@ sees the same thing either way and so does the member.
   the one with the least evidence behind it.*
 
 ### O5. Members do not come back after a freeze
-*Evidence: [site manager interview](interviews/2025-11-round-a-freezes-and-cancellations/notes/2025-11-06-site-manager-puls-traning.md)
+*Evidence: [site manager interview](interviews/2025-12-round-a-freezes-and-cancellations/notes/2025-12-08-site-manager-puls-traning.md)
 (eleven paper notes on a monitor), [expansion call](../signals/sales/transcripts/puls-traning-fifth-site.md).*
 
 Adjacent to the outcome rather than inside it: this is voluntary churn following

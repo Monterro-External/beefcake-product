@@ -5,14 +5,14 @@ prospect: Odense Fitness
 country: DK
 sites: 1
 members: 900
-date: 2026-08-23
+date: 2026-08-30
 duration_min: 18
 beefcake: Maria Ekholm (AE Sweden and Denmark)
 prospect_attendees: Katrine Bruun (owner)
 outcome: open, low expectation
 ---
 
-# First call, Odense Fitness, 2026-08-23
+# First call, Odense Fitness, 2026-08-30
 
 Auto-transcribed and lightly cleaned. Short discovery call, inbound lead.
 
@@ -23,7 +23,7 @@ get in touch?
 
 **[00:20] Katrine:** My system is being retired. The company was bought and they
 are moving everyone to a different product I do not like. So I have to choose
-something by the new year.
+something by January.
 
 **[00:38] Maria:** That is a real deadline, which is unusual and helpful. What
 matters most?
@@ -57,7 +57,7 @@ company. She has asked us twice whether we are serious about Denmark.
 
 **[02:08] Katrine:** And are you?
 
-**[02:13] Maria:** There is a decision being made about it this year. I am not
+**[02:13] Maria:** There is a decision being made about it in the next few months. I am not
 going to tell you it is settled.
 
 **[02:24] Katrine:** I appreciate the honesty and it does not help me choose a

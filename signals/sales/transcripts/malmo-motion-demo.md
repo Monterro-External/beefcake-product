@@ -5,14 +5,14 @@ prospect: Malmö Motion
 country: SE
 sites: 3
 members: 1900
-date: 2026-06-08
+date: 2026-06-15
 duration_min: 36
 beefcake: Erik Lundgren (AE Sweden)
 prospect_attendees: Ingela Sundin (owner), Pontus Ek (site manager, Limhamn)
 outcome: open, in procurement
 ---
 
-# Demo and migration questions, Malmö Motion, 2026-06-08
+# Demo and migration questions, Malmö Motion, 2026-06-15
 
 Auto-transcribed and lightly cleaned. The whole second half is about migration,
 which is normal and is usually where deals are decided.

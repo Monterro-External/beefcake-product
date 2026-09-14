@@ -2,8 +2,8 @@
 thread: Kraft Trening, receipts and reporting
 tenant: Kraft Trening
 segment: key_account
-opened: 2026-08-17
-last_message: 2026-09-04
+opened: 2026-08-24
+last_message: 2026-09-11
 status: open
 owner: Marte Bakken
 raised_to: Johan Wirén
@@ -12,13 +12,13 @@ raised_to: Johan Wirén
 # Escalation: Kraft Trening, receipt currency and reporting
 
 Email thread, forwarded into the escalation folder by Marte Bakken on
-2026-08-21. Five messages.
+2026-08-28. Five messages.
 
 ---
 
 **From:** Eirik Nordhagen, operations manager, Kraft Trening
 **To:** Marte Bakken
-**Date:** 2026-08-17 15:06
+**Date:** 2026-08-24 15:06
 **Subject:** To samlede problemer
 
 Marte,
@@ -45,7 +45,7 @@ Eirik
 
 **From:** Marte Bakken
 **To:** Eirik Nordhagen
-**Date:** 2026-08-17 17:40
+**Date:** 2026-08-24 17:40
 **Subject:** Re: To samlede problemer
 
 Eirik,
@@ -65,7 +65,7 @@ Marte
 
 **From:** Marte Bakken
 **To:** Johan Wirén, Ingrid Halvorsen
-**Date:** 2026-08-18 09:02
+**Date:** 2026-08-25 09:02
 **Subject:** Kraft: receipts in SEK, and reporting at eight sites
 
 Translating the important half of the message below, because Eirik has put his
@@ -90,7 +90,7 @@ Marte
 **From:** Ingrid Halvorsen
 **To:** Marte Bakken
 **Cc:** Johan Wirén
-**Date:** 2026-08-20 13:25
+**Date:** 2026-08-27 13:25
 **Subject:** Re: Kraft: receipts in SEK, and reporting at eight sites
 
 The receipt one is confirmed and it is narrow: Norwegian tenants only, and it
@@ -116,7 +116,7 @@ Ingrid
 **From:** Marte Bakken
 **To:** Ingrid Halvorsen
 **Cc:** Johan Wirén
-**Date:** 2026-09-04 08:11
+**Date:** 2026-09-11 08:11
 **Subject:** Re: Kraft: receipts in SEK, and reporting at eight sites
 
 Answers.
