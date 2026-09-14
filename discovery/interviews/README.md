@@ -13,8 +13,8 @@ it has been written up under the rules below.
 
 | Round | Period | Question | Ran by | State |
 |---|---|---|---|---|
-| [A](<2025-11-round-a-freezes-and-cancellations/README.md>) | November 2025 | How do operators and their staff actually handle freezes, cancellations and the members who ask for them? | Rebecka Nyström, Ingrid Halvorsen | Six notes |
-| [B](<2026-01-round-b-payment-problems/README.md>) | January and February 2026 | What does a payment problem look like from the member's side, the desk's side and the owner's side? | Johan Wirén, David Krag | Six transcripts, none written up |
+| [A](<2025-12-round-a-freezes-and-cancellations/README.md>) | December 2025 | How do operators and their staff actually handle freezes, cancellations and the members who ask for them? | Rebecka Nyström, Ingrid Halvorsen | Six notes |
+| [B](<2026-02-round-b-payment-problems/README.md>) | February and March 2026 | What does a payment problem look like from the member's side, the desk's side and the owner's side? | Johan Wirén, David Krag | Six transcripts, none written up |
 
 ## How a guide is used
 

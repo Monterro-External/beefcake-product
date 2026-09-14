@@ -7,9 +7,9 @@ classes a week. Reports to a regional manager who reports to the owner.
 Segment: mid and key account. ICP fit: best. Representative of roughly 400 people
 across our book.
 
-Last updated 2026-02-18. Evidence:
-[interview 2025-11-18](../discovery/interviews/2025-11-round-a-freezes-and-cancellations/notes/2025-11-18-site-manager-voima-kuntosalit.md),
-[interview 2025-11-06](../discovery/interviews/2025-11-round-a-freezes-and-cancellations/notes/2025-11-06-site-manager-puls-traning.md).
+Last updated 2026-03-18. Evidence:
+[interview 2025-12-18](../discovery/interviews/2025-12-round-a-freezes-and-cancellations/notes/2025-12-18-site-manager-voima-kuntosalit.md),
+[interview 2025-12-08](../discovery/interviews/2025-12-round-a-freezes-and-cancellations/notes/2025-12-08-site-manager-puls-traning.md).
 
 ## What he is actually responsible for
 

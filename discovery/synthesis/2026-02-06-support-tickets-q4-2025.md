@@ -73,7 +73,7 @@ them clearly enough at the point of the transaction.
 
 **Recommendation.** Design work on the freeze and notice confirmation screens,
 starting from what the staff member has to say out loud. Carried into the
-prototype test now scheduled for July.
+prototype test now scheduled for August.
 
 ## Themes we are deliberately not acting on
 
