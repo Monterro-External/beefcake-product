@@ -1,13 +1,13 @@
 tenant_id,tenant_name,segment,country,currency,sites,active_members,health_score,health_band,failed_payment_rate,churn_rate_90d,class_fill_rate,error_rate_per_thousand,access_sync_lag_hours,member_app_adoption
-ten_0000008,Aktiv Hälsa,mid,SE,SEK,2,1200,73,green,0.0568,0.0375,0.7797,4.644,24,0.3642
-ten_0000003,Bodyfokus Umeå,long_tail,SE,SEK,1,459,70,green,0.0502,0.0283,0.7438,7.000,24,0.2026
-ten_0000006,Fitness Nørrebro,long_tail,DK,DKK,1,529,86,green,0.0251,0.0284,0.7529,2.000,24,0.2628
-ten_0000001,Gymmet Vasastan,long_tail,SE,SEK,1,533,72,green,0.0591,0.0319,0.7889,5.000,24,0.2795
-ten_000000c,Kraft Trening,key_account,NO,NOK,8,9674,60,amber,0.0643,0.0605,0.8358,128.406,24,0.4705
-ten_0000005,Kuntoklubi Kallio,long_tail,FI,EUR,1,809,69,amber,0.0606,0.0519,0.8497,6.414,25,0.4845
-ten_000000b,Nordic Fitness Group,key_account,SE,SEK,15,23631,63,amber,0.0813,0.0609,0.8472,5.415,24,0.5764
-ten_0000007,Puls Träning,mid,SE,SEK,4,2534,72,green,0.0611,0.0533,0.8295,4.315,24,0.4929
-ten_0000004,Trening Grünerløkka,long_tail,NO,NOK,1,612,67,amber,0.0511,0.0294,0.7730,137.000,24,0.3611
-ten_0000002,Träningsverket Lund,long_tail,SE,SEK,1,698,75,green,0.0578,0.0358,0.8508,4.955,24,0.4054
-ten_0000009,Vestkyst Trening,mid,NO,NOK,3,1840,65,amber,0.0602,0.0293,0.7688,102.666,24,0.4114
-ten_000000a,Voima Kuntosalit,mid,FI,EUR,5,3240,78,green,0.0373,0.0444,0.8267,3.609,49,0.5373
+ten_0000008,Aktiv Hälsa,mid,SE,SEK,2,1191,81,green,0.0439,0.0302,0.7945,2.608,24,0.3568
+ten_0000003,Bodyfokus Umeå,long_tail,SE,SEK,1,459,74,green,0.0488,0.0261,0.7564,5.000,24,0.2092
+ten_0000006,Fitness Nørrebro,long_tail,DK,DKK,1,521,81,green,0.0261,0.0173,0.7696,4.000,48,0.2572
+ten_0000001,Gymmet Vasastan,long_tail,SE,SEK,1,534,70,green,0.0544,0.0506,0.8067,5.000,24,0.2884
+ten_000000c,Kraft Trening,key_account,NO,NOK,8,9558,61,amber,0.0651,0.0566,0.8442,125.493,24,0.4737
+ten_0000005,Kuntoklubi Kallio,long_tail,FI,EUR,1,801,73,green,0.0566,0.0437,0.8573,5.886,25,0.4694
+ten_000000b,Nordic Fitness Group,key_account,SE,SEK,15,23271,64,amber,0.0817,0.0581,0.8575,5.277,24,0.5784
+ten_0000007,Puls Träning,mid,SE,SEK,4,2485,76,green,0.0541,0.0475,0.8357,3.815,24,0.4893
+ten_0000004,Trening Grünerløkka,long_tail,NO,NOK,1,611,65,amber,0.0579,0.0311,0.7777,109.000,24,0.3388
+ten_0000002,Träningsverket Lund,long_tail,SE,SEK,1,692,77,green,0.0543,0.0332,0.8692,4.827,24,0.4249
+ten_0000009,Vestkyst Trening,mid,NO,NOK,3,1833,65,amber,0.0623,0.0295,0.7820,112.078,24,0.4233
+ten_000000a,Voima Kuntosalit,mid,FI,EUR,5,3219,80,green,0.0404,0.0466,0.8384,3.697,25,0.5381
