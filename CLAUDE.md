@@ -85,7 +85,7 @@ happens to be in the session, and stays silent about vocabulary when it is not.
 | Ideation and validation | `/brainstorm-ideas`, `/solution-tournament`, `/prototype-and-design`, `/validate-value`, `/quick-validate` |
 | Priority | `/prioritization-gate`, `/pre-mortem`, `/red-team` |
 | Moving a ticket forward | `/advance-ticket` |
-| Before handover | `/product-grill-with-docs` |
+| Before handover | `/monterro:product-grill-with-docs` |
 
 `/advance-ticket` is the default entry point for an existing ticket: it reads
 the ticket, says which stage it is stuck at, names the one blocking gap and
