@@ -4,10 +4,6 @@ title: One line, the capability or change, in the customer's terms
 type: feature
 tier: M
 product_area: subscriptions
-door: two-way
-gate_decision: null
-outcome_metric: The product outcome this targets, measurable
-experience_precedence: none
 status: backlog
 owner: null
 created: YYYY-MM-DD
@@ -18,14 +14,19 @@ signal_refs:
 ---
 
 <!--
-M-tier, the standard ticket. A new capability or a meaningful change to one,
-reversible. Target: a reader who has never seen it understands it in five
-minutes.
+M-tier, the standard ticket, at standard v1.7. A new capability or a meaningful
+change to one, reversible. Target: a reader who has never seen it understands
+it in five minutes.
 
 Altitude rule: this states the problem, the outcome, the product decisions and
 the behaviour a customer would observe. It never states how the system is built.
-Implementation thinking goes to Ideas parked, where it survives and is visibly
-non-binding.
+An implementation idea worth keeping stays as a line that says in as many words
+that it binds nobody.
+
+v1.7 cut this template back. Measurable success criteria, the business outcome,
+the Product decisions table and an Experience reference section are L-tier
+content now; so is `outcome_metric`. Appetite and Ideas parked were retired at
+every tier. If you are reaching for one of them, the ticket is an L.
 -->
 
 ## Intent
@@ -44,13 +45,11 @@ Evidence:
 - [Source](path) what it shows
 - [Source](path) what it shows
 
-## Outcome and success criteria
+## Outcome
 
-Product outcome: what customers do differently. Never what we ship.
-Business outcome: what that ladders to, named against an OKR where one applies.
-
-- **SC-1**: measurable, technology-agnostic, user-observable.
-- **SC-2**: as above. Baseline stated where one exists.
+What customers do differently once this ships, in prose. Never what we ship.
+One line is enough at this tier; if it needs numbered criteria to be believed,
+it is an L.
 
 ## Scope
 
@@ -60,22 +59,19 @@ Business outcome: what that ladders to, named against an OKR where one applies.
 **Non-goals**, what a reasonable reader would otherwise assume is included:
 -
 
-**Appetite**: how much this is worth as a design constraint, never an estimate.
-
 **Assumptions and decided defaults**: where a call was made instead of a
 question asked, say so here. This is what keeps the open questions short.
 
-## Product decisions
+## Decisions made
 
-| ID | Decision | Rationale | Rejected alternative |
-|---|---|---|---|
-| PD-1 |  |  |  |
+One bullet per decision a reader would otherwise relitigate: the decision, and
+why. Work through the list that is genuinely product's and reliably forgotten:
+roles and permissions, plan or tier gating, what happens to existing customer
+data, retention, audit logging, localisation across the four markets, admin
+versus front-desk versus member surfacing, what the customer is told when it
+fails, and which analytics events to emit.
 
-Work through the list that is genuinely product's and reliably forgotten: roles
-and permissions, plan or tier gating, what happens to existing customer data,
-retention, audit logging, localisation across the four markets, admin versus
-front-desk versus member surfacing, what the customer is told when it fails, and
-which analytics events to emit.
+-
 
 ## Acceptance scenarios
 
@@ -86,22 +82,16 @@ error case and the case we would be most upset to see broken.
 - **AS-2 (error case)**: Given ... when ... then ...
 - **AS-3 (regression)**: Given ... when ... then ... continues to ...
 
-## Experience reference
-
-Link to the prototype or design file, key flows named in prose, no embedded
-screenshots. Declare precedence in the field above: `illustrative` (the prose
-wins), `binding` (the prototype wins for the experience), or `none`.
+**Reference**: optional, one line. Link to the prototype or design file with its
+precedence stated beside it, `binding` or `illustrative`. Delete the line if
+there is none: no reference is a valid state and says the solution space is
+still open.
 
 ## Open questions
 
-Maximum three, each with an owner and a needed-by date. More than three means
-this is still in discovery.
-
-- Question. Owner: name. Needed by: date.
-
-## Ideas parked
-
-Non-binding. Solution and implementation ideas that came up, kept so the
-thinking survives without committing engineering to it.
+Genuinely deferrable unknowns, written plainly. Three or fewer by the time the
+grill runs, which is a handover gate rather than a writing rule: a fourth means
+this is still in discovery. Anything a reasonable default resolves moves to
+Assumptions and decided defaults instead.
 
 -

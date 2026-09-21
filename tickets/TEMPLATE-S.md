@@ -4,10 +4,6 @@ title: One line, what is wrong or missing, in the user's terms
 type: bug            # bug or feature. Type says what it is, tier says how much ceremony
 tier: S
 product_area: payments
-door: two-way
-gate_decision: null
-outcome_metric: null
-experience_precedence: none
 status: backlog
 owner: null
 created: YYYY-MM-DD
@@ -17,14 +13,17 @@ signal_refs:
 ---
 
 <!--
-S-tier, the change note. A defect, a copy change, a config default, a small
-capability nobody would argue about: anything describable in one sentence.
-Type and tier are independent: a bug is usually S, and a small feature can be
-S too. It carries Intent and Problem and evidence, and nothing else. Adding
-sections to an S-tier ticket is how ceremony creeps.
+S-tier, the change note, at standard v1.7. A defect, a copy change, a config
+default, a small capability nobody would argue about: anything describable in
+one sentence. Type and tier are independent: a bug is usually S, and a small
+feature can be S too. It carries Intent, Problem and evidence, and Behaviour,
+and nothing else. Adding sections to an S-tier ticket is how ceremony creeps.
 
 If you cannot write the intent in one sentence, or the fix needs a product
 decision anyone would argue about, this is not an S. Re-tier it before writing.
+
+`created` and `updated` exist because this store is files. In Linear the
+tracker keeps both and neither is a ticket field.
 -->
 
 ## Intent
@@ -51,6 +50,8 @@ country, or on one day of the month, say so here.
 2.
 3.
 
+## Behaviour
+
 ### Current behaviour
 
 What happens today, observed and dated.
@@ -73,6 +74,7 @@ work.
 
 Optional. When the PM has explored alternatives and one design won: a link or
 the attached screenshots, and the precedence, `binding` or `illustrative`.
-Delete this section if there is none. If the exploration surfaced a decision
-anyone would argue about, this is an M, and the decision belongs in Product
-decisions with the rejected variant as the alternative.
+Delete this section if there is none. Precedence is stated here, in the prose:
+the `experience_precedence` field was retired in v1.7. If the exploration
+surfaced a decision anyone would argue about, this is an M, and the decision
+belongs in Decisions made with the rejected variant as the alternative.

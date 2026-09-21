@@ -5,9 +5,10 @@
  *   npm run validate -- BCPRO-0007    one ticket, by id or by filename
  *   npm run validate -- --strict      warnings fail the run too
  *
- * What it checks is mechanical: fields, tier-appropriate sections, the S-tier
- * regression clause, the three-question limit, leftover placeholders, and the
- * vague adjectives the readiness gate rejects. What it cannot check is whether
+ * Checks against standard v1.7. What it checks is mechanical: fields,
+ * tier-appropriate sections, sections and fields the standard has retired, the
+ * S-tier regression clause, the open-question cap, leftover placeholders, and
+ * the vague adjectives the readiness gate rejects. What it cannot check is whether
  * the content is any good, which is what grilling is for.
  */
 
@@ -24,7 +25,6 @@ const TICKET_DIR = join(REPO_ROOT, 'tickets');
 const TYPES = ['bug', 'feature', 'initiative'] as const;
 const TIERS = ['S', 'M', 'L'] as const;
 const DOORS = ['two-way', 'one-way'] as const;
-const PRECEDENCE = ['illustrative', 'binding', 'none'] as const;
 
 /** From the product-area taxonomy in strategy/CONTEXT.md. */
 const PRODUCT_AREAS = [
@@ -67,16 +67,18 @@ const REASON_CODES = [
 /** Statuses that mean the prioritisation gate has already passed. */
 const POST_GATE_STATUSES = new Set(['ready-for-handover', 'in-development', 'done']);
 
+/**
+ * Standard v1.7 section 3, plus `created` and `updated`, which exist only
+ * because this store is files: in Linear the tracker keeps both.
+ * `experience_precedence` and `template_version` were retired in v1.7;
+ * precedence is now stated in the Experience reference prose.
+ */
 const REQUIRED_FIELDS = [
   'id',
   'title',
   'type',
   'tier',
   'product_area',
-  'door',
-  'gate_decision',
-  'outcome_metric',
-  'experience_precedence',
   'status',
   'owner',
   'created',
@@ -84,21 +86,38 @@ const REQUIRED_FIELDS = [
   'signal_refs',
 ] as const;
 
+/** Set by the prioritisation gate, and L-tier authoring. M and S carry none of them. */
+const REQUIRED_FIELDS_L = ['door', 'gate_decision', 'outcome_metric', 'decision_owner'] as const;
+
 const SECTIONS_EMBRYO = ['Intent', 'Problem and evidence'];
-const SECTIONS_S = ['Intent', 'Problem and evidence'];
+const SECTIONS_S = ['Intent', 'Problem and evidence', 'Behaviour'];
 const SUBSECTIONS_S = ['Reproduction', 'Current behaviour', 'Expected behaviour', 'Regression clause'];
+/** v1.7: Outcome as prose, decisions as bullets, no Experience reference section, no Ideas parked. */
 const SECTIONS_M = [
+  'Intent',
+  'Problem and evidence',
+  'Outcome',
+  'Scope',
+  'Decisions made',
+  'Acceptance scenarios',
+  'Open questions',
+];
+/** v1.7: L keeps the table and the section, and loses Pre-mortem and red-team and Decision owner. */
+const SECTIONS_L = [
   'Intent',
   'Problem and evidence',
   'Outcome and success criteria',
   'Scope',
   'Product decisions',
+  'Migration and rollback intent',
   'Acceptance scenarios',
   'Experience reference',
   'Open questions',
-  'Ideas parked',
 ];
-const SECTIONS_L = [...SECTIONS_M, 'Migration and rollback intent', 'Pre-mortem and red-team', 'Decision owner'];
+
+/** Retired in v1.7. Present means the ticket was written against an older template. */
+const RETIRED_SECTIONS = ['Appetite', 'Ideas parked', 'Pre-mortem and red-team', 'Decision owner'];
+const RETIRED_FIELDS = ['experience_precedence', 'template_version', 'pre_mortem_ref', 'red_team_ref'];
 
 /** Rejected by the readiness gate unless a number is on the same line. */
 const VAGUE_ADJECTIVES = ['fast', 'scalable', 'secure', 'intuitive', 'robust', 'seamless', 'quickly', 'easy'];
@@ -246,12 +265,29 @@ function checkTicket(file: string, source: string, seenIds: Map<string, string>)
     ['tier', TIERS],
     ['product_area', PRODUCT_AREAS],
     ['status', STATUSES],
-    ['experience_precedence', PRECEDENCE],
   ];
   for (const [field, allowed] of enums) {
     const value = asString(frontmatter[field]);
     if (value !== null && !allowed.includes(value)) {
       checker.error('fields', `${field} is "${value}", expected one of: ${allowed.join(', ')}`);
+    }
+  }
+
+  if (tier === 'L') {
+    for (const field of REQUIRED_FIELDS_L) {
+      if (!(field in frontmatter)) checker.error('fields', `tier L requires ${field}`);
+    }
+  } else {
+    for (const field of REQUIRED_FIELDS_L) {
+      if (field in frontmatter && frontmatter[field] !== null) {
+        checker.warn('fields', `${field} is L-tier only since v1.7, found on a ${tier}`);
+      }
+    }
+  }
+
+  for (const field of RETIRED_FIELDS) {
+    if (field in frontmatter) {
+      checker.warn('fields', `${field} was retired in v1.7: remove it`);
     }
   }
 
@@ -304,20 +340,17 @@ function checkTicket(file: string, source: string, seenIds: Map<string, string>)
 
   // Status implications -----------------------------------------------------
   if (status !== null && POST_GATE_STATUSES.has(status)) {
-    if (frontmatter.gate_decision === null || frontmatter.gate_decision === undefined) {
-      checker.error('gate', `status ${status} but gate_decision is not set: the gate sets door and appetite`);
+    if (tier === 'L' && (frontmatter.gate_decision === null || frontmatter.gate_decision === undefined)) {
+      checker.error('gate', `status ${status} but gate_decision is not set: the gate sets it`);
     }
-    if (door === null) {
+    if (tier === 'L' && door === null) {
       checker.error('gate', `status ${status} but door is not set`);
     }
     if (asString(frontmatter.owner) === null) {
       checker.error('gate', `status ${status} but no owner`);
     }
-    if (asString(frontmatter.outcome_metric) === null) {
+    if (tier === 'L' && asString(frontmatter.outcome_metric) === null) {
       checker.error('gate', `status ${status} but no outcome_metric`);
-    }
-    if (asString(frontmatter.experience_precedence) === null) {
-      checker.error('gate', `status ${status} but experience_precedence is not declared ("none" is a declaration)`);
     }
   }
 
@@ -409,12 +442,14 @@ function checkTicket(file: string, source: string, seenIds: Map<string, string>)
 
     const questions = sectionBody(body, 'Open questions') ?? '';
     const bullets = bulletsIn(questions);
+    // v1.7 states the cap as a handover gate rather than a writing rule, so a
+    // fourth question is an error only once the ticket has left discovery. The
+    // per-question owner and needed-by date are no longer required.
     if (bullets.length > 3) {
-      checker.error('open-questions', `${bullets.length} open questions, the standard allows three`);
-    }
-    for (const bullet of bullets) {
-      if (!/owner:/i.test(bullet) || !/needed by:/i.test(bullet)) {
-        checker.warn('open-questions', `open question without an owner and a needed-by date: ${bullet.trim()}`);
+      if (POST_GATE_STATUSES.has(status ?? '')) {
+        checker.error('open-questions', `${bullets.length} open questions on a ${status} ticket, the gate allows three`);
+      } else {
+        checker.warn('open-questions', `${bullets.length} open questions, down to three before the grill`);
       }
     }
 
@@ -424,11 +459,13 @@ function checkTicket(file: string, source: string, seenIds: Map<string, string>)
     }
   }
 
-  if (tier === 'L') {
-    for (const field of ['decision_owner', 'pre_mortem_ref', 'red_team_ref']) {
-      if (asString(frontmatter[field]) === null) {
-        checker.error('tier-l', `tier L requires ${field}`);
-      }
+  if (tier === 'L' && asString(frontmatter.decision_owner) === null) {
+    checker.error('tier-l', 'tier L requires a named decision_owner');
+  }
+
+  for (const section of RETIRED_SECTIONS) {
+    if (hasHeading(h2, section)) {
+      checker.warn('sections', `## ${section} was retired in v1.7: fold it into evidence, assumptions or decisions`);
     }
   }
 
@@ -454,7 +491,7 @@ function checkTicket(file: string, source: string, seenIds: Map<string, string>)
       }
     }
 
-    if (!lower.startsWith('- ') || !/ideas parked/i.test(sectionOf(body, index) ?? '')) {
+    if (!lower.startsWith('- ') || !/non-binding/i.test(line)) {
       for (const word of IMPLEMENTATION_WORDS) {
         if (lower.includes(word)) {
           checker.warn('altitude', `implementation vocabulary "${word}": move it to Ideas parked`, lineNumber);
@@ -464,16 +501,6 @@ function checkTicket(file: string, source: string, seenIds: Map<string, string>)
   });
 
   return { file, id, findings: checker.findings };
-}
-
-/** Which section a body line belongs to, so Ideas parked can be treated differently. */
-function sectionOf(body: string, lineIndex: number): string | null {
-  const lines = body.split('\n');
-  for (let i = lineIndex; i >= 0; i -= 1) {
-    const line = lines[i];
-    if (line !== undefined && line.startsWith('## ')) return line.slice(3).trim();
-  }
-  return null;
 }
 
 // ---------------------------------------------------------------------- main
