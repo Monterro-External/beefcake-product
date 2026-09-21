@@ -86,8 +86,14 @@ const REQUIRED_FIELDS = [
   'signal_refs',
 ] as const;
 
-/** Set by the prioritisation gate, and L-tier authoring. M and S carry none of them. */
-const REQUIRED_FIELDS_L = ['door', 'gate_decision', 'outcome_metric', 'decision_owner'] as const;
+/** L-tier authoring fields. An M or S carrying one was written against a pre-v1.7 template. */
+const REQUIRED_FIELDS_L = ['outcome_metric', 'decision_owner'] as const;
+
+/**
+ * Stamped by the prioritisation gate at any tier (standard v1.9). Absent means
+ * the gate has not run, which is why they are not in REQUIRED_FIELDS.
+ */
+const GATE_FIELDS = ['door', 'gate_decision'] as const;
 
 const SECTIONS_EMBRYO = ['Intent', 'Problem and evidence'];
 const SECTIONS_S = ['Intent', 'Problem and evidence', 'Behaviour'];
@@ -340,11 +346,10 @@ function checkTicket(file: string, source: string, seenIds: Map<string, string>)
 
   // Status implications -----------------------------------------------------
   if (status !== null && POST_GATE_STATUSES.has(status)) {
-    if (tier === 'L' && (frontmatter.gate_decision === null || frontmatter.gate_decision === undefined)) {
-      checker.error('gate', `status ${status} but gate_decision is not set: the gate sets it`);
-    }
-    if (tier === 'L' && door === null) {
-      checker.error('gate', `status ${status} but door is not set`);
+    for (const field of GATE_FIELDS) {
+      if (frontmatter[field] === null || frontmatter[field] === undefined) {
+        checker.error('gate', `status ${status} but ${field} is not set: the prioritisation gate sets it`);
+      }
     }
     if (asString(frontmatter.owner) === null) {
       checker.error('gate', `status ${status} but no owner`);

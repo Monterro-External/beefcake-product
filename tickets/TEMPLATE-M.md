@@ -4,6 +4,8 @@ title: One line, the capability or change, in the customer's terms
 type: feature
 tier: M
 product_area: subscriptions
+door: null
+gate_decision: null
 status: backlog
 owner: null
 created: YYYY-MM-DD
@@ -27,6 +29,9 @@ v1.7 cut this template back. Measurable success criteria, the business outcome,
 the Product decisions table and an Experience reference section are L-tier
 content now; so is `outcome_metric`. Appetite and Ideas parked were retired at
 every tier. If you are reaching for one of them, the ticket is an L.
+
+`door` and `gate_decision` stay: standard v1.9 makes them gate fields at every
+tier. The prioritisation gate fills them; leave them null until it runs.
 -->
 
 ## Intent

@@ -4,6 +4,8 @@ title: One line, what is wrong or missing, in the user's terms
 type: bug            # bug or feature. Type says what it is, tier says how much ceremony
 tier: S
 product_area: payments
+door: null
+gate_decision: null
 status: backlog
 owner: null
 created: YYYY-MM-DD
@@ -23,7 +25,9 @@ If you cannot write the intent in one sentence, or the fix needs a product
 decision anyone would argue about, this is not an S. Re-tier it before writing.
 
 `created` and `updated` exist because this store is files. In Linear the
-tracker keeps both and neither is a ticket field.
+tracker keeps both and neither is a ticket field. `door` and `gate_decision`
+are stamped by the prioritisation gate, at any tier (standard v1.9); most
+S-tier tickets never see it and leave them null.
 -->
 
 ## Intent
