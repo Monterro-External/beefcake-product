@@ -8,3 +8,7 @@ coverage/
 
 # Platform event export: regenerated from beefcake-platform, too large to track
 signals/platform/events.jsonl
+
+# ask-product log and its fallback: output, not corpus, the same as the Linear board
+signals/ask-log.jsonl
+.claude/ask-log-fallback.jsonl

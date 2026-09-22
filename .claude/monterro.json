@@ -47,6 +47,8 @@
   },
   "tickets_dir": "tickets",
   "context_file": "strategy/CONTEXT.md",
+  "decisions": "roadmap/decisions.md",
+  "roadmap": "roadmap/now-next-later.md",
   "templates": {
     "S": "tickets/TEMPLATE-S.md",
     "M": "tickets/TEMPLATE-M.md",
