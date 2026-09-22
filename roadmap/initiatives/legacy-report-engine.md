@@ -7,7 +7,7 @@ decision_owner: Malin Ohlsson
 door: two-way
 appetite: engineering-led, one team, one quarter
 status: next
-gate_decision: 2026-08-11
+gate_decision: 2026-09-22
 outcome_metric: Every report a key account uses returns within 30 seconds at their own volume (KR2.3)
 ---
 
