@@ -90,7 +90,7 @@ error case and the case we would be most upset to see broken.
 **Reference**: optional, one line. Link to the prototype or design file with its
 precedence stated beside it, `binding` or `illustrative`. Delete the line if
 there is none: no reference is a valid state and says the solution space is
-still open.
+still open. `binding` is earned: name what was validated, with whom and when, or call it `illustrative`, which is the honest default and fails nothing (standard v1.10).
 
 ## Open questions
 

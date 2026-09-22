@@ -97,7 +97,7 @@ Prototype or design link, key flows named in prose, no embedded screenshots, and
 the precedence stated here in the prose: `illustrative` (the prose wins),
 `binding` (the prototype wins for the experience), or `none` (nothing has been
 designed yet, which is a valid state and passes the gate). The
-`experience_precedence` field was retired in v1.7.
+`experience_precedence` field was retired in v1.7. `binding` is earned: name what was validated, with whom and when, or call it `illustrative`, which is the honest default and fails nothing (standard v1.10).
 
 ## Open questions
 
