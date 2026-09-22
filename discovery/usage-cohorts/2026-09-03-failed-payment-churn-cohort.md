@@ -33,41 +33,43 @@ with the payment run export. Two columns matter and they are not the same thing:
 
 ## Findings
 
-**1. Two in five cancellations follow a failed payment. One in five is recorded
-as one.**
+**1. Two in five cancellations follow a failed payment. One in five is
+recorded as one.**
 
 | | Cancellations | Recorded as payment failure | Had a failed payment first |
 |---|---|---|---|
-| All | 2,739 | 539 (19.7%) | 1,125 (41.1%) |
-| Long tail | 350 | 97 (27.7%) | 175 (50.0%) |
-| Mid | 992 | 182 (18.3%) | 388 (39.1%) |
-| Key account | 1,397 | 260 (18.6%) | 562 (40.2%) |
+| All | 2,674 | 501 (18.7%) | 1,077 (40.3%) |
+| Long tail | 342 | 87 (25.4%) | 169 (49.4%) |
+| Mid | 944 | 162 (17.2%) | 366 (38.8%) |
+| Key account | 1,388 | 252 (18.2%) | 542 (39.0%) |
 
-The gap between the two right-hand columns is the finding. About 590
-cancellations a year are members who hit a payment problem and then left for a
-reason we recorded as something else, or as nothing at all. In the long tail it
-is half of all cancellations.
+The gap between the two right-hand columns is the finding: 576 cancellations
+a year are members who hit a payment problem and then left for a reason we
+recorded as something else, or as nothing at all. It is worst in the
+long tail, at 49.4%.
 
-**2. The median gap is about five weeks, and a quarter go within eighteen days.**
+**2. The median gap is about five weeks, and a quarter go inside 18 days.**
 
 Median days between the last failed payment and the cancellation: 34.5. The
-lower quartile is 18. So the window in which anything could be done is short, and
-it opens the day a charge fails rather than the day someone gives notice.
+lower quartile is 18. So the window in which anything could be done is
+short, and it opens the day a charge fails rather than the day someone gives
+notice.
 
 **3. The tenants with the highest failed-charge rate are the tenants with the
 highest churn.**
 
-From `tenant-health.csv`: the four tenants with a failed-payment rate above 6%
-have a 90-day churn rate averaging 5.1%. The four below 5% average 3.6%. Twelve
-tenants is not a sample worth a regression, and the direction is consistent with
-everything else here.
+From `tenant-health.csv`: the three tenants with a failed-payment rate above 6%
+have a 90-day churn rate averaging 4.8%. The four below 5% average
+3.0%. Twelve tenants is not a sample worth a regression, and the
+direction is consistent with everything else here.
 
 **4. Our biggest customer is missing from this analysis.**
 
 Nordic Fitness Group's row in `churn.csv` is empty. Not zero: blank. The export
-does not produce their figures, which means every number above excludes 23,000
-members and the account with the highest failed-charge rate in the book. I raised
-this with engineering on 2026-08-24 and it is a defect on their side.
+does not produce their figures, which means every number above excludes
+23,000 members and the account with the highest failed-charge rate in the
+book. I raised this with engineering on 2026-08-24 and it is a defect on
+their side.
 
 Everything in this document is therefore a floor.
 
@@ -87,13 +89,13 @@ Everything in this document is therefore a floor.
 This is now the evidence base for the outcome in
 `../opportunity-solution-tree.md`. Two things follow directly:
 
-1. The addressable population is roughly 590 members a year across eleven
-   tenants, weighted to the long tail. At an average membership of about 400 SEK
-   a month, and assuming half of them are reachable, the annual value is in the
-   region of 1.4 MSEK of tenant revenue and therefore a meaningful share of our
-   take rate. That estimate is soft and should be treated as an order of
-   magnitude.
-2. Anything we do has to happen inside the first eighteen days for a quarter of
+1. The addressable population is 576 members a year across eleven
+   tenants, weighted to the long tail. At an average membership of about
+   400 SEK a month, and assuming half of them are reachable, the annual
+   value is in the region of 1.4 MSEK of tenant revenue and therefore
+   a meaningful share of our take rate. That estimate is soft and should be
+   treated as an order of magnitude.
+2. Anything we do has to happen inside the first 18 days for a quarter of
    the population, which rules out anything that depends on a monthly report
    being read.
 
