@@ -1,7 +1,7 @@
 ---
 type: usage cohort
 outcome: reduce involuntary churn caused by payment failures
-data: signals/platform/churn.csv, payment-runs.csv, tenant-health.csv
+data: signals/platform/churn.csv, payment-runs.csv, tenant-health.csv, events.jsonl
 window: 2025-09-15 to 2026-09-15
 produced: 2026-09-03
 by: Johan Wirén
@@ -63,15 +63,25 @@ have a 90-day churn rate averaging 4.8%. The four below 5% average
 3.0%. Twelve tenants is not a sample worth a regression, and the
 direction is consistent with everything else here.
 
-**4. Our biggest customer is missing from this analysis.**
+**4. Our biggest customer is missing, and they are most of the data.**
 
 Nordic Fitness Group's row in `churn.csv` is empty. Not zero: blank. The export
-does not produce their figures, which means every number above excludes
+does not produce their figures, so every number above excludes
 23,000 members and the account with the highest failed-charge rate in the
-book. I raised this with engineering on 2026-08-24 and it is a defect on
-their side.
+book.
 
-Everything in this document is therefore a floor.
+`events.jsonl` counts the same cancellations from the other side, and it is what
+makes the size of the hole legible: 6,074 cancellations in this period against
+the 2,674 in `churn.csv`. Every tenant that does report agrees with the
+event log, and the entire difference, 3,400 cancellations, is
+Nordic Fitness Group. So the export is missing 56% of every cancellation there was,
+and every ratio above describes the eleven tenants that are left.
+
+I raised this with engineering on 2026-08-24 and it is a defect on their
+side.
+
+Everything in this document is therefore a floor, and by more than a blank row
+looks like.
 
 ## What this does not show
 
@@ -101,8 +111,9 @@ This is now the evidence base for the outcome in
 
 ## Open
 
-- Rerun once Nordic Fitness Group appears in the export. The number will move and
-  it will only move upwards.
+- Rerun once Nordic Fitness Group appears in the export. This is not a
+  correction at the margin: the population it would add is larger than the one
+  measured here, and every number can only move upwards.
 - Split `with_prior_failed_payment` by how many failed attempts the member saw.
   The interviews suggest the number of messages matters, and the export does not
   carry it.
