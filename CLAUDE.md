@@ -8,8 +8,6 @@ Engineering's repo is `beefcake-platform`. It holds the code, the seed data, the
 ADRs and the runbooks. When the two repos disagree about how the product
 behaves, the platform is right and this repo has a correction to make.
 
-Read this before writing anything here.
-
 ## The one rule about altitude
 
 A Product Ticket says **what problem, for whom, what outcome, and what we
@@ -50,29 +48,10 @@ in the ticket.
 
 ### Grilling reads the engineering glossary
 
-Product and engineering must use the same words, and the long glossary is
-engineering's: `docs/domain-glossary.md` in `beefcake-platform`. Grilling runs
-with that repo in the session:
+The glossary is `docs/domain-glossary.md` in `beefcake-platform`. Add it with `claude --add-dir ../beefcake-platform` or `/add-dir` in session.
 
-```bash
-claude --add-dir ../beefcake-platform     # or /add-dir in an open session
-```
-
-Rules:
-
-- The grill reads `docs/domain-glossary.md` and nothing else over there. The
-  ticket is not allowed to know how the system is built, and neither is the
-  skill checking it.
-- If the platform repo is not in the session, the vocabulary check reports
-  itself as **skipped and failing**. A green grill without the glossary is not a
-  green grill.
-- A term the ticket needs and the glossary lacks is a glossary gap, flagged to
-  engineering the same way CONTEXT.md silence is flagged to the CPO.
-- Read access to `beefcake-platform` is therefore part of the product role.
-  Nobody needs to run the code.
-
-`/idea-to-ticket` does the same check softly at intake when the platform repo
-happens to be in the session, and stays silent about vocabulary when it is not.
+- Read only `docs/domain-glossary.md` from that repo. If the repo is not in the session, the vocabulary check is **skipped and failing**. A green grill without the glossary is not a green grill.
+- A term the ticket needs that the glossary lacks is a glossary gap, flagged to engineering.
 
 ## Skills, by step
 
@@ -86,10 +65,6 @@ happens to be in the session, and stays silent about vocabulary when it is not.
 | Priority | `/prioritization-gate`, `/pre-mortem`, `/red-team` |
 | Moving a ticket forward | `/advance-ticket` |
 | Before handover | `/monterro:product-grill-with-docs` |
-
-`/advance-ticket` is the default entry point for an existing ticket: it reads
-the ticket, says which stage it is stuck at, names the one blocking gap and
-prepares the cheapest next action. Start there rather than guessing.
 
 ## Repo layout
 
@@ -110,13 +85,8 @@ scripts/      Ticket validation against the standard
   `BCPRO-nnnn-short-slug.md` and the id in the frontmatter must match it.
 - **Frontmatter mirrors the tracker fields exactly**: `id`, `type`, `tier`,
   `product_area`, `door`, `gate_decision`, `outcome_metric`,
-  `experience_precedence`, `status`, `signal_refs`, `owner`. When we move to
-  Linear these become tracker fields and the file becomes the export.
-- **Tier before writing, and tier is independent of type.** S is a change note
-  and carries Intent plus Problem and evidence, with the mandatory regression
-  clause and nothing else; a bug is usually S, and so is a small feature nobody
-  would argue about. M is the standard ticket. L is a one-way door or a change across several capabilities,
-  and needs a linked pre-mortem, a linked red-team and a named decision owner.
+  `experience_precedence`, `status`, `signal_refs`, `owner`.
+- **Tier before writing, and tier is independent of type.** S: change note, mandatory regression clause, nothing else. M: standard ticket. L: one-way door or cross-capability change, requires linked pre-mortem, red-team, and named decision owner. See templates in `tickets/`.
 - **One `product_area` per ticket**, from the taxonomy in CONTEXT.md.
 - **Evidence is linked, never pasted**, with one exception: the original signal
   text is preserved verbatim, because it is the only part of the ticket that
@@ -153,10 +123,8 @@ npm run validate -- --strict     # warnings fail too
 
 ## House style
 
-- Plain professional English, short sentences, no marketing register.
+- Name the person who decides. A decision with no name attached will be relitigated within a quarter.
 - Numbers with their baseline and their source, or not at all.
-- Name the person who decides. A decision with no name attached will be
-  relitigated within a quarter.
 - Do not use the word *just*. It is always hiding something.
 
 ## Things that will get a ticket bounced
