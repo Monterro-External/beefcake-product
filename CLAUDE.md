@@ -79,8 +79,8 @@ What it cannot catch:
   ticket in Finnish, with a translation in brackets when the wording carries the
   meaning. Translating a signal into agreement is how evidence gets laundered.
 - **Use the platform's vocabulary** for anything the product does: freeze,
-  notice period, dunning, abandoned, waitlist, grace hours. The short list is in
-  CONTEXT.md; the glossary in the platform repo wins on any detail.
+  notice period, dunning, abandoned, waitlist, grace hours. They are defined
+  only in the platform repo's glossary; CONTEXT.md points there.
 - **Currency and country matter.** SEK, NOK, DKK, EUR. Never write "kr" in a
   ticket, because three of our four markets use it and they are not the same
   amount.

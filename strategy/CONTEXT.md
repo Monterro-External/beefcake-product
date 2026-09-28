@@ -133,31 +133,12 @@ Every ticket carries exactly one. If a ticket needs two, it is two tickets.
 ## Vocabulary
 
 We use the platform's words, because support, engineering and the customer all
-use them. The list below is the short version; engineering keeps the long one in
-`docs/domain-glossary.md` in the platform repo, and it wins on any detail.
-
-**Operator or tenant.** They are the same party and the word depends on where
-you are writing. *Operator* is commercial register: who we sell to, what the
-market looks like, what a customer is worth. *Tenant* is the product's word, and
-anything a ticket, a spec or the code says about the party uses it. The glossary
-is unambiguous: in code and in tickets they are the tenant. This file uses
-*operator* when it talks about the business and *tenant* when it talks about the
-product, and a ticket that copies the commercial register will fail the
-vocabulary check.
-
-**tenant** (a gym operator, our customer) · **site** (one physical gym) ·
-**member** (the tenant's customer) · **plan** · **subscription** ·
-**binding period** · **notice period** · **freeze** (Swedish *uppehåll*,
-Norwegian *frys*) · **payment run** (monthly, goes out on the 25th, bills the
-calendar month in arrears) · **charge** · **dunning** (3 attempts, 3 days apart
-by default) · **abandoned** (dunning gave up, the event that becomes a
-cancellation two to three weeks later) · **mandate** · **waitlist** ·
-**access event** · **grace hours** (after a freeze, never after a cancellation) ·
-**health score**.
-
-Say *freeze*, never "pause the account". Say *abandoned*, never "given up on".
-A **cancellation** is voluntary; a member lost after dunning abandoned is
-**involuntary churn**, and the distinction is the whole point of pillar 1.
+use them. They live in one place: `docs/domain-glossary.md` in the platform
+repo, owned by engineering. That includes the register rule (this file says
+*operator* for the business, a ticket says *tenant*), *freeze* and *abandoned*,
+and the line between a cancellation and involuntary churn, which is the point of
+pillar 1. A term a ticket needs that the glossary lacks is a glossary gap, taken
+to engineering.
 
 ## What we already ship
 
