@@ -5,14 +5,14 @@ prospect: Bergen Styrke
 country: NO
 sites: 4
 members: 2100
-date: 2026-03-23
+date: 2026-04-07
 duration_min: 41
 beefcake: Jonas Solberg (AE Norway)
 prospect_attendees: Rune Fjellheim (owner), Kaja Nesheim (operations)
 outcome: proposal sent, later lost
 ---
 
-# Product demo, Bergen Styrke, 2026-03-23
+# Product demo, Bergen Styrke, 2026-04-07
 
 Auto-transcribed and lightly cleaned. Timestamps from the recording. Norwegian
 throughout; the transcription service handles it reasonably well and the

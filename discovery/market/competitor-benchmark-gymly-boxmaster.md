@@ -1,7 +1,7 @@
 ---
 type: competitor benchmark
 competitors: Gymly, Boxmaster, spreadsheets
-produced: 2026-03-31
+produced: 2026-04-15
 by: Ingrid Halvorsen, with Camilla Roos
 sources: 9 lost-deal debriefs, 14 sales calls, 3 customer interviews, public pricing pages, two demos recorded by prospects and shared with us
 ---

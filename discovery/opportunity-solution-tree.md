@@ -2,8 +2,8 @@
 type: opportunity solution tree
 outcome: Reduce involuntary churn caused by payment failures
 owner: Johan Wirén
-started: 2026-07-27
-updated: 2026-09-09
+started: 2026-08-10
+updated: 2026-09-24
 status: live, partially filled
 ---
 
@@ -53,7 +53,7 @@ invent an explanation. The invented explanation becomes what the member believes
   after it.
 
 ### O3. There is no offer between "your payment failed" and "your membership ended"
-*Evidence: [cohort analysis](usage-cohorts/2026-09-03-failed-payment-churn-cohort.md),
+*Evidence: [cohort analysis](usage-cohorts/2026-09-18-failed-payment-churn-cohort.md),
 [member feedback](../signals/member-feedback/) (several entries across the period).*
 
 Members in temporary difficulty have two options: pay or stop. Freezing exists

@@ -1,199 +1,199 @@
 response_id,wave,sent_at,responded_at,tenant,segment,country,respondent,role,score,verbatim,follow_up_ok
-NPS-1001,H1 relationship survey,2026-03-27,2026-03-27,Gymmet Vasastan,long_tail,SE,Petra Wiklund,owner,7,,no
-NPS-1002,H1 relationship survey,2026-03-27,2026-04-02,Gymmet Vasastan,long_tail,SE,Josefin Lindberg,site_manager,10,,yes
-NPS-1003,H1 relationship survey,2026-03-27,2026-04-05,Gymmet Vasastan,long_tail,SE,Gustav Eriksson,owner,9,,yes
-NPS-1004,H1 relationship survey,2026-03-27,2026-03-31,Gymmet Vasastan,long_tail,SE,Emma Forsberg,site_manager,10,,no
-NPS-1005,H1 relationship survey,2026-03-27,2026-04-07,Gymmet Vasastan,long_tail,SE,Erik Lundin,owner,8,,yes
-NPS-1006,H1 relationship survey,2026-03-27,2026-04-01,Gymmet Vasastan,long_tail,SE,Oskar Eriksson,site_manager,10,Booking and the door work every day without anyone thinking about them. That is the whole job.,no
-NPS-1007,H1 relationship survey,2026-03-27,2026-04-07,Träningsverket Lund,long_tail,SE,Jonas Hedin,owner,10,Booking and the door work every day without anyone thinking about them. That is the whole job.,no
-NPS-1008,H1 relationship survey,2026-03-27,,Träningsverket Lund,long_tail,SE,Hanna Svensson,site_manager,,,
-NPS-1009,H1 relationship survey,2026-03-27,2026-03-28,Träningsverket Lund,long_tail,SE,Emma Lundin,owner,10,,yes
-NPS-1010,H1 relationship survey,2026-03-27,2026-03-29,Träningsverket Lund,long_tail,SE,Anna Forsberg,owner,2,Freezes do not end when we tell members they will. I have stopped promising dates.,yes
-NPS-1011,H1 relationship survey,2026-03-27,2026-04-02,Träningsverket Lund,long_tail,SE,Johan Jonsson,site_manager,5,,no
-NPS-1012,H1 relationship survey,2026-03-27,2026-03-28,Träningsverket Lund,long_tail,SE,Alva Lindqvist,site_manager,8,,no
-NPS-1013,H1 relationship survey,2026-03-27,,Bodyfokus Umeå,long_tail,SE,Anette Sundqvist,owner,,,
-NPS-1014,H1 relationship survey,2026-03-27,2026-03-28,Bodyfokus Umeå,long_tail,SE,Per Jakobsson,owner,1,,no
-NPS-1015,H1 relationship survey,2026-03-27,2026-03-30,Bodyfokus Umeå,long_tail,SE,Agnes Magnusson,site_manager,7,,no
-NPS-1016,H1 relationship survey,2026-03-27,2026-03-31,Bodyfokus Umeå,long_tail,SE,Oskar Björk,site_manager,10,,yes
-NPS-1017,H1 relationship survey,2026-03-27,2026-03-27,Bodyfokus Umeå,long_tail,SE,Lovisa Fredriksson,owner,8,Fungerar. Rapporterna kunde vara bättre men vi klarar oss med exporten.,yes
-NPS-1018,H1 relationship survey,2026-03-27,2026-03-31,Bodyfokus Umeå,long_tail,SE,Gustav Andersson,site_manager,10,,no
-NPS-1019,H1 relationship survey,2026-03-27,,Trening Grünerløkka,long_tail,NO,Håkon Five,owner,,,
-NPS-1020,H1 relationship survey,2026-03-27,,Trening Grünerløkka,long_tail,NO,Nina Johannessen,site_manager,,,
-NPS-1021,H1 relationship survey,2026-03-27,,Trening Grünerløkka,long_tail,NO,Anne Nilsen,site_manager,,,
-NPS-1022,H1 relationship survey,2026-03-27,,Trening Grünerløkka,long_tail,NO,Bjørn Johansen,site_manager,,,
-NPS-1023,H1 relationship survey,2026-03-27,2026-04-06,Trening Grünerløkka,long_tail,NO,Solveig Andersen,site_manager,4,I found people getting through the door after their membership had ended. That is not a small thing for us.,no
-NPS-1024,H1 relationship survey,2026-03-27,2026-04-01,Trening Grünerløkka,long_tail,NO,Solveig Johansen,owner,1,"Anything to do with money is a coin toss. I have had two members charged wrongly this year and I found out from them, not from you.",no
-NPS-1025,H1 relationship survey,2026-03-27,2026-04-05,Kuntoklubi Kallio,long_tail,FI,Riikka Salo,owner,5,Support passes things on and nothing comes back. I have stopped reporting the small things.,yes
-NPS-1026,H1 relationship survey,2026-03-27,2026-04-04,Kuntoklubi Kallio,long_tail,FI,Noora Korhonen,site_manager,9,Fungerer greit i hverdagen. Vi bruker det uten å tenke på det.,yes
-NPS-1027,H1 relationship survey,2026-03-27,2026-04-03,Kuntoklubi Kallio,long_tail,FI,Petri Lehtinen,site_manager,10,"Support answers, which was not true of the system we had before.",yes
-NPS-1028,H1 relationship survey,2026-03-27,2026-03-31,Kuntoklubi Kallio,long_tail,FI,Juha Salminen,site_manager,10,,yes
-NPS-1029,H1 relationship survey,2026-03-27,2026-03-31,Kuntoklubi Kallio,long_tail,FI,Antti Koskinen,site_manager,9,,no
-NPS-1030,H1 relationship survey,2026-03-27,2026-03-31,Kuntoklubi Kallio,long_tail,FI,Antti Salminen,owner,7,,yes
-NPS-1031,H1 relationship survey,2026-03-27,,Fitness Nørrebro,long_tail,DK,Mette Kjær,owner,,,
-NPS-1032,H1 relationship survey,2026-03-27,2026-04-01,Fitness Nørrebro,long_tail,DK,Mads Mortensen,site_manager,8,Greit nok. Skulle gjerne fått til mer selv uten å kontakte support.,yes
-NPS-1033,H1 relationship survey,2026-03-27,2026-04-02,Fitness Nørrebro,long_tail,DK,Jesper Thomsen,owner,1,Ingen MobilePay. Alle herhjemme betaler med MobilePay.,yes
-NPS-1034,H1 relationship survey,2026-03-27,,Fitness Nørrebro,long_tail,DK,Camilla Jensen,site_manager,,,
-NPS-1035,H1 relationship survey,2026-03-27,2026-03-28,Fitness Nørrebro,long_tail,DK,Emma Holm,owner,9,Det gör vad vi behöver och krånglar sällan. Det är värt mer än funktioner.,no
-NPS-1036,H1 relationship survey,2026-03-27,2026-04-03,Fitness Nørrebro,long_tail,DK,Simon Christensen,site_manager,7,,yes
-NPS-1037,H1 relationship survey,2026-03-27,2026-03-31,Puls Träning,mid,SE,Marcus Sandell,owner,8,,yes
-NPS-1038,H1 relationship survey,2026-03-27,,Puls Träning,mid,SE,Nadia Ohlin,site_manager,,,
-NPS-1039,H1 relationship survey,2026-03-27,2026-04-01,Puls Träning,mid,SE,Robin Falk,site_manager,8,Good enough. I would like to be able to do more without contacting support.,yes
-NPS-1040,H1 relationship survey,2026-03-27,2026-04-05,Puls Träning,mid,SE,Amanda Sjögren,site_manager,10,Toimii arjessa hyvin. Henkilökunta oppii sen nopeasti.,yes
-NPS-1041,H1 relationship survey,2026-03-27,,Puls Träning,mid,SE,Daniel Wiik,site_manager,,,
-NPS-1042,H1 relationship survey,2026-03-27,2026-03-30,Puls Träning,mid,SE,Magnus Björk,site_manager,6,The waitlist cannot be trusted. My managers count people by hand before the busy classes.,no
-NPS-1043,H1 relationship survey,2026-03-27,2026-04-04,Puls Träning,mid,SE,Anders Eriksson,site_manager,10,,no
-NPS-1044,H1 relationship survey,2026-03-27,,Puls Träning,mid,SE,Erik Sjöberg,site_manager,,,
-NPS-1045,H1 relationship survey,2026-03-27,2026-04-04,Puls Träning,mid,SE,Maria Henriksson,site_manager,2,The waitlist cannot be trusted. My managers count people by hand before the busy classes.,yes
-NPS-1046,H1 relationship survey,2026-03-27,2026-04-02,Puls Träning,mid,SE,Tobias Lindqvist,site_manager,7,,yes
-NPS-1047,H1 relationship survey,2026-03-27,2026-04-05,Puls Träning,mid,SE,Elin Karlsson,site_manager,7,Riittävä. Raportointi voisi olla parempi.,yes
-NPS-1048,H1 relationship survey,2026-03-27,,Puls Träning,mid,SE,Lovisa Fredriksson,site_manager,,,
-NPS-1049,H1 relationship survey,2026-03-27,2026-04-07,Aktiv Hälsa,mid,SE,Lena Fors,owner,10,,yes
-NPS-1050,H1 relationship survey,2026-03-27,,Aktiv Hälsa,mid,SE,Erik Palmgren,site_manager,,,
-NPS-1051,H1 relationship survey,2026-03-27,2026-04-03,Aktiv Hälsa,mid,SE,Sofia Lindgren,owner,8,Riittävä. Raportointi voisi olla parempi.,no
-NPS-1052,H1 relationship survey,2026-03-27,2026-04-06,Aktiv Hälsa,mid,SE,Hanna Eriksson,site_manager,9,"Support answers, which was not true of the system we had before.",yes
-NPS-1053,H1 relationship survey,2026-03-27,,Aktiv Hälsa,mid,SE,Oskar Håkansson,owner,,,
-NPS-1054,H1 relationship survey,2026-03-27,2026-04-07,Aktiv Hälsa,mid,SE,Alva Bergström,site_manager,7,,no
-NPS-1055,H1 relationship survey,2026-03-27,,Aktiv Hälsa,mid,SE,Elin Forsberg,site_manager,,,
-NPS-1056,H1 relationship survey,2026-03-27,2026-03-31,Aktiv Hälsa,mid,SE,Simon Henriksson,site_manager,10,Booking and the door work every day without anyone thinking about them. That is the whole job.,no
-NPS-1057,H1 relationship survey,2026-03-27,2026-03-28,Aktiv Hälsa,mid,SE,Linda Eriksson,site_manager,7,,yes
-NPS-1058,H1 relationship survey,2026-03-27,,Vestkyst Trening,mid,NO,Kristin Aasen,owner,,,
-NPS-1059,H1 relationship survey,2026-03-27,2026-04-03,Vestkyst Trening,mid,NO,Ole Rimestad,site_manager,4,The waitlist cannot be trusted. My managers count people by hand before the busy classes.,yes
-NPS-1060,H1 relationship survey,2026-03-27,2026-04-06,Vestkyst Trening,mid,NO,Silje Nordby,site_manager,9,,no
-NPS-1061,H1 relationship survey,2026-03-27,,Vestkyst Trening,mid,NO,Ingrid Solberg,site_manager,,,
-NPS-1062,H1 relationship survey,2026-03-27,2026-03-28,Vestkyst Trening,mid,NO,Solveig Johannessen,site_manager,5,I found people getting through the door after their membership had ended. That is not a small thing for us.,yes
-NPS-1063,H1 relationship survey,2026-03-27,2026-04-03,Vestkyst Trening,mid,NO,Solveig Larsen,site_manager,10,,yes
-NPS-1064,H1 relationship survey,2026-03-27,2026-03-31,Vestkyst Trening,mid,NO,Espen Lund,owner,7,No complaints about the basics. It has not changed much in the two years we have used it.,yes
-NPS-1065,H1 relationship survey,2026-03-27,2026-03-31,Vestkyst Trening,mid,NO,Trygve Halvorsen,site_manager,4,Members get chased for payments over and over. It makes us look like a debt collector and it is not our doing.,yes
-NPS-1066,H1 relationship survey,2026-03-27,2026-03-27,Vestkyst Trening,mid,NO,Astrid Johansen,site_manager,10,,no
-NPS-1067,H1 relationship survey,2026-03-27,2026-03-31,Vestkyst Trening,mid,NO,Maren Johansen,site_manager,6,Ingen Vipps. Medlemmene spør hver uke og jeg må forklare hvorfor.,yes
-NPS-1068,H1 relationship survey,2026-03-27,2026-03-27,Voima Kuntosalit,mid,FI,Antti Rautio,owner,9,,yes
-NPS-1069,H1 relationship survey,2026-03-27,2026-04-07,Voima Kuntosalit,mid,FI,Jarno Mäkelä,site_manager,8,,yes
-NPS-1070,H1 relationship survey,2026-03-27,2026-04-02,Voima Kuntosalit,mid,FI,Elina Väisänen,site_manager,10,,no
-NPS-1071,H1 relationship survey,2026-03-27,2026-03-31,Voima Kuntosalit,mid,FI,Mikael Nurmi,site_manager,10,,yes
-NPS-1072,H1 relationship survey,2026-03-27,2026-03-27,Voima Kuntosalit,mid,FI,Aino Saarinen,site_manager,10,,yes
-NPS-1073,H1 relationship survey,2026-03-27,2026-04-01,Voima Kuntosalit,mid,FI,Aino Järvinen,site_manager,9,"The desk staff learn it in a day. That matters more than anything for us, we have a lot of turnover.",no
-NPS-1074,H1 relationship survey,2026-03-27,,Voima Kuntosalit,mid,FI,Anna Salminen,site_manager,,,
-NPS-1075,H1 relationship survey,2026-03-27,,Voima Kuntosalit,mid,FI,Elina Heikkinen,site_manager,,,
-NPS-1076,H1 relationship survey,2026-03-27,2026-03-29,Voima Kuntosalit,mid,FI,Hanna Virtanen,site_manager,7,,no
-NPS-1077,H1 relationship survey,2026-03-27,,Voima Kuntosalit,mid,FI,Riikka Heikkinen,owner,,,
-NPS-1078,H1 relationship survey,2026-03-27,2026-04-01,Voima Kuntosalit,mid,FI,Lauri Mäkelä,site_manager,5,Tuki lupaa välittää asian eteenpäin eikä mitään tapahdu. Olen lopettanut pienten asioiden ilmoittamisen.,yes
-NPS-1079,H1 relationship survey,2026-03-27,2026-03-28,Nordic Fitness Group,key_account,SE,Petra Lindgren,head of operations,8,,yes
-NPS-1080,H1 relationship survey,2026-03-27,2026-03-28,Nordic Fitness Group,key_account,SE,Ann-Sofie Ek,finance,10,,yes
-NPS-1081,H1 relationship survey,2026-03-27,,Nordic Fitness Group,key_account,SE,Mikael Rahm,finance controller,,,
-NPS-1082,H1 relationship survey,2026-03-27,,Nordic Fitness Group,key_account,SE,Kalle Ström,site_manager,,,
-NPS-1083,H1 relationship survey,2026-03-27,2026-03-28,Nordic Fitness Group,key_account,SE,Hedvig Åberg,site_manager,9,It does what we need and it rarely breaks. That is worth more than features.,yes
-NPS-1084,H1 relationship survey,2026-03-27,,Nordic Fitness Group,key_account,SE,Tor Egeland,site_manager,,,
-NPS-1085,H1 relationship survey,2026-03-27,,Nordic Fitness Group,key_account,SE,Agnes Hansson,site_manager,,,
-NPS-1086,H1 relationship survey,2026-03-27,2026-04-04,Nordic Fitness Group,key_account,SE,Anders Eklund,site_manager,7,Riittävä. Raportointi voisi olla parempi.,no
-NPS-1087,H1 relationship survey,2026-03-27,2026-04-01,Nordic Fitness Group,key_account,SE,Filip Sjöberg,owner,10,We moved from spreadsheets two years ago and would not go back.,yes
-NPS-1088,H1 relationship survey,2026-03-27,,Nordic Fitness Group,key_account,SE,Per Eklund,owner,,,
-NPS-1089,H1 relationship survey,2026-03-27,2026-04-02,Nordic Fitness Group,key_account,SE,Tobias Eklund,site_manager,10,,yes
-NPS-1090,H1 relationship survey,2026-03-27,,Kraft Trening,key_account,NO,Bjørn Kraft,owner,,,
-NPS-1091,H1 relationship survey,2026-03-27,2026-04-07,Kraft Trening,key_account,NO,Hanne Grimstad,finance,6,Tuki lupaa välittää asian eteenpäin eikä mitään tapahdu. Olen lopettanut pienten asioiden ilmoittamisen.,yes
-NPS-1092,H1 relationship survey,2026-03-27,2026-03-31,Kraft Trening,key_account,NO,Eirik Nordhagen,operations manager,7,,yes
-NPS-1093,H1 relationship survey,2026-03-27,2026-04-05,Kraft Trening,key_account,NO,Line Sørensen,site_manager,3,Uppehåll slutar inte när vi säger till medlemmarna att de gör det. Jag lovar inte datum längre.,yes
-NPS-1094,H1 relationship survey,2026-03-27,,Kraft Trening,key_account,NO,Trygve Moe,site_manager,,,
-NPS-1095,H1 relationship survey,2026-03-27,,Kraft Trening,key_account,NO,Håkon Olsen,owner,,,
-NPS-1096,H1 relationship survey,2026-03-27,2026-03-31,Kraft Trening,key_account,NO,Jonas Jørgensen,site_manager,4,Support passes things on and nothing comes back. I have stopped reporting the small things.,no
-NPS-1097,H1 relationship survey,2026-03-27,2026-04-03,Kraft Trening,key_account,NO,Ola Kristiansen,site_manager,7,Fine. Reporting could be better but we manage with the export.,yes
-NPS-1098,H1 relationship survey,2026-03-27,,Kraft Trening,key_account,NO,Eirik Andersen,site_manager,,,
-NPS-1099,H1 relationship survey,2026-03-27,2026-04-07,Kraft Trening,key_account,NO,Ingrid Jørgensen,site_manager,2,Medlemmar får betalningspåminnelser om och om igen. Det får oss att se ut som ett inkassobolag.,yes
-NPS-1100,H2 relationship survey,2026-07-30,2026-07-30,Gymmet Vasastan,long_tail,SE,Petra Wiklund,owner,9,"Support answers, which was not true of the system we had before.",no
-NPS-1101,H2 relationship survey,2026-07-30,2026-08-09,Gymmet Vasastan,long_tail,SE,Maria Lundin,site_manager,8,Greit nok. Skulle gjerne fått til mer selv uten å kontakte support.,no
-NPS-1102,H2 relationship survey,2026-07-30,2026-08-01,Gymmet Vasastan,long_tail,SE,Anders Lindqvist,site_manager,1,I found people getting through the door after their membership had ended. That is not a small thing for us.,no
-NPS-1103,H2 relationship survey,2026-07-30,,Gymmet Vasastan,long_tail,SE,Ida Eriksson,site_manager,,,
-NPS-1104,H2 relationship survey,2026-07-30,,Gymmet Vasastan,long_tail,SE,Sofia Sandberg,site_manager,,,
-NPS-1105,H2 relationship survey,2026-07-30,,Gymmet Vasastan,long_tail,SE,Alva Bergström,site_manager,,,
-NPS-1106,H2 relationship survey,2026-07-30,,Träningsverket Lund,long_tail,SE,Jonas Hedin,owner,,,
-NPS-1107,H2 relationship survey,2026-07-30,2026-08-05,Träningsverket Lund,long_tail,SE,Magnus Lindgren,site_manager,10,,yes
-NPS-1108,H2 relationship survey,2026-07-30,2026-07-30,Träningsverket Lund,long_tail,SE,Adam Svensson,owner,7,Good enough. I would like to be able to do more without contacting support.,no
-NPS-1109,H2 relationship survey,2026-07-30,,Träningsverket Lund,long_tail,SE,Lars Eklund,site_manager,,,
-NPS-1110,H2 relationship survey,2026-07-30,2026-08-05,Träningsverket Lund,long_tail,SE,Magnus Svensson,site_manager,4,Every change we ask for is a no. At some point that becomes a reason to look elsewhere.,yes
-NPS-1111,H2 relationship survey,2026-07-30,,Träningsverket Lund,long_tail,SE,Oskar Sjöberg,site_manager,,,
-NPS-1112,H2 relationship survey,2026-07-30,2026-08-01,Bodyfokus Umeå,long_tail,SE,Anette Sundqvist,owner,9,"Support answers, which was not true of the system we had before.",yes
-NPS-1113,H2 relationship survey,2026-07-30,,Bodyfokus Umeå,long_tail,SE,Agnes Sandberg,site_manager,,,
-NPS-1114,H2 relationship survey,2026-07-30,2026-08-08,Bodyfokus Umeå,long_tail,SE,Adam Bergström,site_manager,4,I found people getting through the door after their membership had ended. That is not a small thing for us.,no
-NPS-1115,H2 relationship survey,2026-07-30,,Bodyfokus Umeå,long_tail,SE,Anders Engström,site_manager,,,
-NPS-1116,H2 relationship survey,2026-07-30,2026-08-07,Bodyfokus Umeå,long_tail,SE,Ebba Larsson,site_manager,7,Greit nok. Skulle gjerne fått til mer selv uten å kontakte support.,yes
-NPS-1117,H2 relationship survey,2026-07-30,,Bodyfokus Umeå,long_tail,SE,Klara Hansson,site_manager,,,
-NPS-1118,H2 relationship survey,2026-07-30,2026-08-05,Trening Grünerløkka,long_tail,NO,Håkon Five,owner,7,Riittävä. Raportointi voisi olla parempi.,no
-NPS-1119,H2 relationship survey,2026-07-30,2026-08-10,Trening Grünerløkka,long_tail,NO,Anders Moen,site_manager,8,It works. The app could do more but our members mostly use it for booking anyway.,no
-NPS-1120,H2 relationship survey,2026-07-30,2026-08-08,Trening Grünerløkka,long_tail,NO,Line Nilsen,owner,8,,yes
-NPS-1121,H2 relationship survey,2026-07-30,2026-08-02,Trening Grünerløkka,long_tail,NO,Solveig Johansen,site_manager,7,Good enough. I would like to be able to do more without contacting support.,yes
-NPS-1122,H2 relationship survey,2026-07-30,2026-07-30,Trening Grünerløkka,long_tail,NO,Espen Johannessen,owner,9,,yes
-NPS-1123,H2 relationship survey,2026-07-30,2026-07-31,Trening Grünerløkka,long_tail,NO,Petter Dahl,site_manager,9,,no
-NPS-1124,H2 relationship survey,2026-07-30,2026-08-06,Kuntoklubi Kallio,long_tail,FI,Riikka Salo,owner,8,It works. The app could do more but our members mostly use it for booking anyway.,yes
-NPS-1125,H2 relationship survey,2026-07-30,2026-08-05,Kuntoklubi Kallio,long_tail,FI,Noora Korhonen,owner,8,,no
-NPS-1126,H2 relationship survey,2026-07-30,,Kuntoklubi Kallio,long_tail,FI,Noora Kinnunen,site_manager,,,
-NPS-1127,H2 relationship survey,2026-07-30,2026-07-30,Kuntoklubi Kallio,long_tail,FI,Timo Lehtonen,site_manager,4,Medlemmar får betalningspåminnelser om och om igen. Det får oss att se ut som ett inkassobolag.,yes
-NPS-1128,H2 relationship survey,2026-07-30,,Kuntoklubi Kallio,long_tail,FI,Katja Laitinen,owner,,,
-NPS-1129,H2 relationship survey,2026-07-30,2026-08-02,Kuntoklubi Kallio,long_tail,FI,Noora Koskinen,site_manager,7,No complaints about the basics. It has not changed much in the two years we have used it.,no
-NPS-1130,H2 relationship survey,2026-07-30,2026-08-10,Fitness Nørrebro,long_tail,DK,Mette Kjær,owner,7,,yes
-NPS-1131,H2 relationship survey,2026-07-30,2026-08-10,Fitness Nørrebro,long_tail,DK,Simon Christensen,site_manager,6,Uppehåll slutar inte när vi säger till medlemmarna att de gör det. Jag lovar inte datum längre.,yes
-NPS-1132,H2 relationship survey,2026-07-30,2026-08-02,Fitness Nørrebro,long_tail,DK,Freja Larsen,owner,0,Freezes do not end when we tell members they will. I have stopped promising dates.,yes
-NPS-1133,H2 relationship survey,2026-07-30,2026-08-03,Fitness Nørrebro,long_tail,DK,Jesper Møller,site_manager,8,,yes
-NPS-1134,H2 relationship survey,2026-07-30,2026-07-31,Fitness Nørrebro,long_tail,DK,Christian Johansen,site_manager,9,Toimii arjessa hyvin. Henkilökunta oppii sen nopeasti.,no
-NPS-1135,H2 relationship survey,2026-07-30,2026-08-04,Fitness Nørrebro,long_tail,DK,Christian Johansen,site_manager,7,Riittävä. Raportointi voisi olla parempi.,yes
-NPS-1136,H2 relationship survey,2026-07-30,,Puls Träning,mid,SE,Marcus Sandell,owner,,,
-NPS-1137,H2 relationship survey,2026-07-30,,Puls Träning,mid,SE,Nadia Ohlin,site_manager,,,
-NPS-1138,H2 relationship survey,2026-07-30,2026-08-06,Puls Träning,mid,SE,Robin Falk,site_manager,8,Fine. Reporting could be better but we manage with the export.,no
-NPS-1139,H2 relationship survey,2026-07-30,2026-08-04,Puls Träning,mid,SE,Amanda Sjögren,site_manager,10,Toimii arjessa hyvin. Henkilökunta oppii sen nopeasti.,no
-NPS-1140,H2 relationship survey,2026-07-30,2026-08-02,Puls Träning,mid,SE,Daniel Wiik,site_manager,9,We moved from spreadsheets two years ago and would not go back.,yes
-NPS-1141,H2 relationship survey,2026-07-30,2026-08-04,Puls Träning,mid,SE,Linda Jakobsson,owner,4,,yes
-NPS-1142,H2 relationship survey,2026-07-30,,Puls Träning,mid,SE,Karin Wallin,site_manager,,,
-NPS-1143,H2 relationship survey,2026-07-30,2026-08-10,Puls Träning,mid,SE,Simon Fredriksson,site_manager,10,,yes
-NPS-1144,H2 relationship survey,2026-07-30,2026-08-10,Puls Träning,mid,SE,Sofia Henriksson,site_manager,8,Riittävä. Raportointi voisi olla parempi.,yes
-NPS-1145,H2 relationship survey,2026-07-30,2026-08-08,Puls Träning,mid,SE,Anna Lindqvist,site_manager,9,,yes
-NPS-1146,H2 relationship survey,2026-07-30,2026-08-10,Puls Träning,mid,SE,Julia Engström,site_manager,3,I found people getting through the door after their membership had ended. That is not a small thing for us.,yes
-NPS-1147,H2 relationship survey,2026-07-30,2026-07-31,Puls Träning,mid,SE,Ebba Engström,site_manager,7,,no
-NPS-1148,H2 relationship survey,2026-07-30,2026-08-03,Aktiv Hälsa,mid,SE,Lena Fors,owner,8,,yes
-NPS-1149,H2 relationship survey,2026-07-30,2026-07-30,Aktiv Hälsa,mid,SE,Erik Palmgren,site_manager,4,Freezes do not end when we tell members they will. I have stopped promising dates.,yes
-NPS-1150,H2 relationship survey,2026-07-30,2026-08-01,Aktiv Hälsa,mid,SE,Malin Lindberg,site_manager,10,Det gör vad vi behöver och krånglar sällan. Det är värt mer än funktioner.,no
-NPS-1151,H2 relationship survey,2026-07-30,2026-08-07,Aktiv Hälsa,mid,SE,Rickard Johansson,site_manager,10,,no
-NPS-1152,H2 relationship survey,2026-07-30,2026-08-09,Aktiv Hälsa,mid,SE,Hanna Lindgren,site_manager,1,The waitlist cannot be trusted. My managers count people by hand before the busy classes.,yes
-NPS-1153,H2 relationship survey,2026-07-30,,Aktiv Hälsa,mid,SE,Tobias Eriksson,site_manager,,,
-NPS-1154,H2 relationship survey,2026-07-30,,Aktiv Hälsa,mid,SE,Ebba Bengtsson,site_manager,,,
-NPS-1155,H2 relationship survey,2026-07-30,,Aktiv Hälsa,mid,SE,Martin Engström,owner,,,
-NPS-1156,H2 relationship survey,2026-07-30,2026-08-01,Aktiv Hälsa,mid,SE,Lars Karlsson,site_manager,8,It works. The app could do more but our members mostly use it for booking anyway.,no
-NPS-1157,H2 relationship survey,2026-07-30,2026-08-08,Vestkyst Trening,mid,NO,Kristin Aasen,owner,10,,yes
-NPS-1158,H2 relationship survey,2026-07-30,,Vestkyst Trening,mid,NO,Ole Rimestad,site_manager,,,
-NPS-1159,H2 relationship survey,2026-07-30,2026-07-30,Vestkyst Trening,mid,NO,Silje Nordby,site_manager,8,,yes
-NPS-1160,H2 relationship survey,2026-07-30,2026-08-04,Vestkyst Trening,mid,NO,Solveig Hansen,site_manager,8,,yes
-NPS-1161,H2 relationship survey,2026-07-30,,Vestkyst Trening,mid,NO,Andreas Moen,site_manager,,,
-NPS-1162,H2 relationship survey,2026-07-30,2026-08-10,Vestkyst Trening,mid,NO,Marit Olsen,owner,5,,yes
-NPS-1163,H2 relationship survey,2026-07-30,2026-08-01,Vestkyst Trening,mid,NO,Ola Solberg,owner,4,Every change we ask for is a no. At some point that becomes a reason to look elsewhere.,no
-NPS-1164,H2 relationship survey,2026-07-30,,Vestkyst Trening,mid,NO,Tobias Kristiansen,owner,,,
-NPS-1165,H2 relationship survey,2026-07-30,2026-08-02,Vestkyst Trening,mid,NO,Anders Pedersen,site_manager,10,It does what we need and it rarely breaks. That is worth more than features.,yes
-NPS-1166,H2 relationship survey,2026-07-30,2026-07-30,Vestkyst Trening,mid,NO,Sindre Berg,site_manager,5,The waitlist cannot be trusted. My managers count people by hand before the busy classes.,no
-NPS-1167,H2 relationship survey,2026-07-30,,Voima Kuntosalit,mid,FI,Antti Rautio,owner,,,
-NPS-1168,H2 relationship survey,2026-07-30,2026-08-07,Voima Kuntosalit,mid,FI,Jarno Mäkelä,site_manager,10,,yes
-NPS-1169,H2 relationship survey,2026-07-30,2026-08-04,Voima Kuntosalit,mid,FI,Elina Väisänen,site_manager,9,,yes
-NPS-1170,H2 relationship survey,2026-07-30,2026-08-04,Voima Kuntosalit,mid,FI,Mikael Nurmi,site_manager,10,,no
-NPS-1171,H2 relationship survey,2026-07-30,2026-08-07,Voima Kuntosalit,mid,FI,Mikko Kinnunen,site_manager,6,Members get chased for payments over and over. It makes us look like a debt collector and it is not our doing.,no
-NPS-1172,H2 relationship survey,2026-07-30,2026-08-10,Voima Kuntosalit,mid,FI,Minna Nieminen,site_manager,10,,yes
-NPS-1173,H2 relationship survey,2026-07-30,,Voima Kuntosalit,mid,FI,Lauri Lehtinen,site_manager,,,
-NPS-1174,H2 relationship survey,2026-07-30,2026-08-01,Voima Kuntosalit,mid,FI,Sanna Salo,site_manager,8,,yes
-NPS-1175,H2 relationship survey,2026-07-30,,Voima Kuntosalit,mid,FI,Venla Turunen,site_manager,,,
-NPS-1176,H2 relationship survey,2026-07-30,2026-08-10,Voima Kuntosalit,mid,FI,Hanna Turunen,site_manager,7,Fine. Reporting could be better but we manage with the export.,no
-NPS-1177,H2 relationship survey,2026-07-30,,Voima Kuntosalit,mid,FI,Riikka Salminen,site_manager,,,
-NPS-1178,H2 relationship survey,2026-07-30,,Nordic Fitness Group,key_account,SE,Petra Lindgren,head of operations,,,
-NPS-1179,H2 relationship survey,2026-07-30,2026-08-03,Nordic Fitness Group,key_account,SE,Ann-Sofie Ek,finance,0,Uppehåll slutar inte när vi säger till medlemmarna att de gör det. Jag lovar inte datum längre.,yes
-NPS-1180,H2 relationship survey,2026-07-30,2026-08-05,Nordic Fitness Group,key_account,SE,Mikael Rahm,finance controller,0,Reports at our size either take minutes or fail. We are the biggest customer you have.,no
-NPS-1181,H2 relationship survey,2026-07-30,2026-07-31,Nordic Fitness Group,key_account,SE,Kalle Ström,site_manager,1,I found people getting through the door after their membership had ended. That is not a small thing for us.,yes
-NPS-1182,H2 relationship survey,2026-07-30,2026-07-31,Nordic Fitness Group,key_account,SE,Hedvig Åberg,site_manager,6,"Anything to do with money is a coin toss. I have had two members charged wrongly this year and I found out from them, not from you.",yes
-NPS-1183,H2 relationship survey,2026-07-30,2026-08-03,Nordic Fitness Group,key_account,SE,Tor Egeland,site_manager,0,,no
-NPS-1184,H2 relationship survey,2026-07-30,,Nordic Fitness Group,key_account,SE,Agnes Magnusson,site_manager,,,
-NPS-1185,H2 relationship survey,2026-07-30,,Nordic Fitness Group,key_account,SE,Karin Engström,site_manager,,,
-NPS-1186,H2 relationship survey,2026-07-30,2026-08-05,Nordic Fitness Group,key_account,SE,Elin Engström,owner,7,,yes
-NPS-1187,H2 relationship survey,2026-07-30,2026-07-30,Nordic Fitness Group,key_account,SE,Malin Forsberg,site_manager,1,Members get chased for payments over and over. It makes us look like a debt collector and it is not our doing.,no
-NPS-1188,H2 relationship survey,2026-07-30,,Nordic Fitness Group,key_account,SE,Amanda Lundin,site_manager,,,
-NPS-1189,H2 relationship survey,2026-07-30,2026-08-02,Kraft Trening,key_account,NO,Bjørn Kraft,owner,7,,yes
-NPS-1190,H2 relationship survey,2026-07-30,2026-07-30,Kraft Trening,key_account,NO,Hanne Grimstad,finance,2,Freezes do not end when we tell members they will. I have stopped promising dates.,no
-NPS-1191,H2 relationship survey,2026-07-30,,Kraft Trening,key_account,NO,Eirik Nordhagen,operations manager,,,
-NPS-1192,H2 relationship survey,2026-07-30,2026-08-01,Kraft Trening,key_account,NO,Line Sørensen,site_manager,8,It works. The app could do more but our members mostly use it for booking anyway.,yes
-NPS-1193,H2 relationship survey,2026-07-30,2026-08-04,Kraft Trening,key_account,NO,Trygve Moe,site_manager,9,Det gör vad vi behöver och krånglar sällan. Det är värt mer än funktioner.,yes
-NPS-1194,H2 relationship survey,2026-07-30,,Kraft Trening,key_account,NO,Solveig Jacobsen,site_manager,,,
-NPS-1195,H2 relationship survey,2026-07-30,2026-08-06,Kraft Trening,key_account,NO,Nina Haugen,owner,0,Uppehåll slutar inte när vi säger till medlemmarna att de gör det. Jag lovar inte datum längre.,no
-NPS-1196,H2 relationship survey,2026-07-30,2026-08-04,Kraft Trening,key_account,NO,Guro Johannessen,owner,3,I found people getting through the door after their membership had ended. That is not a small thing for us.,no
-NPS-1197,H2 relationship survey,2026-07-30,,Kraft Trening,key_account,NO,Kari Haugen,site_manager,,,
-NPS-1198,H2 relationship survey,2026-07-30,,Kraft Trening,key_account,NO,Astrid Karlsen,site_manager,,,
+NPS-1001,H1 relationship survey,2026-04-11,2026-04-11,Gymmet Vasastan,long_tail,SE,Petra Wiklund,owner,7,,no
+NPS-1002,H1 relationship survey,2026-04-11,2026-04-17,Gymmet Vasastan,long_tail,SE,Josefin Lindberg,site_manager,10,,yes
+NPS-1003,H1 relationship survey,2026-04-11,2026-04-20,Gymmet Vasastan,long_tail,SE,Gustav Eriksson,owner,9,,yes
+NPS-1004,H1 relationship survey,2026-04-11,2026-04-15,Gymmet Vasastan,long_tail,SE,Emma Forsberg,site_manager,10,,no
+NPS-1005,H1 relationship survey,2026-04-11,2026-04-22,Gymmet Vasastan,long_tail,SE,Erik Lundin,owner,8,,yes
+NPS-1006,H1 relationship survey,2026-04-11,2026-04-16,Gymmet Vasastan,long_tail,SE,Oskar Eriksson,site_manager,10,Booking and the door work every day without anyone thinking about them. That is the whole job.,no
+NPS-1007,H1 relationship survey,2026-04-11,2026-04-22,Träningsverket Lund,long_tail,SE,Jonas Hedin,owner,10,Booking and the door work every day without anyone thinking about them. That is the whole job.,no
+NPS-1008,H1 relationship survey,2026-04-11,,Träningsverket Lund,long_tail,SE,Hanna Svensson,site_manager,,,
+NPS-1009,H1 relationship survey,2026-04-11,2026-04-12,Träningsverket Lund,long_tail,SE,Emma Lundin,owner,10,,yes
+NPS-1010,H1 relationship survey,2026-04-11,2026-04-13,Träningsverket Lund,long_tail,SE,Anna Forsberg,owner,2,Freezes do not end when we tell members they will. I have stopped promising dates.,yes
+NPS-1011,H1 relationship survey,2026-04-11,2026-04-17,Träningsverket Lund,long_tail,SE,Johan Jonsson,site_manager,5,,no
+NPS-1012,H1 relationship survey,2026-04-11,2026-04-12,Träningsverket Lund,long_tail,SE,Alva Lindqvist,site_manager,8,,no
+NPS-1013,H1 relationship survey,2026-04-11,,Bodyfokus Umeå,long_tail,SE,Anette Sundqvist,owner,,,
+NPS-1014,H1 relationship survey,2026-04-11,2026-04-12,Bodyfokus Umeå,long_tail,SE,Per Jakobsson,owner,1,,no
+NPS-1015,H1 relationship survey,2026-04-11,2026-04-14,Bodyfokus Umeå,long_tail,SE,Agnes Magnusson,site_manager,7,,no
+NPS-1016,H1 relationship survey,2026-04-11,2026-04-15,Bodyfokus Umeå,long_tail,SE,Oskar Björk,site_manager,10,,yes
+NPS-1017,H1 relationship survey,2026-04-11,2026-04-11,Bodyfokus Umeå,long_tail,SE,Lovisa Fredriksson,owner,8,Fungerar. Rapporterna kunde vara bättre men vi klarar oss med exporten.,yes
+NPS-1018,H1 relationship survey,2026-04-11,2026-04-15,Bodyfokus Umeå,long_tail,SE,Gustav Andersson,site_manager,10,,no
+NPS-1019,H1 relationship survey,2026-04-11,,Trening Grünerløkka,long_tail,NO,Håkon Five,owner,,,
+NPS-1020,H1 relationship survey,2026-04-11,,Trening Grünerløkka,long_tail,NO,Nina Johannessen,site_manager,,,
+NPS-1021,H1 relationship survey,2026-04-11,,Trening Grünerløkka,long_tail,NO,Anne Nilsen,site_manager,,,
+NPS-1022,H1 relationship survey,2026-04-11,,Trening Grünerløkka,long_tail,NO,Bjørn Johansen,site_manager,,,
+NPS-1023,H1 relationship survey,2026-04-11,2026-04-21,Trening Grünerløkka,long_tail,NO,Solveig Andersen,site_manager,4,I found people getting through the door after their membership had ended. That is not a small thing for us.,no
+NPS-1024,H1 relationship survey,2026-04-11,2026-04-16,Trening Grünerløkka,long_tail,NO,Solveig Johansen,owner,1,"Anything to do with money is a coin toss. I have had two members charged wrongly this year and I found out from them, not from you.",no
+NPS-1025,H1 relationship survey,2026-04-11,2026-04-20,Kuntoklubi Kallio,long_tail,FI,Riikka Salo,owner,5,Support passes things on and nothing comes back. I have stopped reporting the small things.,yes
+NPS-1026,H1 relationship survey,2026-04-11,2026-04-19,Kuntoklubi Kallio,long_tail,FI,Noora Korhonen,site_manager,9,Fungerer greit i hverdagen. Vi bruker det uten å tenke på det.,yes
+NPS-1027,H1 relationship survey,2026-04-11,2026-04-18,Kuntoklubi Kallio,long_tail,FI,Petri Lehtinen,site_manager,10,"Support answers, which was not true of the system we had before.",yes
+NPS-1028,H1 relationship survey,2026-04-11,2026-04-15,Kuntoklubi Kallio,long_tail,FI,Juha Salminen,site_manager,10,,yes
+NPS-1029,H1 relationship survey,2026-04-11,2026-04-15,Kuntoklubi Kallio,long_tail,FI,Antti Koskinen,site_manager,9,,no
+NPS-1030,H1 relationship survey,2026-04-11,2026-04-15,Kuntoklubi Kallio,long_tail,FI,Antti Salminen,owner,7,,yes
+NPS-1031,H1 relationship survey,2026-04-11,,Fitness Nørrebro,long_tail,DK,Mette Kjær,owner,,,
+NPS-1032,H1 relationship survey,2026-04-11,2026-04-16,Fitness Nørrebro,long_tail,DK,Mads Mortensen,site_manager,8,Greit nok. Skulle gjerne fått til mer selv uten å kontakte support.,yes
+NPS-1033,H1 relationship survey,2026-04-11,2026-04-17,Fitness Nørrebro,long_tail,DK,Jesper Thomsen,owner,1,Ingen MobilePay. Alle herhjemme betaler med MobilePay.,yes
+NPS-1034,H1 relationship survey,2026-04-11,,Fitness Nørrebro,long_tail,DK,Camilla Jensen,site_manager,,,
+NPS-1035,H1 relationship survey,2026-04-11,2026-04-12,Fitness Nørrebro,long_tail,DK,Emma Holm,owner,9,Det gör vad vi behöver och krånglar sällan. Det är värt mer än funktioner.,no
+NPS-1036,H1 relationship survey,2026-04-11,2026-04-18,Fitness Nørrebro,long_tail,DK,Simon Christensen,site_manager,7,,yes
+NPS-1037,H1 relationship survey,2026-04-11,2026-04-15,Puls Träning,mid,SE,Marcus Sandell,owner,8,,yes
+NPS-1038,H1 relationship survey,2026-04-11,,Puls Träning,mid,SE,Nadia Ohlin,site_manager,,,
+NPS-1039,H1 relationship survey,2026-04-11,2026-04-16,Puls Träning,mid,SE,Robin Falk,site_manager,8,Good enough. I would like to be able to do more without contacting support.,yes
+NPS-1040,H1 relationship survey,2026-04-11,2026-04-20,Puls Träning,mid,SE,Amanda Sjögren,site_manager,10,Toimii arjessa hyvin. Henkilökunta oppii sen nopeasti.,yes
+NPS-1041,H1 relationship survey,2026-04-11,,Puls Träning,mid,SE,Daniel Wiik,site_manager,,,
+NPS-1042,H1 relationship survey,2026-04-11,2026-04-14,Puls Träning,mid,SE,Magnus Björk,site_manager,6,The waitlist cannot be trusted. My managers count people by hand before the busy classes.,no
+NPS-1043,H1 relationship survey,2026-04-11,2026-04-19,Puls Träning,mid,SE,Anders Eriksson,site_manager,10,,no
+NPS-1044,H1 relationship survey,2026-04-11,,Puls Träning,mid,SE,Erik Sjöberg,site_manager,,,
+NPS-1045,H1 relationship survey,2026-04-11,2026-04-19,Puls Träning,mid,SE,Maria Henriksson,site_manager,2,The waitlist cannot be trusted. My managers count people by hand before the busy classes.,yes
+NPS-1046,H1 relationship survey,2026-04-11,2026-04-17,Puls Träning,mid,SE,Tobias Lindqvist,site_manager,7,,yes
+NPS-1047,H1 relationship survey,2026-04-11,2026-04-20,Puls Träning,mid,SE,Elin Karlsson,site_manager,7,Riittävä. Raportointi voisi olla parempi.,yes
+NPS-1048,H1 relationship survey,2026-04-11,,Puls Träning,mid,SE,Lovisa Fredriksson,site_manager,,,
+NPS-1049,H1 relationship survey,2026-04-11,2026-04-22,Aktiv Hälsa,mid,SE,Lena Fors,owner,10,,yes
+NPS-1050,H1 relationship survey,2026-04-11,,Aktiv Hälsa,mid,SE,Erik Palmgren,site_manager,,,
+NPS-1051,H1 relationship survey,2026-04-11,2026-04-18,Aktiv Hälsa,mid,SE,Sofia Lindgren,owner,8,Riittävä. Raportointi voisi olla parempi.,no
+NPS-1052,H1 relationship survey,2026-04-11,2026-04-21,Aktiv Hälsa,mid,SE,Hanna Eriksson,site_manager,9,"Support answers, which was not true of the system we had before.",yes
+NPS-1053,H1 relationship survey,2026-04-11,,Aktiv Hälsa,mid,SE,Oskar Håkansson,owner,,,
+NPS-1054,H1 relationship survey,2026-04-11,2026-04-22,Aktiv Hälsa,mid,SE,Alva Bergström,site_manager,7,,no
+NPS-1055,H1 relationship survey,2026-04-11,,Aktiv Hälsa,mid,SE,Elin Forsberg,site_manager,,,
+NPS-1056,H1 relationship survey,2026-04-11,2026-04-15,Aktiv Hälsa,mid,SE,Simon Henriksson,site_manager,10,Booking and the door work every day without anyone thinking about them. That is the whole job.,no
+NPS-1057,H1 relationship survey,2026-04-11,2026-04-12,Aktiv Hälsa,mid,SE,Linda Eriksson,site_manager,7,,yes
+NPS-1058,H1 relationship survey,2026-04-11,,Vestkyst Trening,mid,NO,Kristin Aasen,owner,,,
+NPS-1059,H1 relationship survey,2026-04-11,2026-04-18,Vestkyst Trening,mid,NO,Ole Rimestad,site_manager,4,The waitlist cannot be trusted. My managers count people by hand before the busy classes.,yes
+NPS-1060,H1 relationship survey,2026-04-11,2026-04-21,Vestkyst Trening,mid,NO,Silje Nordby,site_manager,9,,no
+NPS-1061,H1 relationship survey,2026-04-11,,Vestkyst Trening,mid,NO,Ingrid Solberg,site_manager,,,
+NPS-1062,H1 relationship survey,2026-04-11,2026-04-12,Vestkyst Trening,mid,NO,Solveig Johannessen,site_manager,5,I found people getting through the door after their membership had ended. That is not a small thing for us.,yes
+NPS-1063,H1 relationship survey,2026-04-11,2026-04-18,Vestkyst Trening,mid,NO,Solveig Larsen,site_manager,10,,yes
+NPS-1064,H1 relationship survey,2026-04-11,2026-04-15,Vestkyst Trening,mid,NO,Espen Lund,owner,7,No complaints about the basics. It has not changed much in the two years we have used it.,yes
+NPS-1065,H1 relationship survey,2026-04-11,2026-04-15,Vestkyst Trening,mid,NO,Trygve Halvorsen,site_manager,4,Members get chased for payments over and over. It makes us look like a debt collector and it is not our doing.,yes
+NPS-1066,H1 relationship survey,2026-04-11,2026-04-11,Vestkyst Trening,mid,NO,Astrid Johansen,site_manager,10,,no
+NPS-1067,H1 relationship survey,2026-04-11,2026-04-15,Vestkyst Trening,mid,NO,Maren Johansen,site_manager,6,Ingen Vipps. Medlemmene spør hver uke og jeg må forklare hvorfor.,yes
+NPS-1068,H1 relationship survey,2026-04-11,2026-04-11,Voima Kuntosalit,mid,FI,Antti Rautio,owner,9,,yes
+NPS-1069,H1 relationship survey,2026-04-11,2026-04-22,Voima Kuntosalit,mid,FI,Jarno Mäkelä,site_manager,8,,yes
+NPS-1070,H1 relationship survey,2026-04-11,2026-04-17,Voima Kuntosalit,mid,FI,Elina Väisänen,site_manager,10,,no
+NPS-1071,H1 relationship survey,2026-04-11,2026-04-15,Voima Kuntosalit,mid,FI,Mikael Nurmi,site_manager,10,,yes
+NPS-1072,H1 relationship survey,2026-04-11,2026-04-11,Voima Kuntosalit,mid,FI,Aino Saarinen,site_manager,10,,yes
+NPS-1073,H1 relationship survey,2026-04-11,2026-04-16,Voima Kuntosalit,mid,FI,Aino Järvinen,site_manager,9,"The desk staff learn it in a day. That matters more than anything for us, we have a lot of turnover.",no
+NPS-1074,H1 relationship survey,2026-04-11,,Voima Kuntosalit,mid,FI,Anna Salminen,site_manager,,,
+NPS-1075,H1 relationship survey,2026-04-11,,Voima Kuntosalit,mid,FI,Elina Heikkinen,site_manager,,,
+NPS-1076,H1 relationship survey,2026-04-11,2026-04-13,Voima Kuntosalit,mid,FI,Hanna Virtanen,site_manager,7,,no
+NPS-1077,H1 relationship survey,2026-04-11,,Voima Kuntosalit,mid,FI,Riikka Heikkinen,owner,,,
+NPS-1078,H1 relationship survey,2026-04-11,2026-04-16,Voima Kuntosalit,mid,FI,Lauri Mäkelä,site_manager,5,Tuki lupaa välittää asian eteenpäin eikä mitään tapahdu. Olen lopettanut pienten asioiden ilmoittamisen.,yes
+NPS-1079,H1 relationship survey,2026-04-11,2026-04-12,Nordic Fitness Group,key_account,SE,Petra Lindgren,head of operations,8,,yes
+NPS-1080,H1 relationship survey,2026-04-11,2026-04-12,Nordic Fitness Group,key_account,SE,Ann-Sofie Ek,finance,10,,yes
+NPS-1081,H1 relationship survey,2026-04-11,,Nordic Fitness Group,key_account,SE,Mikael Rahm,finance controller,,,
+NPS-1082,H1 relationship survey,2026-04-11,,Nordic Fitness Group,key_account,SE,Kalle Ström,site_manager,,,
+NPS-1083,H1 relationship survey,2026-04-11,2026-04-12,Nordic Fitness Group,key_account,SE,Hedvig Åberg,site_manager,9,It does what we need and it rarely breaks. That is worth more than features.,yes
+NPS-1084,H1 relationship survey,2026-04-11,,Nordic Fitness Group,key_account,SE,Tor Egeland,site_manager,,,
+NPS-1085,H1 relationship survey,2026-04-11,,Nordic Fitness Group,key_account,SE,Agnes Hansson,site_manager,,,
+NPS-1086,H1 relationship survey,2026-04-11,2026-04-19,Nordic Fitness Group,key_account,SE,Anders Eklund,site_manager,7,Riittävä. Raportointi voisi olla parempi.,no
+NPS-1087,H1 relationship survey,2026-04-11,2026-04-16,Nordic Fitness Group,key_account,SE,Filip Sjöberg,owner,10,We moved from spreadsheets two years ago and would not go back.,yes
+NPS-1088,H1 relationship survey,2026-04-11,,Nordic Fitness Group,key_account,SE,Per Eklund,owner,,,
+NPS-1089,H1 relationship survey,2026-04-11,2026-04-17,Nordic Fitness Group,key_account,SE,Tobias Eklund,site_manager,10,,yes
+NPS-1090,H1 relationship survey,2026-04-11,,Kraft Trening,key_account,NO,Bjørn Kraft,owner,,,
+NPS-1091,H1 relationship survey,2026-04-11,2026-04-22,Kraft Trening,key_account,NO,Hanne Grimstad,finance,6,Tuki lupaa välittää asian eteenpäin eikä mitään tapahdu. Olen lopettanut pienten asioiden ilmoittamisen.,yes
+NPS-1092,H1 relationship survey,2026-04-11,2026-04-15,Kraft Trening,key_account,NO,Eirik Nordhagen,operations manager,7,,yes
+NPS-1093,H1 relationship survey,2026-04-11,2026-04-20,Kraft Trening,key_account,NO,Line Sørensen,site_manager,3,Uppehåll slutar inte när vi säger till medlemmarna att de gör det. Jag lovar inte datum längre.,yes
+NPS-1094,H1 relationship survey,2026-04-11,,Kraft Trening,key_account,NO,Trygve Moe,site_manager,,,
+NPS-1095,H1 relationship survey,2026-04-11,,Kraft Trening,key_account,NO,Håkon Olsen,owner,,,
+NPS-1096,H1 relationship survey,2026-04-11,2026-04-15,Kraft Trening,key_account,NO,Jonas Jørgensen,site_manager,4,Support passes things on and nothing comes back. I have stopped reporting the small things.,no
+NPS-1097,H1 relationship survey,2026-04-11,2026-04-18,Kraft Trening,key_account,NO,Ola Kristiansen,site_manager,7,Fine. Reporting could be better but we manage with the export.,yes
+NPS-1098,H1 relationship survey,2026-04-11,,Kraft Trening,key_account,NO,Eirik Andersen,site_manager,,,
+NPS-1099,H1 relationship survey,2026-04-11,2026-04-22,Kraft Trening,key_account,NO,Ingrid Jørgensen,site_manager,2,Medlemmar får betalningspåminnelser om och om igen. Det får oss att se ut som ett inkassobolag.,yes
+NPS-1100,H2 relationship survey,2026-08-14,2026-08-14,Gymmet Vasastan,long_tail,SE,Petra Wiklund,owner,9,"Support answers, which was not true of the system we had before.",no
+NPS-1101,H2 relationship survey,2026-08-14,2026-08-24,Gymmet Vasastan,long_tail,SE,Maria Lundin,site_manager,8,Greit nok. Skulle gjerne fått til mer selv uten å kontakte support.,no
+NPS-1102,H2 relationship survey,2026-08-14,2026-08-16,Gymmet Vasastan,long_tail,SE,Anders Lindqvist,site_manager,1,I found people getting through the door after their membership had ended. That is not a small thing for us.,no
+NPS-1103,H2 relationship survey,2026-08-14,,Gymmet Vasastan,long_tail,SE,Ida Eriksson,site_manager,,,
+NPS-1104,H2 relationship survey,2026-08-14,,Gymmet Vasastan,long_tail,SE,Sofia Sandberg,site_manager,,,
+NPS-1105,H2 relationship survey,2026-08-14,,Gymmet Vasastan,long_tail,SE,Alva Bergström,site_manager,,,
+NPS-1106,H2 relationship survey,2026-08-14,,Träningsverket Lund,long_tail,SE,Jonas Hedin,owner,,,
+NPS-1107,H2 relationship survey,2026-08-14,2026-08-20,Träningsverket Lund,long_tail,SE,Magnus Lindgren,site_manager,10,,yes
+NPS-1108,H2 relationship survey,2026-08-14,2026-08-14,Träningsverket Lund,long_tail,SE,Adam Svensson,owner,7,Good enough. I would like to be able to do more without contacting support.,no
+NPS-1109,H2 relationship survey,2026-08-14,,Träningsverket Lund,long_tail,SE,Lars Eklund,site_manager,,,
+NPS-1110,H2 relationship survey,2026-08-14,2026-08-20,Träningsverket Lund,long_tail,SE,Magnus Svensson,site_manager,4,Every change we ask for is a no. At some point that becomes a reason to look elsewhere.,yes
+NPS-1111,H2 relationship survey,2026-08-14,,Träningsverket Lund,long_tail,SE,Oskar Sjöberg,site_manager,,,
+NPS-1112,H2 relationship survey,2026-08-14,2026-08-16,Bodyfokus Umeå,long_tail,SE,Anette Sundqvist,owner,9,"Support answers, which was not true of the system we had before.",yes
+NPS-1113,H2 relationship survey,2026-08-14,,Bodyfokus Umeå,long_tail,SE,Agnes Sandberg,site_manager,,,
+NPS-1114,H2 relationship survey,2026-08-14,2026-08-23,Bodyfokus Umeå,long_tail,SE,Adam Bergström,site_manager,4,I found people getting through the door after their membership had ended. That is not a small thing for us.,no
+NPS-1115,H2 relationship survey,2026-08-14,,Bodyfokus Umeå,long_tail,SE,Anders Engström,site_manager,,,
+NPS-1116,H2 relationship survey,2026-08-14,2026-08-22,Bodyfokus Umeå,long_tail,SE,Ebba Larsson,site_manager,7,Greit nok. Skulle gjerne fått til mer selv uten å kontakte support.,yes
+NPS-1117,H2 relationship survey,2026-08-14,,Bodyfokus Umeå,long_tail,SE,Klara Hansson,site_manager,,,
+NPS-1118,H2 relationship survey,2026-08-14,2026-08-20,Trening Grünerløkka,long_tail,NO,Håkon Five,owner,7,Riittävä. Raportointi voisi olla parempi.,no
+NPS-1119,H2 relationship survey,2026-08-14,2026-08-25,Trening Grünerløkka,long_tail,NO,Anders Moen,site_manager,8,It works. The app could do more but our members mostly use it for booking anyway.,no
+NPS-1120,H2 relationship survey,2026-08-14,2026-08-23,Trening Grünerløkka,long_tail,NO,Line Nilsen,owner,8,,yes
+NPS-1121,H2 relationship survey,2026-08-14,2026-08-17,Trening Grünerløkka,long_tail,NO,Solveig Johansen,site_manager,7,Good enough. I would like to be able to do more without contacting support.,yes
+NPS-1122,H2 relationship survey,2026-08-14,2026-08-14,Trening Grünerløkka,long_tail,NO,Espen Johannessen,owner,9,,yes
+NPS-1123,H2 relationship survey,2026-08-14,2026-08-15,Trening Grünerløkka,long_tail,NO,Petter Dahl,site_manager,9,,no
+NPS-1124,H2 relationship survey,2026-08-14,2026-08-21,Kuntoklubi Kallio,long_tail,FI,Riikka Salo,owner,8,It works. The app could do more but our members mostly use it for booking anyway.,yes
+NPS-1125,H2 relationship survey,2026-08-14,2026-08-20,Kuntoklubi Kallio,long_tail,FI,Noora Korhonen,owner,8,,no
+NPS-1126,H2 relationship survey,2026-08-14,,Kuntoklubi Kallio,long_tail,FI,Noora Kinnunen,site_manager,,,
+NPS-1127,H2 relationship survey,2026-08-14,2026-08-14,Kuntoklubi Kallio,long_tail,FI,Timo Lehtonen,site_manager,4,Medlemmar får betalningspåminnelser om och om igen. Det får oss att se ut som ett inkassobolag.,yes
+NPS-1128,H2 relationship survey,2026-08-14,,Kuntoklubi Kallio,long_tail,FI,Katja Laitinen,owner,,,
+NPS-1129,H2 relationship survey,2026-08-14,2026-08-17,Kuntoklubi Kallio,long_tail,FI,Noora Koskinen,site_manager,7,No complaints about the basics. It has not changed much in the two years we have used it.,no
+NPS-1130,H2 relationship survey,2026-08-14,2026-08-25,Fitness Nørrebro,long_tail,DK,Mette Kjær,owner,7,,yes
+NPS-1131,H2 relationship survey,2026-08-14,2026-08-25,Fitness Nørrebro,long_tail,DK,Simon Christensen,site_manager,6,Uppehåll slutar inte när vi säger till medlemmarna att de gör det. Jag lovar inte datum längre.,yes
+NPS-1132,H2 relationship survey,2026-08-14,2026-08-17,Fitness Nørrebro,long_tail,DK,Freja Larsen,owner,0,Freezes do not end when we tell members they will. I have stopped promising dates.,yes
+NPS-1133,H2 relationship survey,2026-08-14,2026-08-18,Fitness Nørrebro,long_tail,DK,Jesper Møller,site_manager,8,,yes
+NPS-1134,H2 relationship survey,2026-08-14,2026-08-15,Fitness Nørrebro,long_tail,DK,Christian Johansen,site_manager,9,Toimii arjessa hyvin. Henkilökunta oppii sen nopeasti.,no
+NPS-1135,H2 relationship survey,2026-08-14,2026-08-19,Fitness Nørrebro,long_tail,DK,Christian Johansen,site_manager,7,Riittävä. Raportointi voisi olla parempi.,yes
+NPS-1136,H2 relationship survey,2026-08-14,,Puls Träning,mid,SE,Marcus Sandell,owner,,,
+NPS-1137,H2 relationship survey,2026-08-14,,Puls Träning,mid,SE,Nadia Ohlin,site_manager,,,
+NPS-1138,H2 relationship survey,2026-08-14,2026-08-21,Puls Träning,mid,SE,Robin Falk,site_manager,8,Fine. Reporting could be better but we manage with the export.,no
+NPS-1139,H2 relationship survey,2026-08-14,2026-08-19,Puls Träning,mid,SE,Amanda Sjögren,site_manager,10,Toimii arjessa hyvin. Henkilökunta oppii sen nopeasti.,no
+NPS-1140,H2 relationship survey,2026-08-14,2026-08-17,Puls Träning,mid,SE,Daniel Wiik,site_manager,9,We moved from spreadsheets two years ago and would not go back.,yes
+NPS-1141,H2 relationship survey,2026-08-14,2026-08-19,Puls Träning,mid,SE,Linda Jakobsson,owner,4,,yes
+NPS-1142,H2 relationship survey,2026-08-14,,Puls Träning,mid,SE,Karin Wallin,site_manager,,,
+NPS-1143,H2 relationship survey,2026-08-14,2026-08-25,Puls Träning,mid,SE,Simon Fredriksson,site_manager,10,,yes
+NPS-1144,H2 relationship survey,2026-08-14,2026-08-25,Puls Träning,mid,SE,Sofia Henriksson,site_manager,8,Riittävä. Raportointi voisi olla parempi.,yes
+NPS-1145,H2 relationship survey,2026-08-14,2026-08-23,Puls Träning,mid,SE,Anna Lindqvist,site_manager,9,,yes
+NPS-1146,H2 relationship survey,2026-08-14,2026-08-25,Puls Träning,mid,SE,Julia Engström,site_manager,3,I found people getting through the door after their membership had ended. That is not a small thing for us.,yes
+NPS-1147,H2 relationship survey,2026-08-14,2026-08-15,Puls Träning,mid,SE,Ebba Engström,site_manager,7,,no
+NPS-1148,H2 relationship survey,2026-08-14,2026-08-18,Aktiv Hälsa,mid,SE,Lena Fors,owner,8,,yes
+NPS-1149,H2 relationship survey,2026-08-14,2026-08-14,Aktiv Hälsa,mid,SE,Erik Palmgren,site_manager,4,Freezes do not end when we tell members they will. I have stopped promising dates.,yes
+NPS-1150,H2 relationship survey,2026-08-14,2026-08-16,Aktiv Hälsa,mid,SE,Malin Lindberg,site_manager,10,Det gör vad vi behöver och krånglar sällan. Det är värt mer än funktioner.,no
+NPS-1151,H2 relationship survey,2026-08-14,2026-08-22,Aktiv Hälsa,mid,SE,Rickard Johansson,site_manager,10,,no
+NPS-1152,H2 relationship survey,2026-08-14,2026-08-24,Aktiv Hälsa,mid,SE,Hanna Lindgren,site_manager,1,The waitlist cannot be trusted. My managers count people by hand before the busy classes.,yes
+NPS-1153,H2 relationship survey,2026-08-14,,Aktiv Hälsa,mid,SE,Tobias Eriksson,site_manager,,,
+NPS-1154,H2 relationship survey,2026-08-14,,Aktiv Hälsa,mid,SE,Ebba Bengtsson,site_manager,,,
+NPS-1155,H2 relationship survey,2026-08-14,,Aktiv Hälsa,mid,SE,Martin Engström,owner,,,
+NPS-1156,H2 relationship survey,2026-08-14,2026-08-16,Aktiv Hälsa,mid,SE,Lars Karlsson,site_manager,8,It works. The app could do more but our members mostly use it for booking anyway.,no
+NPS-1157,H2 relationship survey,2026-08-14,2026-08-23,Vestkyst Trening,mid,NO,Kristin Aasen,owner,10,,yes
+NPS-1158,H2 relationship survey,2026-08-14,,Vestkyst Trening,mid,NO,Ole Rimestad,site_manager,,,
+NPS-1159,H2 relationship survey,2026-08-14,2026-08-14,Vestkyst Trening,mid,NO,Silje Nordby,site_manager,8,,yes
+NPS-1160,H2 relationship survey,2026-08-14,2026-08-19,Vestkyst Trening,mid,NO,Solveig Hansen,site_manager,8,,yes
+NPS-1161,H2 relationship survey,2026-08-14,,Vestkyst Trening,mid,NO,Andreas Moen,site_manager,,,
+NPS-1162,H2 relationship survey,2026-08-14,2026-08-25,Vestkyst Trening,mid,NO,Marit Olsen,owner,5,,yes
+NPS-1163,H2 relationship survey,2026-08-14,2026-08-16,Vestkyst Trening,mid,NO,Ola Solberg,owner,4,Every change we ask for is a no. At some point that becomes a reason to look elsewhere.,no
+NPS-1164,H2 relationship survey,2026-08-14,,Vestkyst Trening,mid,NO,Tobias Kristiansen,owner,,,
+NPS-1165,H2 relationship survey,2026-08-14,2026-08-17,Vestkyst Trening,mid,NO,Anders Pedersen,site_manager,10,It does what we need and it rarely breaks. That is worth more than features.,yes
+NPS-1166,H2 relationship survey,2026-08-14,2026-08-14,Vestkyst Trening,mid,NO,Sindre Berg,site_manager,5,The waitlist cannot be trusted. My managers count people by hand before the busy classes.,no
+NPS-1167,H2 relationship survey,2026-08-14,,Voima Kuntosalit,mid,FI,Antti Rautio,owner,,,
+NPS-1168,H2 relationship survey,2026-08-14,2026-08-22,Voima Kuntosalit,mid,FI,Jarno Mäkelä,site_manager,10,,yes
+NPS-1169,H2 relationship survey,2026-08-14,2026-08-19,Voima Kuntosalit,mid,FI,Elina Väisänen,site_manager,9,,yes
+NPS-1170,H2 relationship survey,2026-08-14,2026-08-19,Voima Kuntosalit,mid,FI,Mikael Nurmi,site_manager,10,,no
+NPS-1171,H2 relationship survey,2026-08-14,2026-08-22,Voima Kuntosalit,mid,FI,Mikko Kinnunen,site_manager,6,Members get chased for payments over and over. It makes us look like a debt collector and it is not our doing.,no
+NPS-1172,H2 relationship survey,2026-08-14,2026-08-25,Voima Kuntosalit,mid,FI,Minna Nieminen,site_manager,10,,yes
+NPS-1173,H2 relationship survey,2026-08-14,,Voima Kuntosalit,mid,FI,Lauri Lehtinen,site_manager,,,
+NPS-1174,H2 relationship survey,2026-08-14,2026-08-16,Voima Kuntosalit,mid,FI,Sanna Salo,site_manager,8,,yes
+NPS-1175,H2 relationship survey,2026-08-14,,Voima Kuntosalit,mid,FI,Venla Turunen,site_manager,,,
+NPS-1176,H2 relationship survey,2026-08-14,2026-08-25,Voima Kuntosalit,mid,FI,Hanna Turunen,site_manager,7,Fine. Reporting could be better but we manage with the export.,no
+NPS-1177,H2 relationship survey,2026-08-14,,Voima Kuntosalit,mid,FI,Riikka Salminen,site_manager,,,
+NPS-1178,H2 relationship survey,2026-08-14,,Nordic Fitness Group,key_account,SE,Petra Lindgren,head of operations,,,
+NPS-1179,H2 relationship survey,2026-08-14,2026-08-18,Nordic Fitness Group,key_account,SE,Ann-Sofie Ek,finance,0,Uppehåll slutar inte när vi säger till medlemmarna att de gör det. Jag lovar inte datum längre.,yes
+NPS-1180,H2 relationship survey,2026-08-14,2026-08-20,Nordic Fitness Group,key_account,SE,Mikael Rahm,finance controller,0,Reports at our size either take minutes or fail. We are the biggest customer you have.,no
+NPS-1181,H2 relationship survey,2026-08-14,2026-08-15,Nordic Fitness Group,key_account,SE,Kalle Ström,site_manager,1,I found people getting through the door after their membership had ended. That is not a small thing for us.,yes
+NPS-1182,H2 relationship survey,2026-08-14,2026-08-15,Nordic Fitness Group,key_account,SE,Hedvig Åberg,site_manager,6,"Anything to do with money is a coin toss. I have had two members charged wrongly this year and I found out from them, not from you.",yes
+NPS-1183,H2 relationship survey,2026-08-14,2026-08-18,Nordic Fitness Group,key_account,SE,Tor Egeland,site_manager,0,,no
+NPS-1184,H2 relationship survey,2026-08-14,,Nordic Fitness Group,key_account,SE,Agnes Magnusson,site_manager,,,
+NPS-1185,H2 relationship survey,2026-08-14,,Nordic Fitness Group,key_account,SE,Karin Engström,site_manager,,,
+NPS-1186,H2 relationship survey,2026-08-14,2026-08-20,Nordic Fitness Group,key_account,SE,Elin Engström,owner,7,,yes
+NPS-1187,H2 relationship survey,2026-08-14,2026-08-14,Nordic Fitness Group,key_account,SE,Malin Forsberg,site_manager,1,Members get chased for payments over and over. It makes us look like a debt collector and it is not our doing.,no
+NPS-1188,H2 relationship survey,2026-08-14,,Nordic Fitness Group,key_account,SE,Amanda Lundin,site_manager,,,
+NPS-1189,H2 relationship survey,2026-08-14,2026-08-17,Kraft Trening,key_account,NO,Bjørn Kraft,owner,7,,yes
+NPS-1190,H2 relationship survey,2026-08-14,2026-08-14,Kraft Trening,key_account,NO,Hanne Grimstad,finance,2,Freezes do not end when we tell members they will. I have stopped promising dates.,no
+NPS-1191,H2 relationship survey,2026-08-14,,Kraft Trening,key_account,NO,Eirik Nordhagen,operations manager,,,
+NPS-1192,H2 relationship survey,2026-08-14,2026-08-16,Kraft Trening,key_account,NO,Line Sørensen,site_manager,8,It works. The app could do more but our members mostly use it for booking anyway.,yes
+NPS-1193,H2 relationship survey,2026-08-14,2026-08-19,Kraft Trening,key_account,NO,Trygve Moe,site_manager,9,Det gör vad vi behöver och krånglar sällan. Det är värt mer än funktioner.,yes
+NPS-1194,H2 relationship survey,2026-08-14,,Kraft Trening,key_account,NO,Solveig Jacobsen,site_manager,,,
+NPS-1195,H2 relationship survey,2026-08-14,2026-08-21,Kraft Trening,key_account,NO,Nina Haugen,owner,0,Uppehåll slutar inte när vi säger till medlemmarna att de gör det. Jag lovar inte datum längre.,no
+NPS-1196,H2 relationship survey,2026-08-14,2026-08-19,Kraft Trening,key_account,NO,Guro Johannessen,owner,3,I found people getting through the door after their membership had ended. That is not a small thing for us.,no
+NPS-1197,H2 relationship survey,2026-08-14,,Kraft Trening,key_account,NO,Kari Haugen,site_manager,,,
+NPS-1198,H2 relationship survey,2026-08-14,,Kraft Trening,key_account,NO,Astrid Karlsen,site_manager,,,

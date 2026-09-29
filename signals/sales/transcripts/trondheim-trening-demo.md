@@ -5,14 +5,14 @@ prospect: Trondheim Trening
 country: NO
 sites: 2
 members: 1250
-date: 2026-05-09
+date: 2026-05-24
 duration_min: 33
 beefcake: Jonas Solberg (AE Norway)
 prospect_attendees: Marit Haugen (owner)
 outcome: still open, slow
 ---
 
-# Product demo, Trondheim Trening, 2026-05-09
+# Product demo, Trondheim Trening, 2026-05-24
 
 Auto-transcribed and lightly cleaned.
 

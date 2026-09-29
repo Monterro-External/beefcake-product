@@ -6,9 +6,9 @@ members: 2900
 arr_estimate_eur: 39000
 stage_lost: proposal
 lost_to: Boxmaster
-decided: 2026-07-13
+decided: 2026-07-28
 debrief_by: Erik Lundgren
-debrief_date: 2026-07-16
+debrief_date: 2026-07-31
 ---
 
 # Lost deal: Kuntokeskus Espoo

@@ -5,14 +5,14 @@ prospect: Stockholm Strength Collective
 country: SE
 sites: 6
 members: 5200
-date: 2026-06-03
+date: 2026-06-18
 duration_min: 47
 beefcake: Erik Lundgren (AE Sweden), Rebecka Nyström (product designer, first 20 min)
 prospect_attendees: Fredrik Asplund (CEO), Sanna Wikström (operations lead), Bo Hellström (finance)
 outcome: proposal sent, later lost to Boxmaster
 ---
 
-# Second demo, Stockholm Strength Collective, 2026-06-03
+# Second demo, Stockholm Strength Collective, 2026-06-18
 
 Auto-transcribed and lightly cleaned. Rebecka joined for the first part to see
 how an operations lead reacts to the member screens.

@@ -6,9 +6,9 @@ members: 640
 arr_estimate_sek: 54000
 stage_lost: proposal
 lost_to: Gymly
-decided: 2026-05-28
+decided: 2026-06-12
 debrief_by: Erik Lundgren
-debrief_date: 2026-05-30
+debrief_date: 2026-06-14
 ---
 
 # Lost deal: Gym Karlstad

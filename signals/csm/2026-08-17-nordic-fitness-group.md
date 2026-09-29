@@ -7,16 +7,16 @@ segment: key_account
 country: SE
 csm: Marte Bakken
 type: check-in
-attendee: Sofia Palm
+attendee: Petra Lindgren
 ---
 
 # Nordic Fitness Group, check-in, 2026-08-17
 
-Marte Bakken · with Sofia Palm · hs amber, RN risk noted
+Marte Bakken · with Petra Lindgren · hs amber, trending down
 
-- MR: "we are the largest customer you have and I cannot get a churn figure out of your product".
-- Staff turnover at two sites, asked for another training session. Sent the deck.
-- Q asked about our roadmap. Gave the standard line, no dates.
+- Usage steady. App adoption up slightly.
+- RN prep. Asked what would make them stay. Answer: corp + rpts.
 - Corp memberships raised for the 4th time. I have stopped counting as a new item.
+- Usage steady. App adoption up slightly.
 
-AP: book QBR.
+AP: f/u next call.

@@ -3,14 +3,14 @@ call: Renewal check-in, Nordic Fitness Group
 type: renewal
 tenant: Nordic Fitness Group
 country: SE
-date: 2026-06-07
+date: 2026-06-22
 duration_min: 34
 beefcake: Camilla Roos (head of sales), Marte Bakken (CSM)
 customer_attendees: Petra Lindgren (head of operations)
 outcome: renewal conversation opened, competitor evaluation confirmed
 ---
 
-# Renewal check-in, Nordic Fitness Group, 2026-06-07
+# Renewal check-in, Nordic Fitness Group, 2026-06-22
 
 Auto-transcribed and lightly cleaned. Video call.
 

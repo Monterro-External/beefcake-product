@@ -3,14 +3,14 @@ call: Fifth site and retention, Puls Träning
 type: expansion
 tenant: Puls Träning
 country: SE
-date: 2026-07-11
+date: 2026-07-26
 duration_min: 27
 beefcake: Erik Lundgren (AE Sweden), Henrik Dahl (CSM lead)
 customer_attendees: Marcus Sandell (owner), Nadia Ohlin (site manager, Kista)
 outcome: fifth site in principle, retention discussion opened
 ---
 
-# Fifth site and retention, Puls Träning, 2026-07-11
+# Fifth site and retention, Puls Träning, 2026-07-26
 
 Auto-transcribed and lightly cleaned. Nadia joined for the second half.
 

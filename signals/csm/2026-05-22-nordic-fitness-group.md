@@ -6,15 +6,17 @@ tenant_key: nordic-fitness-group
 segment: key_account
 country: SE
 csm: Marte Bakken
-type: call
-attendee: Hedvig Åberg
+type: QBR
+attendee: Ann-Sofie Ek
 ---
 
-# Nordic Fitness Group, call, 2026-05-22
+# Nordic Fitness Group, QBR, 2026-05-22
 
-Marte Bakken · with Hedvig Åberg · hs amber, trending down
+Marte Bakken · with Ann-Sofie Ek · hs amber (px rate)
 
-- Discussed class fill rate, they are happy with it.
-- Finance (MR) unhappy re plan change charges. Says several hundred/month above plan price. Wants written answer.
+- Asked whether we do onboarding for a new site. Yes, booked for next month.
+- New site manager onboarded, walked through reports.
+- New site manager onboarded, walked through reports.
+- Corp memberships again. PL: "this goes in the second column at RN". 3 corp customers on spreadsheets today.
 
-AP: chase TT.
+AP: send numbers by Fri.

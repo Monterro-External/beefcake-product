@@ -5,14 +5,14 @@ prospect: Stavanger Helse
 country: NO
 sites: 2
 members: 1100
-date: 2026-08-06
+date: 2026-08-21
 duration_min: 28
 beefcake: Jonas Solberg (AE Norway)
 prospect_attendees: Are Bjelland (owner)
 outcome: open
 ---
 
-# Demo, Stavanger Helse, 2026-08-06
+# Demo, Stavanger Helse, 2026-08-21
 
 Auto-transcribed and lightly cleaned.
 

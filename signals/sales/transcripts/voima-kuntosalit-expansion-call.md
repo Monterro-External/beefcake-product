@@ -3,14 +3,14 @@ call: Expansion and reporting, Voima Kuntosalit
 type: expansion
 tenant: Voima Kuntosalit
 country: FI
-date: 2026-07-19
+date: 2026-08-03
 duration_min: 31
 beefcake: Erik Lundgren (AE Sweden), Henrik Dahl (CSM lead)
 customer_attendees: Antti Rautio (owner), Jarno Mäkelä (site manager, Tampere Keskusta)
 outcome: sixth site agreed, reporting request logged
 ---
 
-# Expansion and reporting, Voima Kuntosalit, 2026-07-19
+# Expansion and reporting, Voima Kuntosalit, 2026-08-03
 
 Auto-transcribed and lightly cleaned. English, which is how Antti prefers to do
 supplier calls.
