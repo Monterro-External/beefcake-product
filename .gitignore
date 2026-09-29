@@ -12,3 +12,6 @@ signals/platform/events.jsonl
 # ask-product log and its fallback: output, not corpus, the same as the Linear board
 signals/ask-log.jsonl
 .claude/ask-log-fallback.jsonl
+
+# Local Obsidian workspace
+.obsidian/
