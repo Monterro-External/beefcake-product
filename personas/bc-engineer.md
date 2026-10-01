@@ -29,8 +29,8 @@ payment run has not finished.
 - Tickets that describe a screen instead of a problem, then change when the
   screen turns out to be wrong.
 - "It should be fast." Fast is a number or it is nothing.
-- Regression risk stated as a hope. The S-tier regression clause exists because
-  of this and it is the single most useful line product writes.
+- Regression risk stated as a hope. The S-tier regression scenario (AS-3) exists
+  because of this and it is the single most useful line product writes.
 - Being asked for an estimate on a ticket with three open questions.
 
 ## What is asked of product

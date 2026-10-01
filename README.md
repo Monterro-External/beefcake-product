@@ -82,7 +82,7 @@ npm run typecheck
 ```
 
 `npm run validate` is the mechanical half of the readiness gate: fields, the
-sections each tier requires, the S-tier regression clause, the three-question
+sections each tier requires, the S-tier acceptance scenarios, the three-question
 limit, leftover placeholders and the adjectives we do not accept without a
 number. It says nothing about whether the thinking is any good.
 

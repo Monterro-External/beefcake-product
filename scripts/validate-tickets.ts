@@ -5,9 +5,9 @@
  *   npm run validate -- BCPRO-0007    one ticket, by id or by filename
  *   npm run validate -- --strict      warnings fail the run too
  *
- * Checks against standard v1.7. What it checks is mechanical: fields,
+ * Checks against standard v1.12. What it checks is mechanical: fields,
  * tier-appropriate sections, sections and fields the standard has retired, the
- * S-tier regression clause, the open-question cap, leftover placeholders, and
+ * S-tier acceptance scenarios, the open-question cap, leftover placeholders, and
  * the vague adjectives the readiness gate rejects. What it cannot check is whether
  * the content is any good, which is what grilling is for.
  */
@@ -96,8 +96,9 @@ const REQUIRED_FIELDS_L = ['outcome_metric', 'decision_owner'] as const;
 const GATE_FIELDS = ['door', 'gate_decision'] as const;
 
 const SECTIONS_EMBRYO = ['Intent', 'Problem and evidence'];
-const SECTIONS_S = ['Intent', 'Problem and evidence', 'Behaviour'];
-const SUBSECTIONS_S = ['Reproduction', 'Current behaviour', 'Expected behaviour', 'Regression clause'];
+/** v1.12: acceptance scenarios AS-1 to AS-3 replace the one-line regression clause. */
+const SECTIONS_S = ['Intent', 'Problem and evidence', 'Behaviour', 'Acceptance scenarios'];
+const SUBSECTIONS_S = ['Reproduction', 'Current behaviour', 'Expected behaviour'];
 /** v1.7: Outcome as prose, decisions as bullets, no Experience reference section, no Ideas parked. */
 const SECTIONS_M = [
   'Intent',
@@ -426,15 +427,23 @@ function checkTicket(file: string, source: string, seenIds: Map<string, string>)
       .filter((text) => !SECTIONS_S.some((section) => text.toLowerCase().startsWith(section.toLowerCase())))
       .filter((text) => !text.toLowerCase().startsWith('grill findings'));
     if (extra.length > 0) {
-      checker.warn('sections', `S-tier carries only Intent and Problem and evidence, found also: ${extra.join(', ')}`);
+      checker.warn(
+        'sections',
+        `S-tier carries only Intent, Problem and evidence, Behaviour and Acceptance scenarios, found also: ${extra.join(', ')}`,
+      );
     }
 
-    const regression = (sectionBody(body, 'Regression clause', 3) ?? '').replace(/\s+/g, ' ');
-    if (!/shall continue to/i.test(regression)) {
-      checker.error(
-        'regression',
-        'the S-tier regression clause must read "when X, the system shall continue to Y"',
-      );
+    const scenarios = sectionBody(body, 'Acceptance scenarios') ?? '';
+    for (const id of ['AS-1', 'AS-2', 'AS-3']) {
+      if (!scenarios.includes(id)) {
+        checker.error('scenarios', `the S-tier ticket is missing scenario ${id}`);
+      }
+    }
+    if (!/error/i.test(scenarios)) {
+      checker.error('scenarios', 'no scenario marked as the error case');
+    }
+    if (!/regression|continues? to/i.test(scenarios)) {
+      checker.error('scenarios', 'no regression scenario: name the case you would be upset to see broken');
     }
   } else {
     const scenarios = sectionBody(body, 'Acceptance scenarios') ?? '';

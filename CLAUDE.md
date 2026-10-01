@@ -60,7 +60,7 @@ The glossary is `docs/domain-glossary.md` in `beefcake-platform`. Add it with
 
 The standard lives in `tickets/README.md` and the three templates. Run
 `npm run validate` before handover; it enforces the ids, frontmatter, tier
-rules, regression clause, open-question cap, non-goals and vague adjectives.
+rules, S-tier acceptance scenarios, open-question cap, non-goals and vague adjectives.
 What it cannot catch:
 
 - **Evidence is linked, never pasted**, with one exception: the original signal

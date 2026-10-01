@@ -58,7 +58,7 @@ npm run validate -- --strict     # warnings count as failures
 ```
 
 The validator checks the frontmatter against the standard, the required sections
-for the tier, the S-tier regression clause, the three-open-question limit,
+for the tier, the S-tier acceptance scenarios, the three-open-question limit,
 unresolved placeholders, and the vague adjectives the readiness gate rejects. It
 does not judge whether the content is any good. That is what grilling is for.
 

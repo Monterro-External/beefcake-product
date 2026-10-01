@@ -68,7 +68,7 @@ Headlines only, the full set with baselines is in `okrs-2026-h2.md`.
   seconds at their volume.
 - **O3 We answer signals faster than they compound.** Median time from first
   support ticket to shipped fix from 34 days to under 14. Every S-tier ticket
-  carries a regression clause. Signal backlog older than 30 days at zero.
+  carries its three acceptance scenarios, a regression among them. Signal backlog older than 30 days at zero.
 
 ## Product principles
 

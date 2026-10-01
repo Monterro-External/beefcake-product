@@ -15,11 +15,11 @@ signal_refs:
 ---
 
 <!--
-S-tier, the change note, at standard v1.7. A defect, a copy change, a config
+S-tier, the change note, at standard v1.12. A defect, a copy change, a config
 default, a small capability nobody would argue about: anything describable in
 one sentence. Type and tier are independent: a bug is usually S, and a small
-feature can be S too. It carries Intent, Problem and evidence, and Behaviour,
-and nothing else. Adding sections to an S-tier ticket is how ceremony creeps.
+feature can be S too. It carries Intent, Problem and evidence, Behaviour and
+Acceptance scenarios, and nothing else. Adding sections to an S-tier ticket is how ceremony creeps.
 
 If you cannot write the intent in one sentence, or the fix needs a product
 decision anyone would argue about, this is not an S. Re-tier it before writing.
@@ -64,16 +64,6 @@ What happens today, observed and dated.
 
 What should happen instead, as a customer would describe it.
 
-### Regression clause
-
-Mandatory, and the whole point of the tier. One line, in the form:
-
-> When [X], the system shall continue to [Y].
-
-Name the behaviour you would be most upset to see broken by this fix. Not "do
-not break anything": the specific thing next to the defect that still has to
-work.
-
 ### Reference
 
 Optional. When the PM has explored alternatives and one design won: a link or
@@ -82,3 +72,17 @@ Delete this section if there is none. Precedence is stated here, in the prose:
 the `experience_precedence` field was retired in v1.7. `binding` is earned: name what was validated, with whom and when, or call it `illustrative`, which is the honest default and fails nothing (standard v1.10). If the exploration
 surfaced a decision anyone would argue about, this is an M, and the decision
 belongs in Decisions made with the rejected variant as the alternative.
+
+## Acceptance scenarios
+
+Mandatory, and the whole point of the tier. Plain Given / When / Then,
+declarative, no UI choreography. Three, always:
+
+- **AS-1 (happy path):** Given ..., when ..., then ...
+- **AS-2 (error case):** Given ..., when ..., then ...
+- **AS-3 (regression):** Given ..., when ..., then ... continues to ...
+
+AS-3 names the behaviour you would be most upset to see broken by this fix. Not
+"do not break anything": the specific thing next to the defect that still has
+to work. Engineering writes the Spec's `SHALL CONTINUE TO` line from it, and
+all three feed automated acceptance testing.
