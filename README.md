@@ -28,7 +28,7 @@ Then pick whatever you are here for:
 | Triaging incoming signals | `signals/README.md`, then `tickets/README.md` |
 | Writing or finishing a ticket | `tickets/README.md` and the template for the tier |
 | Starting discovery | `discovery/interviews/README.md` and the OST |
-| Arguing about priority | `roadmap/now-next-later.md` and `roadmap/decisions.md` |
+| Arguing about priority | `roadmap/now-next-later.md` and `strategy/decisions/` |
 | Wondering why we said no to something | `strategy/principles.md` and the non-goals in CONTEXT.md |
 
 ## How product works here

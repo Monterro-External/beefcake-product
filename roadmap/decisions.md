@@ -6,6 +6,8 @@ convention: newest first, one entry per decision anyone would otherwise relitiga
 
 # Decision log
 
+**Retired on 2026-10-06.** Every entry below now lives as a Product Decision Record in `../strategy/decisions/` (PDR-0001 to PDR-0010), and that folder is what the skills read. New decisions go there. This file is kept as history only.
+
 Every entry names who decided, what was chosen, what was rejected and why, and
 what would change it. A decision that is not here can be reopened by anyone. A
 decision that is here is reopened only with new evidence.

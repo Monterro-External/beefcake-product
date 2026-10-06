@@ -11,12 +11,7 @@
       "feature": "Feature",
       "initiative": "Initiative"
     },
-    "tier_field": "estimate",
-    "tier_values": {
-      "S": "S",
-      "M": "M",
-      "L": "L"
-    },
+    "tier_label_group": "tier",
     "area_label_group": "area",
     "states": {
       "triage": "Triage",
@@ -47,7 +42,7 @@
   },
   "tickets_dir": "tickets",
   "context_file": "strategy/CONTEXT.md",
-  "decisions": "roadmap/decisions.md",
+  "decisions": "strategy/decisions",
   "roadmap": "roadmap/now-next-later.md",
   "templates": {
     "S": "tickets/TEMPLATE-S.md",
@@ -59,5 +54,17 @@
   "interviews": "discovery/interviews",
   "synthesis": "discovery/synthesis",
   "support": "signals/support",
-  "releases": "releases/release-notes"
+  "releases": "releases/release-notes",
+  "signals": "signals",
+  "channels": {
+    "nps": "signals/nps",
+    "reviews": "signals/reviews",
+    "in_product": "signals/member-feedback",
+    "sales": "signals/sales",
+    "csm": "signals/csm",
+    "escalations": "signals/escalations"
+  },
+  "support_cli": "npm run support --",
+  "requests": "signals/slack",
+  "standard": null
 }
