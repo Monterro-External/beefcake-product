@@ -53,8 +53,9 @@ The glossary is `docs/domain-glossary.md` in `beefcake-platform`. Add it with
 - Read only `docs/domain-glossary.md` from that repo. If the repo is not in the
   session, the vocabulary check is **skipped and failing**. A green grill
   without the glossary is not a green grill.
-- A term the ticket needs that the glossary lacks is a glossary gap, flagged to
-  engineering.
+- A term the ticket needs that the glossary lacks is defined in the ticket's
+  Proposed terms section, or the vocabulary check fails. It is still a glossary
+  gap, flagged to engineering, who write the entry from that definition.
 
 ## Tickets
 

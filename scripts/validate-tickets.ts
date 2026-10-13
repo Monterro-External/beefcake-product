@@ -425,7 +425,8 @@ function checkTicket(file: string, source: string, seenIds: Map<string, string>)
     const extra = h2
       .map((heading) => heading.text)
       .filter((text) => !SECTIONS_S.some((section) => text.toLowerCase().startsWith(section.toLowerCase())))
-      .filter((text) => !text.toLowerCase().startsWith('grill findings'));
+      .filter((text) => !text.toLowerCase().startsWith('grill findings'))
+      .filter((text) => !text.toLowerCase().startsWith('proposed terms'));
     if (extra.length > 0) {
       checker.warn(
         'sections',

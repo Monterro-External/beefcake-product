@@ -106,3 +106,12 @@ is a handover gate rather than a writing rule. Anything a reasonable default
 resolves moves to Assumptions and decided defaults instead.
 
 -
+
+## Proposed terms
+
+Optional. Only for a domain term engineering's glossary lacks; delete the section
+if there is none. One bullet per term: what it means in this ticket in one
+sentence and, where a glossary term is close, why it is not that one. Never
+redefine a term the glossary has; that is an open question (standard v1.14).
+
+-

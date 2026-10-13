@@ -139,8 +139,8 @@ use them. They live in one place: `docs/domain-glossary.md` in the platform
 repo, owned by engineering. That includes the register rule (this file says
 *operator* for the business, a ticket says *tenant*), *freeze* and *abandoned*,
 and the line between a cancellation and involuntary churn, which is the point of
-pillar 1. A term a ticket needs that the glossary lacks is a glossary gap, taken
-to engineering.
+pillar 1. A term a ticket needs that the glossary lacks is defined in the ticket
+under Proposed terms and taken to engineering as a glossary gap.
 
 ## What we already ship
 
