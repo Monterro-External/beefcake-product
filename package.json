@@ -8,7 +8,8 @@
   "scripts": {
     "validate": "tsx scripts/validate-tickets.ts",
     "typecheck": "tsc --noEmit",
-    "support": "tsx scripts/support.ts"
+    "support": "tsx scripts/support.ts",
+    "tracker": "tsx scripts/tracker.ts"
   },
   "devDependencies": {
     "@types/node": "^26.3.0",

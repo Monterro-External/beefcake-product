@@ -1,0 +1,59 @@
+{
+  "ticket_home": "jira",
+  "tracker": {
+    "kind": "jira",
+    "site": "monterro-demo.atlassian.net",
+    "cloud_id": "37559db6-1634-4376-a4d4-dffc60427fb3",
+    "project": "BCPRO",
+    "project_name": "beefcake-product",
+    "issue_types": {
+      "bug": "Bug",
+      "feature": "Story",
+      "initiative": "Epic"
+    },
+    "tier_label_prefix": "tier-",
+    "area": "label",
+    "states": {
+      "triage": "Triage",
+      "backlog": "Backlog",
+      "todo": null,
+      "discovery": "In Discovery",
+      "ready-for-handover": "In Handover",
+      "in-development": "In Development",
+      "done": "Done",
+      "canceled": "Canceled"
+    },
+    "states_note": "BCPRO kanban project (id 10001) statuses as of 2026-10-13, read from transitions: Triage, Backlog, In Discovery, In Handover, In Development, Canceled, Done. All transitions are global and named after their target. The old scrum project is now BCP, beefcake-product-old.",
+    "labels": {
+      "needs-more-info": "needs-more-info"
+    },
+    "project_id": "10001"
+  },
+  "tickets_dir": "tickets",
+  "context_file": "strategy/CONTEXT.md",
+  "decisions": "strategy/decisions",
+  "roadmap": "roadmap/now-next-later.md",
+  "templates": {
+    "S": "tickets/TEMPLATE-S.md",
+    "M": "tickets/TEMPLATE-M.md",
+    "L": "tickets/TEMPLATE-L.md"
+  },
+  "glossary": "../beefcake-platform/docs/domain-glossary.md",
+  "validator": "npm run validate -- {id} --strict",
+  "interviews": "discovery/interviews",
+  "synthesis": "discovery/synthesis",
+  "support": "signals/support",
+  "releases": "releases/release-notes",
+  "signals": "signals",
+  "channels": {
+    "nps": "signals/nps",
+    "reviews": "signals/reviews",
+    "in_product": "signals/member-feedback",
+    "sales": "signals/sales",
+    "csm": "signals/csm",
+    "escalations": "signals/escalations"
+  },
+  "support_cli": "npm run support --",
+  "requests": "signals/slack",
+  "standard": null
+}

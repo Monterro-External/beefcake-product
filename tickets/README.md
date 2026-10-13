@@ -1,7 +1,10 @@
 # Tickets
 
 Product Tickets follow `product-ticket-standard.md` and live in Linear, team
-`Beefcake-product`. This folder holds the three tier templates the skills copy
+`Beefcake-product`, or in Jira, project `BCPRO` on monterro-demo. `npm run
+tracker` says which one `.claude/monterro.json` points at, and `npm run tracker
+-- jira` or `-- linear` switches; edit `.claude/monterro.linear.json` or
+`.claude/monterro.jira.json`, never `monterro.json` itself. This folder holds the three tier templates the skills copy
 from. When a repo runs with a file ticket home instead, the tickets sit here as
 markdown with frontmatter mirroring the tracker fields exactly.
 

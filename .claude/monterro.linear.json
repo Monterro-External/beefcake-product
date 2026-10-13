@@ -1,0 +1,70 @@
+{
+  "ticket_home": "linear",
+  "tracker": {
+    "kind": "linear",
+    "workspace": "Monterro Demo",
+    "team": "Beefcake-product",
+    "team_key": "BCPRO",
+    "team_id": "2bbac6b3-8328-4054-8342-a9dac07e9dab",
+    "type_labels": {
+      "bug": "Bug",
+      "feature": "Feature",
+      "initiative": "Initiative"
+    },
+    "tier_label_group": "tier",
+    "area_label_group": "area",
+    "states": {
+      "triage": "Triage",
+      "backlog": "Backlog",
+      "todo": "Todo",
+      "discovery": "In Discovery",
+      "ready-for-handover": "In Handover",
+      "in-development": "In Development",
+      "done": "Done",
+      "canceled": "Canceled"
+    },
+    "states_note": "Linear states as of 2026-09-08, verified via list_issue_statuses: Triage, Backlog, Todo, In Discovery, In Handover, In Development (all three started), Done, Duplicate, Canceled. The canonical keys on the left are what skills and standards use; the values are the exact Linear names.",
+    "labels": {
+      "needs-more-info": "needs-more-info",
+      "back-to-discovery": "back-to-discovery"
+    },
+    "transitions_note": "Only product-grill-with-docs moves discovery to ready-for-handover. Only handover-triage moves ready-for-handover to in-development or back to discovery with the label and a reason code.",
+    "engineering_team": {
+      "team": "Beefcake-platform",
+      "team_key": "BCPLA",
+      "team_id": "fc9ba842-25f8-45a1-9750-0acce3b06c8c",
+      "note": "Where handover-triage creates the engineering ticket. Conventions in ../beefcake-platform/docs/agents/issue-tracker.md. States are Linear defaults today; should mirror the mattpocock triage state machine."
+    },
+    "label_ids": {
+      "needs-more-info": "dddcf6f3-ad4a-47e7-b339-4b529942c0d6",
+      "back-to-discovery": "9bbfbf19-847f-4f39-a9ec-7d9752ebeb55"
+    }
+  },
+  "tickets_dir": "tickets",
+  "context_file": "strategy/CONTEXT.md",
+  "decisions": "strategy/decisions",
+  "roadmap": "roadmap/now-next-later.md",
+  "templates": {
+    "S": "tickets/TEMPLATE-S.md",
+    "M": "tickets/TEMPLATE-M.md",
+    "L": "tickets/TEMPLATE-L.md"
+  },
+  "glossary": "../beefcake-platform/docs/domain-glossary.md",
+  "validator": "npm run validate -- {id} --strict",
+  "interviews": "discovery/interviews",
+  "synthesis": "discovery/synthesis",
+  "support": "signals/support",
+  "releases": "releases/release-notes",
+  "signals": "signals",
+  "channels": {
+    "nps": "signals/nps",
+    "reviews": "signals/reviews",
+    "in_product": "signals/member-feedback",
+    "sales": "signals/sales",
+    "csm": "signals/csm",
+    "escalations": "signals/escalations"
+  },
+  "support_cli": "npm run support --",
+  "requests": "signals/slack",
+  "standard": null
+}
