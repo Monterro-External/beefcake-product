@@ -110,7 +110,9 @@ rather than membership operations. Full version: `icp.md`.
 - **No custom development for a single account**, including a key account. The
   need becomes a setting or it is declined in writing.
 - **No native member app beyond the current scope.** The member surface stays
-  minimal: book, pay, freeze, receipts, access.
+  minimal: booking, freeze or leave within what the operator allows, receipts and
+  access (PDR-0003). A member cannot fix a failed payment there today; adding it
+  needs a CPO decision.
 - **No new market outside the Nordics before Denmark is proven.**
 
 ## Product areas (the `product_area` taxonomy)
