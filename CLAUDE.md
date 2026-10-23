@@ -59,10 +59,9 @@ The glossary is `docs/domain-glossary.md` in `beefcake-platform`. Add it with
 
 ## Tickets
 
-The standard lives in `tickets/README.md` and the three templates. Run
-`npm run validate` before handover; it enforces the ids, frontmatter, tier
-rules, S-tier acceptance scenarios, open-question cap, non-goals and vague adjectives.
-What it cannot catch:
+Tickets live in the tracker `.claude/monterro.json` names, never as files in
+this repo. The standard lives in `templates/README.md` and the three templates.
+The grill checks the rules; these are the ones people forget:
 
 - **Evidence is linked, never pasted**, with one exception: the original signal
   text is preserved verbatim, because it is the only part of the ticket that

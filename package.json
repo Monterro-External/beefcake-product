@@ -6,7 +6,6 @@
     "node": ">=20.11"
   },
   "scripts": {
-    "validate": "tsx scripts/validate-tickets.ts",
     "typecheck": "tsc --noEmit",
     "support": "tsx scripts/support.ts",
     "tracker": "tsx scripts/tracker.ts"

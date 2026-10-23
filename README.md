@@ -2,7 +2,8 @@
 
 Everything the product team owns: the strategy we work against, the people we
 build for, the signals we get from customers, the discovery behind our
-decisions, the roadmap, and the tickets we hand to engineering.
+decisions, the roadmap, and the templates for the tickets we hand to engineering,
+which live in the tracker.
 
 Engineering's repo is `beefcake-platform`. This one has no code in it beyond two
 small scripts.
@@ -25,8 +26,8 @@ Then pick whatever you are here for:
 
 | If you are | Read |
 |---|---|
-| Triaging incoming signals | `signals/README.md`, then `tickets/README.md` |
-| Writing or finishing a ticket | `tickets/README.md` and the template for the tier |
+| Triaging incoming signals | `signals/README.md`, then `templates/README.md` |
+| Writing or finishing a ticket | `templates/README.md` and the template for the tier |
 | Starting discovery | `discovery/interviews/README.md` and the OST |
 | Arguing about priority | `roadmap/now-next-later.md` and `strategy/decisions/` |
 | Wondering why we said no to something | `strategy/principles.md` and the non-goals in CONTEXT.md |
@@ -73,18 +74,15 @@ Prose is never copied between them. Links and ids are.
 
 ## Working in this repo
 
-Node 20.11 or newer. There is nothing to run except the checks.
+Node 20.11 or newer. There is nothing to run except the checks and the tracker switch.
 
 ```bash
 npm install
-npm run validate       # every ticket against the ticket standard
 npm run typecheck
 ```
 
-`npm run validate` is the mechanical half of the readiness gate: fields, the
-sections each tier requires, the S-tier acceptance scenarios, the three-question
-limit, leftover placeholders and the adjectives we do not accept without a
-number. It says nothing about whether the thinking is any good.
+Tickets live in the tracker, never as files here. `npm run tracker` says which
+one, Linear or Jira, the skills point at.
 
 ## Conventions worth knowing before your first commit
 

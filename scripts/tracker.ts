@@ -1,5 +1,5 @@
 /**
- * Switches the ticket home between Linear and Jira. The skills read only
+ * Switches the tracker between Linear and Jira. The skills read only
  * .claude/monterro.json; the two trackers' configs live beside it, and this
  * copies one over it.
  *
@@ -50,7 +50,7 @@ function main() {
     return;
   }
   writeFileSync(ACTIVE, source, 'utf8');
-  console.log(`Ticket home is now ${wanted}. Start a new Claude Code session so the skills read it.`);
+  console.log(`Tracker is now ${wanted}. Start a new Claude Code session so the skills read it.`);
 }
 
 try {

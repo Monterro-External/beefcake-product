@@ -1,20 +1,20 @@
-# Tickets
+# Ticket templates
 
 Product Tickets follow `product-ticket-standard.md` and live in Linear, team
 `Beefcake-product`, or in Jira, project `BCPRO` on monterro-demo. `npm run
 tracker` says which one `.claude/monterro.json` points at, and `npm run tracker
 -- jira` or `-- linear` switches; edit `.claude/monterro.linear.json` or
-`.claude/monterro.jira.json`, never `monterro.json` itself. This folder holds the three tier templates the skills copy
-from. When a repo runs with a file ticket home instead, the tickets sit here as
-markdown with frontmatter mirroring the tracker fields exactly.
+`.claude/monterro.jira.json`, never `monterro.json` itself. This folder holds the
+three tier templates the skills write tickets from. Tickets themselves are never
+files in this repo.
 
 ## Conventions
 
-- **Id**: `BCPRO-0001`, allocated in sequence, never reused. The filename is
-  `BCPRO-0001-short-slug.md`.
+- **Id**: the tracker's own key, `BCPRO-123`. The title carries no prefix.
 - **One product area per ticket.** Two areas means two tickets.
-- **Templates**: `TEMPLATE-S.md`, `TEMPLATE-M.md`, `TEMPLATE-L.md`. Copy the one
-  that matches the tier and delete the guidance comment.
+- **Templates**: `TEMPLATE-S.md`, `TEMPLATE-M.md`, `TEMPLATE-L.md`. The frontmatter
+  maps to tracker fields and labels, the sections become the description, and the
+  guidance comments are never copied.
 - **Tier before writing.** S is a change note, M is a standard ticket, L is a
   one-way door or a multi-capability change. A ticket that outgrew its tier is
   split or upgraded, never padded.
@@ -48,24 +48,5 @@ Only `/monterro-product-process:product-grill-with-docs` moves a ticket from `di
 
 Completeness is enforced at grilling, not at intake. A ticket at `triage`,
 `backlog`, `todo` or early `discovery` carries its fields, an intent, the
-preserved signal and the next steps, and that is correct. The validator knows
-this and only demands the full set of sections once a ticket has been grilled
-(a bounce label) or has passed the gate.
-
-## Checking a ticket
-
-```bash
-npm run validate                 # every ticket
-npm run validate -- BCPRO-0007   # one ticket
-npm run validate -- --strict     # warnings count as failures
-```
-
-The validator checks the frontmatter against the standard, the required sections
-for the tier, the S-tier acceptance scenarios, the three-open-question limit,
-unresolved placeholders, and the vague adjectives the readiness gate rejects. It
-does not judge whether the content is any good. That is what grilling is for.
-
-Two warnings on BCPRO-0023 are left in deliberately. That ticket was bounced by the
-grill for, among other things, the words *robust* and *fast*, and the validator
-flags the same two words in the same lines. Fixing them without fixing the
-ticket would hide the example.
+preserved signal and the next steps, and that is correct. The full set of
+sections is demanded once a ticket has been grilled or has passed the gate.

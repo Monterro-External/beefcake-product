@@ -1,8 +1,6 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm run validate)",
-      "Bash(npm run validate -- *)",
       "Bash(npm run typecheck)",
       "Bash(npm run support -- *)",
       "Bash(npm run support)",
