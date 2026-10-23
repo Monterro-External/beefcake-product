@@ -43,7 +43,7 @@ and the triage note that produced it. A ticket at `in-development` carries
 `handover_route: grilling` or `wayfinder`, the route triage chose, and a link to
 the engineering ticket.
 
-Only `/monterro:product-grill-with-docs` moves a ticket from `discovery` to
+Only `/monterro-product-process:product-grill-with-docs` moves a ticket from `discovery` to
 `ready-for-handover`. Only handover-triage moves it on from there.
 
 Completeness is enforced at grilling, not at intake. A ticket at `triage`,

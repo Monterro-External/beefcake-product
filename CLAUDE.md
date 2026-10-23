@@ -43,7 +43,7 @@ If we are changing our mind, that is a change to CONTEXT.md and it needs the CPO
 
 Skills that are not obvious from their names: `/idea-to-ticket` for a PM's own
 idea, any type, any tier; `/advance-ticket` to move a ticket forward;
-`/monterro:product-grill-with-docs` before handover.
+`/monterro-product-process:product-grill-with-docs` before handover.
 
 ### Grilling reads the engineering glossary
 
