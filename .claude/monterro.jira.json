@@ -24,9 +24,25 @@
     },
     "states_note": "BCPRO kanban project (id 10001) statuses as of 2026-10-13, read from transitions: Triage, Backlog, In Discovery, In Handover, In Development, Canceled, Done. All transitions are global and named after their target. The old scrum project is now BCP, beefcake-product-old.",
     "labels": {
-      "needs-more-info": "needs-more-info"
+      "needs-more-info": "needs-more-info",
+      "back-to-discovery": "back-to-discovery"
     },
-    "project_id": "10001"
+    "project_id": "10001",
+    "transitions_note": "Only product-grill-with-docs moves discovery to ready-for-handover. Only handover-triage moves ready-for-handover to in-development or back to discovery with the label and a reason code.",
+    "engineering_team": {
+      "project": "BCPLA",
+      "project_name": "beefcake-platform",
+      "project_id": "10002",
+      "board": "https://monterro-demo.atlassian.net/jira/software/projects/BCPLA/boards/3",
+      "issue_types": [
+        "Epic",
+        "Story",
+        "Bug",
+        "Task",
+        "Subtask"
+      ],
+      "note": "Where handover-triage creates the engineering ticket. Team-managed (next-gen) Jira project, read 2026-10-13. Conventions in ../beefcake-platform/docs/agents/issue-tracker.md."
+    }
   },
   "context_file": "strategy/CONTEXT.md",
   "decisions": "strategy/decisions",
@@ -52,5 +68,8 @@
   },
   "support_cli": "npm run support --",
   "requests": "signals/slack",
-  "standard": null
+  "standard": null,
+  "cohorts": "discovery/usage-cohorts",
+  "docs": null,
+  "ask_log": "signals/ask-log.jsonl"
 }

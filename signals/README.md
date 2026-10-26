@@ -9,14 +9,14 @@ Period: **2026-03-30 to 2026-09-30**.
 
 | Source | Path | Volume | What it is |
 |---|---|---|---|
-| Support tickets | `support/tickets.jsonl`, `support/tickets/` | 453 | Every conversation the support team had. JSONL for grepping, one markdown file per ticket for reading |
+| Support tickets | `support/tickets.jsonl`, `support/tickets/` | 454 | Every conversation the support team had. JSONL for grepping, one markdown file per ticket for reading |
 | NPS | `nps/responses.csv`, `nps/verbatims.md` | 137 responses | Two relationship survey waves, sent to owners and site managers |
 | CSM notes | `csm/` | 73 notes | Written straight after the call, in the CS team's shorthand |
 | Sales calls | `sales/transcripts/` | 15 | Prospect demos and renewal calls, auto-transcribed and lightly cleaned |
 | Lost deals | `sales/lost-deals/` | 6 | Debriefs written within a week of losing |
 | Escalations | `escalations/` | 2 | Key-account email threads that went past the CSM |
 | App reviews | `reviews/app-store-reviews.csv` | 82 | Member app reviews. The gym is named; the complaint is usually about us |
-| Member feedback | `member-feedback/` | 48 items | What members said at the desk, written down and forwarded |
+| Member feedback | `member-feedback/` | 49 items | What members said at the desk, written down and forwarded |
 | Slack | `slack/feature-requests.md` | 74 messages | Sales and CS posting on behalf of customers |
 | Platform exports | `platform/` | 6 files | Written by the platform, see below |
 

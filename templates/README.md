@@ -34,14 +34,17 @@ triage → backlog → todo → discovery → ready-for-handover → in-developm
 canceled: parked
 ```
 
-Bounces are labels on a `discovery` ticket. `needs-more-info` is the grill's
-bounce and always carries the specific failing checks in a `## Grill findings`
-section, never a bare label. `back-to-discovery` is handover-triage's bounce and
-always carries a `reason_code`: `insufficient-evidence`,
-`solution-space-too-open`, `fails-context-consistency` or `too-big-slice-it`,
-and the triage note that produced it. A ticket at `in-development` carries
-`handover_route: grilling` or `wayfinder`, the route triage chose, and a link to
-the engineering ticket.
+Both bounces leave a ticket in `discovery` with the `needs-more-info` label.
+The grill's bounce names the failing checks, each with its smallest fix, in a
+verdict block in the conversation, addressed to the ticket owner; it never
+writes them on the ticket, and the PM edits the ticket from that list.
+handover-triage's bounce posts its verdict block as a comment on the ticket,
+carrying `source: handover-triage` and one reason code:
+`insufficient-evidence`, `solution-space-too-open`,
+`fails-context-consistency` or `too-big-slice-it`. The grill removes the label
+when the ticket passes again. A ticket at `in-development` carries
+`handover_route: grilling` or `wayfinder`, the route triage chose, and
+`spec_ref` once engineering has written the Spec.
 
 Only `/monterro-product-process:product-grill-with-docs` moves a ticket from `discovery` to
 `ready-for-handover`. Only handover-triage moves it on from there.

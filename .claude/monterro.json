@@ -22,7 +22,7 @@
       "done": "Done",
       "canceled": "Canceled"
     },
-    "states_note": "Linear states as of 2026-09-08, verified via list_issue_statuses: Triage, Backlog, Todo, In Discovery, In Handover, In Development (all three started), Done, Duplicate, Canceled. The canonical keys on the left are what skills and standards use; the values are the exact Linear names.",
+    "states_note": "Linear states as of 2026-10-23, verified via list_issue_statuses: Triage, Backlog, Todo, In Discovery, In Handover, In Development (all three started), Done, Duplicate, Canceled. The canonical keys on the left are what skills and standards use; the values are the exact Linear names.",
     "labels": {
       "needs-more-info": "needs-more-info",
       "back-to-discovery": "back-to-discovery"
@@ -36,7 +36,7 @@
     },
     "label_ids": {
       "needs-more-info": "dddcf6f3-ad4a-47e7-b339-4b529942c0d6",
-      "back-to-discovery": "9bbfbf19-847f-4f39-a9ec-7d9752ebeb55"
+      "back-to-discovery": "b5fa1cd2-30b1-4de0-bbd2-0383a2100d88"
     }
   },
   "context_file": "strategy/CONTEXT.md",
@@ -63,5 +63,8 @@
   },
   "support_cli": "npm run support --",
   "requests": "signals/slack",
-  "standard": null
+  "standard": null,
+  "cohorts": "discovery/usage-cohorts",
+  "docs": null,
+  "ask_log": "signals/ask-log.jsonl"
 }
