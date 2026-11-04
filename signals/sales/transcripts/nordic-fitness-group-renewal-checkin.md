@@ -3,14 +3,14 @@ call: Renewal check-in, Nordic Fitness Group
 type: renewal
 tenant: Nordic Fitness Group
 country: SE
-date: 2026-06-22
+date: 2026-07-28
 duration_min: 34
 beefcake: Camilla Roos (head of sales), Marte Bakken (CSM)
 customer_attendees: Petra Lindgren (head of operations)
 outcome: renewal conversation opened, competitor evaluation confirmed
 ---
 
-# Renewal check-in, Nordic Fitness Group, 2026-06-22
+# Renewal check-in, Nordic Fitness Group, 2026-07-28
 
 Auto-transcribed and lightly cleaned. Video call.
 
@@ -25,7 +25,7 @@ to be about.
 **[00:41] Camilla:** So: if the renewal were today, what would you write down?
 
 **[00:52] Petra:** Honestly? I would say we are staying. And I would also say
-that we have been talking to Boxmaster since March, because our board
+that we have been talking to Boxmaster since May, because our board
 expects us to look.
 
 **[01:10] Camilla:** Both of those can be true.
@@ -58,7 +58,7 @@ the evening when it is quieter.
 
 **[03:04] Camilla:** How long has that been happening?
 
-**[03:08] Petra:** Since March. Maybe earlier.
+**[03:08] Petra:** Since May. Maybe earlier.
 
 **[03:13] Marte:** Have you got a ticket in for it?
 

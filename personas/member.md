@@ -7,9 +7,9 @@ month by Autogiro. Has our app on her phone and uses it to book classes.
 Not our customer. The operator's customer, and the person who feels every defect
 first.
 
-Last updated 2026-03-18. Evidence: three round B member conversations
-(2026-02-13, 2026-02-16, 2026-02-27), recorded and transcribed in
-`../discovery/interviews/2026-02-round-b-payment-problems/transcripts/` and not yet written up. By the rule in
+Last updated 2026-05-18. Evidence: three round B member conversations
+(2026-04-13, 2026-04-15, 2026-04-27), recorded and transcribed in
+`../discovery/interviews/2026-04-round-b-payment-problems/transcripts/` and not yet written up. By the rule in
 `README.md` every claim below is provisional until they are.
 
 ## What she wants from the software

@@ -5,14 +5,14 @@ prospect: Kuntokeskus Espoo
 country: FI
 sites: 3
 members: 2900
-date: 2026-07-20
+date: 2026-08-25
 duration_min: 38
 beefcake: Erik Lundgren (AE Sweden), Aino Lehtinen (PM, member experience, interpreting)
 prospect_attendees: Petri Aalto (owner), Hanna Koskinen (operations manager)
 outcome: proposal sent, lost to Boxmaster
 ---
 
-# Second meeting, Kuntokeskus Espoo, 2026-07-20
+# Second meeting, Kuntokeskus Espoo, 2026-08-25
 
 Auto-transcribed and lightly cleaned. Mostly English, with Finnish where the
 detail mattered; Aino translated in the moment and those passages are marked.

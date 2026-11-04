@@ -5,14 +5,14 @@ prospect: Gym Karlstad
 country: SE
 sites: 1
 members: 640
-date: 2026-06-04
+date: 2026-07-10
 duration_min: 24
 beefcake: Erik Lundgren (AE Sweden)
 prospect_attendees: Tommy Ridderstad (owner)
 outcome: lost on price to Gymly
 ---
 
-# Demo, Gym Karlstad, 2026-06-04
+# Demo, Gym Karlstad, 2026-07-10
 
 Auto-transcribed and lightly cleaned. Swedish throughout.
 

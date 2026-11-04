@@ -1,7 +1,7 @@
 ---
 type: market scan
 market: Denmark
-produced: 2026-05-07
+produced: 2026-06-12
 by: Ingrid Halvorsen
 status: input to the Denmark readiness gate decision
 sources: 2 Danish sales conversations, 1 Danish customer, 1 former member interview, public payment-method statistics, our own pipeline data

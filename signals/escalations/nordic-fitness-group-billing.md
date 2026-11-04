@@ -2,8 +2,8 @@
 thread: Nordic Fitness Group, membership billing
 tenant: Nordic Fitness Group
 segment: key_account
-opened: 2026-08-23
-last_message: 2026-09-21
+opened: 2026-09-28
+last_message: 2026-10-27
 status: open
 owner: Marte Bakken
 raised_to: Malin Ohlsson
@@ -12,19 +12,19 @@ raised_to: Malin Ohlsson
 # Escalation: Nordic Fitness Group, membership billing
 
 Email thread, forwarded into the escalation folder by Marte Bakken on
-2026-08-30. Six messages. Nothing has been edited except the signatures.
+2026-10-05. Six messages. Nothing has been edited except the signatures.
 
 ---
 
 **From:** Mikael Rahm, finance controller, Nordic Fitness Group
 **To:** Marte Bakken
-**Date:** 2026-08-23 08:41
+**Date:** 2026-09-28 08:41
 **Subject:** Membership charges above plan price
 
 Marte,
 
-I have now raised this through support twice, in March and again in
-June, and I have a ticket reference and no answer.
+I have now raised this through support twice, in April and again in
+July, and I have a ticket reference and no answer.
 
 The position, stated as plainly as I can:
 
@@ -33,7 +33,7 @@ any plan we sell. I have checked the last six months. It is between 245 and 400
 members a month and it is growing with our member base. Every one of them
 changed plan inside the month they were overcharged.
 
-In August the largest single charge was 1 498,00 kr. Our most expensive
+In September the largest single charge was 1 498,00 kr. Our most expensive
 plan is 899,00 kr.
 
 I am not asking whether this is a bug. I am asking three things:
@@ -52,7 +52,7 @@ Mikael
 **From:** Marte Bakken
 **To:** Mikael Rahm
 **Cc:** Petra Lindgren
-**Date:** 2026-08-23 11:20
+**Date:** 2026-09-28 11:20
 **Subject:** Re: Membership charges above plan price
 
 Mikael,
@@ -71,7 +71,7 @@ Marte
 
 **From:** Marte Bakken
 **To:** Johan Wirén
-**Date:** 2026-08-23 11:34
+**Date:** 2026-09-28 11:34
 **Subject:** FW: Membership charges above plan price
 
 Johan,
@@ -96,7 +96,7 @@ Marte
 
 **From:** Johan Wirén
 **To:** Marte Bakken
-**Date:** 2026-08-25 16:02
+**Date:** 2026-09-30 16:02
 **Subject:** Re: FW: Membership charges above plan price
 
 Marte,
@@ -125,7 +125,7 @@ Johan
 
 **From:** Malin Ohlsson
 **To:** Marte Bakken, Johan Wirén
-**Date:** 2026-08-26 09:15
+**Date:** 2026-10-01 09:15
 **Subject:** Re: FW: Membership charges above plan price
 
 I own this.
@@ -148,7 +148,7 @@ Malin
 **From:** Mikael Rahm
 **To:** Marte Bakken
 **Cc:** Petra Lindgren
-**Date:** 2026-09-21 07:52
+**Date:** 2026-10-27 07:52
 **Subject:** Re: Membership charges above plan price
 
 Marte,
@@ -159,6 +159,6 @@ number.
 To be clear about where this now sits: I have written it into the renewal
 comparison as an open item under supplier risk. That is not a threat, it is
 housekeeping. But it means that when Petra reviews that sheet in
-December, this will still be on it unless something changes.
+February, this will still be on it unless something changes.
 
 Mikael

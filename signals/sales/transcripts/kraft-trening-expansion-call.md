@@ -3,14 +3,14 @@ call: Expansion planning, Kraft Trening
 type: expansion
 tenant: Kraft Trening
 country: NO
-date: 2026-07-08
+date: 2026-08-13
 duration_min: 29
 beefcake: Jonas Solberg (AE Norway), Marte Bakken (CSM)
 customer_attendees: Bjørn Kraft (owner), Eirik Nordhagen (operations manager)
 outcome: two new sites planned, pricing question open
 ---
 
-# Expansion planning, Kraft Trening, 2026-07-08
+# Expansion planning, Kraft Trening, 2026-08-13
 
 Auto-transcribed and lightly cleaned. Norwegian, with English where Bjørn
 switched for emphasis.

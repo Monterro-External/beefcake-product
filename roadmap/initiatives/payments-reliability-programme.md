@@ -21,7 +21,7 @@ a number.
 Payment volume through Beefcake Pay is a revenue line, and a failed charge costs
 three parties at once. It is also the largest single source of churn we cause:
 two in five cancellations follow a failed payment, worst in the long tail
-([cohort](../../discovery/usage-cohorts/2026-09-18-failed-payment-churn-cohort.md)).
+([cohort](../../discovery/usage-cohorts/2026-10-26-failed-payment-churn-cohort.md)).
 
 ## What is in it
 

@@ -6,10 +6,10 @@
 
 Segment: mid. ICP fit: best. Representative of about 80 operators.
 
-Last updated 2026-03-18 after the payment-experience round. Evidence:
-[interview 2025-12-15](../discovery/interviews/2025-12-round-a-freezes-and-cancellations/notes/2025-12-15-owner-vestkyst-trening.md).
-Two round B conversations (2026-02-20, 2026-03-03) are transcribed in
-`../discovery/interviews/2026-02-round-b-payment-problems/transcripts/` and not written up; what they add is
+Last updated 2026-05-18 after the payment-experience round. Evidence:
+[interview 2026-02-13](../discovery/interviews/2026-02-round-a-freezes-and-cancellations/notes/2026-02-13-owner-vestkyst-trening.md).
+Two round B conversations (2026-04-20, 2026-05-04) are transcribed in
+`../discovery/interviews/2026-04-round-b-payment-problems/transcripts/` and not written up; what they add is
 provisional until they are.
 
 ## What she is actually responsible for

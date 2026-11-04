@@ -8,11 +8,11 @@ Segment: all three. ICP fit: universal. There are more people in this role using
 Beefcake than in any other, and the product principle that names them exists
 because they are the least likely to be in the room.
 
-Last updated 2026-03-18. Evidence:
-[interview 2025-12-11](../discovery/interviews/2025-12-round-a-freezes-and-cancellations/notes/2025-12-11-front-desk-gymmet-vasastan.md),
-[interview 2025-12-22](../discovery/interviews/2025-12-round-a-freezes-and-cancellations/notes/2025-12-22-front-desk-nordic-fitness-group.md).
-One round B conversation (2026-02-23) is transcribed in
-`../discovery/interviews/2026-02-round-b-payment-problems/transcripts/` and not written up.
+Last updated 2026-05-18. Evidence:
+[interview 2026-02-11](../discovery/interviews/2026-02-round-a-freezes-and-cancellations/notes/2026-02-11-front-desk-gymmet-vasastan.md),
+[interview 2026-02-20](../discovery/interviews/2026-02-round-a-freezes-and-cancellations/notes/2026-02-20-front-desk-nordic-fitness-group.md).
+One round B conversation (2026-04-22) is transcribed in
+`../discovery/interviews/2026-04-round-b-payment-problems/transcripts/` and not written up.
 
 ## What he is actually responsible for
 

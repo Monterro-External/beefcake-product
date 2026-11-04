@@ -6,9 +6,9 @@ members: 1400
 arr_estimate_dkk: 168000
 stage_lost: demo
 lost_to: local Danish vendor
-decided: 2026-08-15
+decided: 2026-09-20
 debrief_by: Maria Ekholm
-debrief_date: 2026-08-17
+debrief_date: 2026-09-22
 ---
 
 # Lost deal: Aarhus Træningscenter

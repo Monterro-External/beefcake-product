@@ -6,16 +6,16 @@ members: 2100
 arr_estimate_nok: 288000
 stage_lost: proposal
 lost_to: Gymly
-decided: 2026-04-25
+decided: 2026-05-31
 debrief_by: Jonas Solberg
-debrief_date: 2026-04-28
+debrief_date: 2026-06-03
 ---
 
 # Lost deal: Bergen Styrke
 
 Four sites around Bergen, about 2,100 members. In the pipeline since
-January. Two demos, one on-site visit, a proposal at
-2026-04-13.
+March. Two demos, one on-site visit, a proposal at
+2026-05-19.
 
 ## Why we lost, in their words
 

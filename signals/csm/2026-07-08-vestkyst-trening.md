@@ -1,0 +1,21 @@
+---
+date: 2026-07-08
+week: 2026-W28
+tenant: Vestkyst Trening
+tenant_key: vestkyst-trening
+segment: mid
+country: NO
+csm: Marte Bakken
+type: check-in
+attendee: Kristin Aasen
+---
+
+# Vestkyst Trening, check-in, 2026-07-08
+
+Marte Bakken · with Kristin Aasen · hs green
+
+- Self-serve freeze on since last yr. KA likes it, but says she no longer knows who is frozen.
+- Wants a second admin login for the bookkeeper. Done on the call.
+- Mentioned a competitor mailing them. Not concerned, "we get those weekly".
+
+AP: chase TT.

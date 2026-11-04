@@ -6,9 +6,9 @@ members: 5200
 arr_estimate_sek: 780000
 stage_lost: final
 lost_to: Boxmaster
-decided: 2026-07-04
+decided: 2026-08-09
 debrief_by: Erik Lundgren
-debrief_date: 2026-07-07
+debrief_date: 2026-08-12
 ---
 
 # Lost deal: Stockholm Strength Collective

@@ -1,7 +1,7 @@
 ---
 type: competitor benchmark
 competitors: Gymly, Boxmaster, spreadsheets
-produced: 2026-04-15
+produced: 2026-05-21
 by: Ingrid Halvorsen, with Camilla Roos
 sources: 9 lost-deal debriefs, 14 sales calls, 3 customer interviews, public pricing pages, two demos recorded by prospects and shared with us
 ---
@@ -94,4 +94,4 @@ conversation ends before positioning starts.
 - Gymly's churn. Their public customer count grew 40% year on year, which is
   either growth or a lot of onboarding.
 - Whether Gymly is moving up into the mid segment. Their pricing page gained a
-  multi-site tier in February, which is a signal and not evidence.
+  multi-site tier in April, which is a signal and not evidence.
