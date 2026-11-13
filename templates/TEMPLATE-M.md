@@ -87,10 +87,10 @@ error case and the case we would be most upset to see broken.
 - **AS-2 (error case)**: Given ... when ... then ...
 - **AS-3 (regression)**: Given ... when ... then ... continues to ...
 
-**Reference**: optional, one line. Link to the prototype or design file with its
-precedence stated beside it, `binding` or `illustrative`. Delete the line if
+**Reference**: optional, one line. Link to the prototype or design file. It is
+`illustrative` unless it says `binding` (standard v1.16). Delete the line if
 there is none: no reference is a valid state and says the solution space is
-still open. `binding` is earned: name what was validated, with whom and when, or call it `illustrative`, which is the honest default and fails nothing (standard v1.10).
+still open. `binding` is earned: name what was validated, with whom and when.
 
 ## Open questions
 

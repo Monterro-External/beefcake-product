@@ -67,9 +67,9 @@ What should happen instead, as a customer would describe it.
 ### Reference
 
 Optional. When the PM has explored alternatives and one design won: a link or
-the attached screenshots, and the precedence, `binding` or `illustrative`.
-Delete this section if there is none. Precedence is stated here, in the prose:
-the `experience_precedence` field was retired in v1.7. `binding` is earned: name what was validated, with whom and when, or call it `illustrative`, which is the honest default and fails nothing (standard v1.10). If the exploration
+the attached screenshots. It is `illustrative` unless it says `binding`, so
+write nothing about precedence unless it is binding (standard v1.16).
+Delete this section if there is none. `binding` is earned: name what was validated, with whom and when. If the exploration
 surfaced a decision anyone would argue about, this is an M, and the decision
 belongs in Decisions made with the rejected variant as the alternative.
 
