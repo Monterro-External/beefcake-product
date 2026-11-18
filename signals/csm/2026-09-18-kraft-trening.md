@@ -12,10 +12,10 @@ attendee: Bjørn Kraft
 
 # Kraft Trening, check-in, 2026-09-18
 
-Marte Bakken · with Bjørn Kraft · hs amber, trending down
+Marte Bakken · with Bjørn Kraft · hs amber (px rate)
 
-- Vipps raised by BK himself this time. First time it has come from the owner.
-- Asked about our uptime last month. Sent the numbers.
-- Usage steady. App adoption up slightly.
+- Vipps again. "AvtaleGiro works but it feels dated to people under thirty."
+- Q asked about our roadmap. Gave the standard line, no dates.
+- Asked whether we do onboarding for a new site. Yes, booked for next month.
 
-AP: book QBR.
+AP: intro to px team if it recurs.

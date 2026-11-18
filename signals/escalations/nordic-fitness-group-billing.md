@@ -2,8 +2,8 @@
 thread: Nordic Fitness Group, membership billing
 tenant: Nordic Fitness Group
 segment: key_account
-opened: 2026-09-28
-last_message: 2026-10-27
+opened: 2026-10-10
+last_message: 2026-11-08
 status: open
 owner: Marte Bakken
 raised_to: Malin Ohlsson
@@ -12,13 +12,13 @@ raised_to: Malin Ohlsson
 # Escalation: Nordic Fitness Group, membership billing
 
 Email thread, forwarded into the escalation folder by Marte Bakken on
-2026-10-05. Six messages. Nothing has been edited except the signatures.
+2026-10-17. Six messages. Nothing has been edited except the signatures.
 
 ---
 
 **From:** Mikael Rahm, finance controller, Nordic Fitness Group
 **To:** Marte Bakken
-**Date:** 2026-09-28 08:41
+**Date:** 2026-10-10 08:41
 **Subject:** Membership charges above plan price
 
 Marte,
@@ -52,7 +52,7 @@ Mikael
 **From:** Marte Bakken
 **To:** Mikael Rahm
 **Cc:** Petra Lindgren
-**Date:** 2026-09-28 11:20
+**Date:** 2026-10-10 11:20
 **Subject:** Re: Membership charges above plan price
 
 Mikael,
@@ -71,7 +71,7 @@ Marte
 
 **From:** Marte Bakken
 **To:** Johan Wirén
-**Date:** 2026-09-28 11:34
+**Date:** 2026-10-10 11:34
 **Subject:** FW: Membership charges above plan price
 
 Johan,
@@ -96,7 +96,7 @@ Marte
 
 **From:** Johan Wirén
 **To:** Marte Bakken
-**Date:** 2026-09-30 16:02
+**Date:** 2026-10-12 16:02
 **Subject:** Re: FW: Membership charges above plan price
 
 Marte,
@@ -125,7 +125,7 @@ Johan
 
 **From:** Malin Ohlsson
 **To:** Marte Bakken, Johan Wirén
-**Date:** 2026-10-01 09:15
+**Date:** 2026-10-13 09:15
 **Subject:** Re: FW: Membership charges above plan price
 
 I own this.
@@ -148,7 +148,7 @@ Malin
 **From:** Mikael Rahm
 **To:** Marte Bakken
 **Cc:** Petra Lindgren
-**Date:** 2026-10-27 07:52
+**Date:** 2026-11-08 07:52
 **Subject:** Re: Membership charges above plan price
 
 Marte,

@@ -14,8 +14,10 @@ attendee: Bjørn Kraft
 
 Marte Bakken · with Bjørn Kraft · hs amber (px rate)
 
-- Vipps again. "AvtaleGiro works but it feels dated to people under thirty."
 - Q asked about our roadmap. Gave the standard line, no dates.
-- Asked whether we do onboarding for a new site. Yes, booked for next month.
+- Growth: 2 new sites planned next yr. Wants to know pricing before they sign leases.
+- Usage steady. App adoption up slightly.
+- Rpt speed. BK: "if your product cannot report across eight sites that is a problem at RN".
+- Asked for a reference call with another operator our size. Arranged.
 
-AP: intro to px team if it recurs.
+AP: none.

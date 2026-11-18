@@ -6,18 +6,15 @@ tenant_key: kraft-trening
 segment: key_account
 country: NO
 csm: Marte Bakken
-type: call
-attendee: Trygve Moe
+type: check-in
+attendee: Bjørn Kraft
 ---
 
-# Kraft Trening, call, 2026-06-22
+# Kraft Trening, check-in, 2026-06-22
 
-Marte Bakken · with Trygve Moe · hs amber
+Marte Bakken · with Bjørn Kraft · hs amber, trending down
 
-- Wants a second admin login for the bookkeeper. Done on the call.
 - Access rpt export timing out over long periods. Workaround: month at a time.
-- Nothing new. 15 min call.
-- Staff turnover at two sites, asked for another training session. Sent the deck.
-- Vipps. EN: asked every week by members. Wants a yes/no not a maybe.
+- Asked whether we do onboarding for a new site. Yes, booked for next month.
 
 AP: chase TT.

@@ -3,14 +3,14 @@ call: Renewal deep dive, Nordic Fitness Group
 type: renewal
 tenant: Nordic Fitness Group
 country: SE
-date: 2026-10-12
+date: 2026-10-24
 duration_min: 52
 beefcake: Camilla Roos (head of sales), Marte Bakken (CSM), Malin Ohlsson (CPO, from 20 min)
 customer_attendees: Petra Lindgren (head of operations), Mikael Rahm (finance controller)
 outcome: open items agreed, no commitments given
 ---
 
-# Renewal deep dive, Nordic Fitness Group, 2026-10-12
+# Renewal deep dive, Nordic Fitness Group, 2026-10-24
 
 Auto-transcribed and lightly cleaned. Malin joined at twenty minutes for the
 billing item. The recording was shared with Petra afterwards at her request.

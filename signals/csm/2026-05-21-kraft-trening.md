@@ -6,15 +6,16 @@ tenant_key: kraft-trening
 segment: key_account
 country: NO
 csm: Marte Bakken
-type: QBR
+type: call
 attendee: Bjørn Kraft
 ---
 
-# Kraft Trening, QBR, 2026-05-21
+# Kraft Trening, call, 2026-05-21
 
 Marte Bakken · with Bjørn Kraft · hs amber (px rate)
 
-- Vipps. EN: asked every week by members. Wants a yes/no not a maybe.
-- Q asked about our roadmap. Gave the standard line, no dates.
+- Staff turnover at two sites, asked for another training session. Sent the deck.
+- Wants a second admin login for the bookkeeper. Done on the call.
+- Usage steady. App adoption up slightly.
 
 AP: none.

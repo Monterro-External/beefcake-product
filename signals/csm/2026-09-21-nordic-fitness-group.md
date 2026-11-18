@@ -1,22 +1,21 @@
 ---
 date: 2026-09-21
-week: 2026-W38
+week: 2026-W39
 tenant: Nordic Fitness Group
 tenant_key: nordic-fitness-group
 segment: key_account
 country: SE
 csm: Marte Bakken
 type: check-in
-attendee: Petra Lindgren
+attendee: Kalle Ström
 ---
 
 # Nordic Fitness Group, check-in, 2026-09-21
 
-Marte Bakken · with Petra Lindgren · hs amber, trending down
+Marte Bakken · with Kalle Ström · hs amber
 
-- Usage steady. App adoption up slightly.
+- Discussed class fill rate, they are happy with it.
 - RN prep. Asked what would make them stay. Answer: corp + rpts.
-- Corp memberships raised for the 4th time. I have stopped counting as a new item.
-- Usage steady. App adoption up slightly.
+- Invoice query, passed to finance.
 
-AP: f/u next call.
+AP: send numbers by Fri.
