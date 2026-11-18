@@ -66,5 +66,9 @@
   "standard": null,
   "cohorts": "discovery/usage-cohorts",
   "docs": null,
-  "ask_log": "signals/ask-log.jsonl"
+  "ask_log": "signals/ask-log.jsonl",
+  "design_system": {
+    "artifact": "https://claude.ai/artifact/698yeqyfJCpQjDnER4RZvg",
+    "code": "../beefcake-platform"
+  }
 }
